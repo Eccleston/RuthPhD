@@ -1,0 +1,41 @@
+directive sample 96*3600.0 1000
+directive simulation deterministicstiff
+directive plot Me-P1; Me-P2
+
+directive parameters [g1 = 0.0; g2 = 0.0]
+directive sweep supply = { g1 = [1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0], g2 = [1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0] }
+
+rate dMe = 9.329349e-5;
+rate b = 3.177334e-11;
+rate c = 8.302928e-8;
+rate dP = 0.13;
+rate u1 = 1e-5;
+rate u2 = 3e-5;
+rate uT = 1.184643e-6;
+rate vT = 0.0011091974705091;
+rate bT = 1.662768e-9;
+rate gT = 1505;
+rate dT = 0.001725968;
+rate e = 0.1141804;
+rate gM = 150.5;
+rate dM = 7.9892e-5;
+rate q = 21035;
+
+spec P1 = new P1;
+spec P2 = new P2;
+
+module Pep(spec Pi; rate gi,ui){
+  <->{gi}{dP} Pi |
+  M + Pi <->{b}{ui} M-Pi |
+  T-M + Pi <->{c}{ui*q} T-M-Pi |
+  T-M-Pi ->{vT} T + M-Pi |
+  M-Pi ->{e} Me-Pi |
+  Me-Pi ->{ui} Me
+};
+
+<->{gM}{dM} M |
+<->{gT}{dT} T |
+T + M <->{bT}{uT} T-M |
+Me ->{dMe} |
+Pep(P1,g1,u1) |
+Pep(P2,g2,u2)
