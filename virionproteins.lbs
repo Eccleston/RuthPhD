@@ -1,0 +1,154 @@
+directive sample 9*3600.0 9000
+directive simulation stochastic
+directive parameters [N=1.0]
+directive plot Gag; Pol; Nef; Env; Vpr; Vpu; Vif; Rev; Tat 
+directive time s
+
+// MHC model parameters
+rate dMe = 9.329349e-5;
+//rate bP = 3.177334e-11;
+rate c = 8.302928e-8;
+rate dP = 0.259/60;
+rate dSP1=0.259/60;
+rate dSP2=0.259/60;
+rate dSP3=0.259/60;
+rate dSP4=0.259/60;
+rate uT = 1.184643e-6;
+rate vT = 0.0011091974705091;
+rate bT = 1.662768e-9;
+rate gT = 1505;
+rate dT = 0.001725968;
+rate e = 0.1141804;
+rate gM = 150.5;
+rate dM = 7.9892e-5;
+rate q = 21035;
+
+rate u1 = 1e-05;
+rate u2 = 1e-05;
+rate u3 = 1e-05;
+rate u4 = 1e-05;
+rate u5 = 1e-05;
+rate u6 = 1e-05;
+rate u7 = 1e-05;
+rate u8 = 1e-05;
+rate u9 = 1e-05;
+
+rate Su1 = 1e-2;
+rate Su2 = 1e-3;
+rate Su3 = 1e-4;
+rate Su4 = 1e-5;
+
+rate ps1= 0.1;
+rate ps2 = 0.1;
+rate ps3 = 0.1;
+rate ps4 = 0.1;
+rate ps5 = 0.1;
+rate ps6 = 0.1;
+rate ps7 = 0.1;
+rate ps8 = 0.1;
+rate ps9 = 0.1;
+
+rate dPc = 0.139;
+
+rate bP=2.8871e-9;
+rate SbP1 = 2.8871e-9;
+rate SbP2 = 2.8871e-9;
+rate SbP3 = 2.8871e-9;
+rate SbP4 = 2.8871e-9;
+
+rate g1 = 0.09;
+rate g2 = 0.09;
+rate g3 = 0.09;
+rate g4 = 0.09;
+rate g5 = 0.09;
+rate g6 = 0.09;
+rate g7 = 0.09;
+rate g8 = 0.09;
+rate g9 = 0.09;
+
+rate G=35000;
+rate Sg1=G*0.5/100;
+rate Sg2=G*98.5/100;
+rate Sg3=G*0.5/100;
+rate Sg4=G*0.5/100;
+
+rate kGag=0.1054/3600;
+rate kPol=1.1*0.1054/3600;
+rate kRev=0.0174/3600;
+rate kTat=0.0174/3600;
+rate kVif=0.4673/3600; 
+rate kEnv=0.02/3600; 
+rate kVpr=0.0346/3600;
+rate kVpu=0.08664/3600;
+rate kNef=0.0174/3600;
+
+spec P1; spec P2; spec P3; spec P4; spec P5; spec P6; spec P7; spec P8; spec P9; 
+spec SP1; spec SP2; spec SP3; spec SP4;
+spec Pc1; spec Pc2; spec Pc3; spec Pc4; spec Pc5; spec Pc6; spec Pc7; spec Pc8; spec Pc9; 
+
+init Gag N*4900 |
+init Pol N*245 |
+init Env N*81 |
+init Rev 0 |
+init Tat 0 |
+init Nef N*150 |
+init Vif N*101 |
+init Vpr N*700 |
+init Vpu N*50 |
+
+Gag  -> {kGag}|
+Pol  -> {kPol}|
+Env  -> {kEnv}|
+Rev  -> {kRev}|
+Tat  -> {kTat}|
+Nef  -> {kNef}|
+Vif  -> {kVif}|
+Vpr  -> {kVpr}|
+Vpu  -> {kVpu}|
+
+Rev ->{ps1*kRev} Pc1|
+Nef ->{ps2*kNef} Pc2|
+Tat ->{ps3*kTat} Pc3|
+Gag ->{ps4*kGag} Pc4|
+Pol ->{ps5*kPol} Pc5|
+Env ->{ps6*kEnv} Pc6|
+Vif ->{ps7*kVif} Pc7|
+Vpr ->{ps8*kVpr} Pc8|
+Vpu ->{ps9*kVpu} Pc9|
+
+module Pep(spec Pi; spec Pci; rate gi,ui){
+  Pci->{gi} Pi |
+  Pi ->{dP} |
+  Pci ->{dPc} |
+  M + Pi <->{bP}{ui} M-Pi |
+  T-M + Pi <->{c}{ui*q} T-M-Pi |
+  T-M-Pi ->{vT} T + M-Pi |
+  M-Pi ->{e} Me-Pi |
+  Me-Pi ->{ui} Me
+};
+module SPep(spec SPi; rate Sgi,Sui,SbPi,dSPi){
+  ->{Sgi} SPi |
+  SPi ->{dSPi}|
+  M + SPi <->{SbPi}{Sui} M-SPi |
+  T-M + SPi <->{c}{Sui*q} T-M-SPi |
+  T-M-SPi ->{vT} T + M-SPi |
+  M-SPi ->{e} Me-SPi |
+  Me-SPi ->{Sui} Me
+};
+<->{gM}{dM} M |
+<->{gT}{dT} T |
+T + M <->{bT}{uT} T-M |
+Me ->{dMe} |
+Pep(P1,Pc1,g1,u1) |
+Pep(P2,Pc2,g2,u2) |
+Pep(P3,Pc3,g3,u3) |
+Pep(P4,Pc4,g4,u4) |
+Pep(P5,Pc5,g5,u5) |
+Pep(P6,Pc6,g6,u6) |
+Pep(P7,Pc7,g7,u7) |
+Pep(P8,Pc8,g8,u8) |
+Pep(P9,Pc9,g9,u9) |
+SPep(SP1,Sg1,Su1,SbP1,dSP1) |
+SPep(SP2,Sg2,Su2,SbP2,dSP2) |
+SPep(SP3,Sg3,Su3,SbP3,dSP3) |
+SPep(SP4,Sg4,Su4,SbP4,dSP4)
