@@ -1,4 +1,4 @@
-function [MeP1,MeP2,M,T,MT] = simulateMHC(g1,g2,u1,u2)
+function [MeP1,MeP2,M,T,MT] = simulateMHC_ifn(g1,g2,u1,u2,upreg)
 
 tfinal = 10*24*3600; % Final time for simulation
 species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2'}; % The list of all species
@@ -12,12 +12,13 @@ p.g2 = g2;
 p.u1 = u1;
 p.u2 = u2;
 p.q = 21035;
-
+p.upreg = upreg;
+%p.upreg2 = upreg2;
 % Assign initial conditions
 x0 = zeros(n,1);
 
 % Solve the ODEs
-[t,x] = ode15s(@odes,[0 tfinal],x0,[],p);
+[t,x] = ode15s(@odes_upreg,[0 tfinal],x0,[],p);
 
 % Write out a solution structure to be returned by the function
 MeP1 = x(end,7);
@@ -55,7 +56,7 @@ Me_P2 = x(12);
 % Define reaction propensities
 r_0 = g1;
 r_1 = (0.13 * P1);
-r_2 = ((3.177334E-9 * P1) * M);
+r_2 = ((3.177334E-11 * P1) * M);
 r_3 = (u1 * M_P1);
 r_4 = ((8.302928E-08 * P1) * M_T);
 r_5 = ((u1 * q) * M_P1_T);
@@ -229,7 +230,7 @@ r_18 = upreg*150.5;
 r_19 = (7.9892E-05 * M);
 r_20 = upreg*1505.0;
 r_21 = (0.001725968 * T);
-r_22 = ((1.662768E-09 * M) * T);
+r_22 = upreg*((1.662768E-09 * M) * T);
 r_23 = (1.184643E-06 * M_T);
 r_24 = (9.329349E-05 * Me);
 

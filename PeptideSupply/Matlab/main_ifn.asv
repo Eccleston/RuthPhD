@@ -40,9 +40,9 @@ u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
 u2 = log(2)/(337.9968 * 60);
 % Set g1 to be the measurement of the target peptide (cytoplasm)
-gtarget=in2_none;
+gtarget=in2_ifn1;
 % Set g2 to be the measurement of the competitor peptide (cytoplasm)
-gcomp=competitor2_none;
+gcomp=competitor2_ifn1;
 %tfinal=1*3600;
 %tf=24*3600;
 Ng=8;
@@ -54,7 +54,7 @@ for i1 = 1:Ng
   %    for i2 = 1:Ng
 %g2=gs(i2);
    g2 = gcomp(i1,i2);
-    [MeP11(i1,i2),MeP22(i1,i2)] = simulateMHC(g1,g2,u1,u2);
+    [MeP11(i1,i2),MeP22(i1,i2)] = simulateMHC_ifn(g1,g2,u1,u2,upreg);
   end
 end
 
@@ -73,30 +73,30 @@ u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
 u2 = log(2)/(337.9968 * 60);
 % Set g1 to be the measurement of the target peptide (cytoplasm) *sf1
-
-gtarget=in2_none;%
+%sf1=0.0902;%5.0715;% 0.0669;%0.8804;%
+gtarget=in2_ifn1;%*sf1 ;
 % Set g2 to be the measurement of the competitor peptide (cytoplasm) *sf2
-
-gcomp=competitor2_none;
+%sf2=2.3452;%565.9833;
+gcomp=competitor2_ifn1*sf2;
 % Set data to be the cell surface measure of the target peptide
-data = target2_none;
+data = target2_ifn1;
 %fun=@(sf)sum((sf(2)*simulateMHC(sf(1)*g1,sf(1)*g2,u1,u2)-data).^2)
 %sfOpt = fminsearch(least_square_fun,[1;1]);
-sf=[10,10];
+sf=[1,1,1];
 %Estimate paramters and variances
-%LB=[0, 0, 0];%60*0.00019254];%Lower bounds of every parameter
-%%UB=[1e5,1e5,1e5];%500*60*0.00019254];%Upper bounds of every parameter
-%optim_options=optimset('Display', 'iter',...
-%    'TolFun',1e-8,...
-%    'TolX', 1e-8,...
-%    'MaxIter',1e9,...%Maximum number of iterations allowed.
-%    'MaxFunEvals',1E4,...%Maximum number of function evaluations allowed
-%    'Algorithm','levenberg-marquardt'); 
+LB=[0, 0, 0];%60*0.00019254];%Lower bounds of every parameter
+UB=[1e5,1e5,1e5];%500*60*0.00019254];%Upper bounds of every parameter
+optim_options=optimset('Display', 'iter',...
+    'TolFun',1e-8,...
+    'TolX', 1e-8,...
+    'MaxIter',1e9,...%Maximum number of iterations allowed.
+    'MaxFunEvals',1E4,...%Maximum number of function evaluations allowed
+    'Algorithm','levenberg-marquardt'); 
 
 %[k,resnorm, residual, exitflag, OUTPUT, LAMBDA, Jacobian]=lsqnonlin(@least_squares_fun, sf0,[] ,[],optim_options,gtarget,gcomp,data,target1_none);
 %%disp(' ')
 %sf
-[sf l_s]=fminsearch(@(sf)least_squares_poly(sf,gtarget,gcomp,data),sf);
+[sf l_s]=fminsearch(@(sf)least_squares_poly_ifn(sf,gtarget,gcomp,data),sf);
 %upreg=sf;
 for i1 = 1:Ng
     for i2 = 1:Ng
@@ -105,7 +105,7 @@ for i1 = 1:Ng
   %    for i2 = 1:Ng
 %g2=gs(i2);
    g2 = gcomp(i1,i2);
-    [MeP11(i1,i2),MeP22(i1,i2),M(i1,i2),T(i1,i2),MT(i1,i2)] = simulateMHC(sf(1)*g1,sf(2)*g2,u1,u2);
+    [MeP11(i1,i2),MeP22(i1,i2),M(i1,i2),T(i1,i2),MT(i1,i2)] = simulateMHC_ifn(sf(1)*g1,sf(2)*g2,u1,u2,sf(3));
   end
 end
 
@@ -142,7 +142,5 @@ subplot(2,3,6)
 semilogx(in2_ifn2,target2_ifn2,'.-','MarkerSize',msize)
 axis([xlims ylims2])
 box off
-
-
 
 return
