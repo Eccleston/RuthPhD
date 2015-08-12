@@ -30,41 +30,33 @@ competitor2_ifn1 = reshape(dat2(locs,8),8,8);
 competitor2_ifn2 = reshape(dat2(locs,9),8,8);
 %% Simulate the model (test)
 
-%u1 = 1.6e-5;
-%u2 = 3.4e-5;
-%gs = 10.^(0:0.5:4);
-%Ng = length(gs);
-
 % Set u1 to be the measurement of the target peptide off-rate
 u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
 u2 = log(2)/(337.9968 * 60);
 % Set g1 to be the measurement of the target peptide (cytoplasm)
-gtarget=in2_ifn1;
+gtarget_none=in2_none;
 % Set g2 to be the measurement of the competitor peptide (cytoplasm)
-gcomp=competitor2_ifn1;
-%tfinal=1*3600;
-%tf=24*3600;
+gcomp_none=competitor2_none;
+
 Ng=8;
-upreg=1;
+gM=150.5;
 for i1 = 1:Ng
     for i2 = 1:Ng
-    %g1=gs(i1);
-  g1 = gtarget(i1,i2); % 
-  %    for i2 = 1:Ng
-%g2=gs(i2);
-   g2 = gcomp(i1,i2);
-    [MeP11(i1,i2),MeP22(i1,i2)] = simulateMHC_ifn(g1,g2,u1,u2,upreg);
+    
+  g1 = gtarget_none(i1,i2); % 
+  g2 = gcomp_none(i1,i2);
+    [MeP11(i1,i2),MeP22(i1,i2)] = simulateMHC(g1,g2,u1,u2,gM);
   end
 end
 
 msize = 10;
 figure(1)
 subplot(1,2,1)
-semilogx(gtarget,MeP11);legend({'gcomp1','gcomp2','gcomp3','gcomp4','gcomp5','gcomp6','gcomp7','gcomp8'})
+semilogx(gtarget_none,MeP11);legend({'gcomp1','gcomp2','gcomp3','gcomp4','gcomp5','gcomp6','gcomp7','gcomp8'})
 %axis([xlims ylims1])
 subplot(1,2,2)
-semilogx(gtarget,MeP22)
+semilogx(gtarget_none,MeP22)
 %axis([xlims ylims2])
 
 %% Fit the scale factors
@@ -72,42 +64,21 @@ semilogx(gtarget,MeP22)
 u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
 u2 = log(2)/(337.9968 * 60);
-% Set g1 to be the measurement of the target peptide (cytoplasm) *sf1
-%sf1=0.0902;%5.0715;% 0.0669;%0.8804;%
-gtarget=in2_ifn1;%*sf1 ;
-% Set g2 to be the measurement of the competitor peptide (cytoplasm) *sf2
-%sf2=2.3452;%565.9833;
-gcomp=competitor2_ifn1*sf2;
+% Set g1_none to be the measurement of the target peptide (cytoplasm) 
+gtarget_none=in2_none;%
+% Set g2 to be the measurement of the competitor peptide (cytoplasm) 
+gcomp_none=competitor2_none;
 % Set data to be the cell surface measure of the target peptide
-data = target2_ifn1;
-%fun=@(sf)sum((sf(2)*simulateMHC(sf(1)*g1,sf(1)*g2,u1,u2)-data).^2)
-%sfOpt = fminsearch(least_square_fun,[1;1]);
-sf=[1,1,1];
-%Estimate paramters and variances
-LB=[0, 0, 0];%60*0.00019254];%Lower bounds of every parameter
-UB=[1e5,1e5,1e5];%500*60*0.00019254];%Upper bounds of every parameter
-optim_options=optimset('Display', 'iter',...
-    'TolFun',1e-8,...
-    'TolX', 1e-8,...
-    'MaxIter',1e9,...%Maximum number of iterations allowed.
-    'MaxFunEvals',1E4,...%Maximum number of function evaluations allowed
-    'Algorithm','levenberg-marquardt'); 
+data_none = target2_none;
+% Set g1 to be the measurement of the target peptide (cytoplasm) *sf1
+gtarget_ifn=in2_ifn1;%
+% Set g2 to be the measurement of the competitor peptide (cytoplasm) *sf2
+gcomp_ifn=competitor2_ifn1;
+% Set data to be the cell surface measure of the target peptide
+data_ifn = target2_ifn1;
+sf=[10,20,100,1e6];%[1,1,105.5,10000.5];
 
-%[k,resnorm, residual, exitflag, OUTPUT, LAMBDA, Jacobian]=lsqnonlin(@least_squares_fun, sf0,[] ,[],optim_options,gtarget,gcomp,data,target1_none);
-%%disp(' ')
-%sf
-[sf l_s]=fminsearch(@(sf)least_squares_poly_ifn(sf,gtarget,gcomp,data),sf);
-%upreg=sf;
-for i1 = 1:Ng
-    for i2 = 1:Ng
-    %g1=gs(i1);
-  g1 = gtarget(i1,i2); % 
-  %    for i2 = 1:Ng
-%g2=gs(i2);
-   g2 = gcomp(i1,i2);
-    [MeP11(i1,i2),MeP22(i1,i2),M(i1,i2),T(i1,i2),MT(i1,i2)] = simulateMHC_ifn(sf(1)*g1,sf(2)*g2,u1,u2,sf(3));
-  end
-end
+[sf l_s]=fminsearch(@(sf)least_squares_both(sf,gtarget_none,gcomp_none,gtarget_ifn,gcomp_ifn,data_none,data_ifn),sf);
 
 
 %% Plot
@@ -142,5 +113,7 @@ subplot(2,3,6)
 semilogx(in2_ifn2,target2_ifn2,'.-','MarkerSize',msize)
 axis([xlims ylims2])
 box off
+
+
 
 return

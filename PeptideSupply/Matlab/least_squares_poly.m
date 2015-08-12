@@ -14,7 +14,7 @@ for i1 = 1:Ng
     for i2 = 1:Ng
   g1 = gtarget(i1,i2); % 
    g2 = gcomp(i1,i2);
-    [MeP1(i1,i2),MeP2(i1,i2)] = simulateMHC(sf1*g1,sf2*g2,u1,u2);
+    [MeP1(i1,i2),MeP2(i1,i2)] = simulateMHC(sf1*g1,sf2*g2,u1,u2,150.5);
      
     %resid=sum((sf2*MeP1(:,i1)-data(:,i1)).^2);
   end

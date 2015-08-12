@@ -46,7 +46,7 @@ gcomp=competitor2_none;
 %tfinal=1*3600;
 %tf=24*3600;
 Ng=8;
-upreg=1;
+
 for i1 = 1:Ng
     for i2 = 1:Ng
     %g1=gs(i1);
@@ -54,7 +54,7 @@ for i1 = 1:Ng
   %    for i2 = 1:Ng
 %g2=gs(i2);
    g2 = gcomp(i1,i2);
-    [MeP11(i1,i2),MeP22(i1,i2)] = simulateMHC(g1,g2,u1,u2);
+    [MeP11(i1,i2),MeP22(i1,i2)] = simulateMHC(g1,g2,u1,u2,150.5);
   end
 end
 
@@ -105,7 +105,7 @@ for i1 = 1:Ng
   %    for i2 = 1:Ng
 %g2=gs(i2);
    g2 = gcomp(i1,i2);
-    [MeP11(i1,i2),MeP22(i1,i2),M(i1,i2),T(i1,i2),MT(i1,i2)] = simulateMHC(sf(1)*g1,sf(2)*g2,u1,u2);
+    [MeP11(i1,i2),MeP22(i1,i2),M(i1,i2),T(i1,i2),MT(i1,i2)] = simulateMHC(sf(1)*g1,sf(2)*g2,u1,u2,150.5);
   end
 end
 

@@ -1,24 +1,32 @@
-function [MeP1,MeP2,M,T,MT] = simulateMHC_ifn(g1,g2,u1,u2,upreg)
+function [MeP1,MeP2,M,T,MT] = simulateMHC_ifn(g1,g2,u1,u2,gM)
 
-tfinal = 10*24*3600; % Final time for simulation
+tfinal = 24*3600; % Final time for simulation
 species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2'}; % The list of all species
 %species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2','P3','M_P3','M_P3_T','Me_P3'}; % The list of all species
 
 n = length(species);
-
+% Initialise system at steady state
+pi.g1 = 0;
+pi.g2 = 0;
+pi.u1 = u1;
+pi.u2 = u2;
+pi.q = 21035;
+pi.gM = gM;
+x0i=zeros(n,1);
+[ti,xi]=ode15s(@odes, [0 1*1*3600],x0i,[],pi);
 % Write out the parameters
 p.g1 = g1;
 p.g2 = g2;
 p.u1 = u1;
 p.u2 = u2;
 p.q = 21035;
-p.upreg = upreg;
-%p.upreg2 = upreg2;
+p.gM = gM;
+
 % Assign initial conditions
-x0 = zeros(n,1);
+x0 = xi(end,:);% zeros(n,1);
 
 % Solve the ODEs
-[t,x] = ode15s(@odes_upreg,[0 tfinal],x0,[],p);
+[t,x] = ode15s(@odes,[0 tfinal],x0,[],p);
 
 % Write out a solution structure to be returned by the function
 MeP1 = x(end,7);
@@ -38,7 +46,7 @@ g2 = p.g2;
 u1 = p.u1;
 u2 = p.u2;
 q = p.q;
-
+gM = p.gM;
 % Assign states
 P1 = x(1);
 M = x(2);
@@ -72,9 +80,9 @@ r_14 = ((u2 * q) * M_P2_T);
 r_15 = (0.0011091974705091 * M_P2_T);
 r_16 = (0.1141804 * M_P2);
 r_17 = (u2 * Me_P2);
-r_18 = 150.5;
+r_18 = gM; %150.5;
 r_19 = (7.9892E-05 * M);
-r_20 = 1505.0;
+r_20 = gM*10; %1505.0;
 r_21 = (0.001725968 * T);
 r_22 = ((1.662768E-09 * M) * T);
 r_23 = (1.184643E-06 * M_T);
@@ -191,7 +199,7 @@ g2 = p.g2;
 u1 = p.u1;
 u2 = p.u2;
 q = p.q;
-upreg = p.upreg;
+gM = p.gM;
 %upreg2 = p.upreg2;
 % Assign states
 P1 = x(1);
@@ -226,11 +234,11 @@ r_14 = ((u2 * q) * M_P2_T);
 r_15 = (0.0011091974705091 * M_P2_T);
 r_16 = (0.1141804 * M_P2);
 r_17 = (u2 * Me_P2);
-r_18 = upreg*150.5;
+r_18 = gM; %150.5;
 r_19 = (7.9892E-05 * M);
-r_20 = upreg*1505.0;
+r_20 = gM*10; %upreg*1505.0;
 r_21 = (0.001725968 * T);
-r_22 = upreg*((1.662768E-09 * M) * T);
+r_22 = ((1.662768E-09 * M) * T);
 r_23 = (1.184643E-06 * M_T);
 r_24 = (9.329349E-05 * Me);
 
