@@ -1,6 +1,6 @@
 function [MeP1,MeP2,M,T,MT] = simulateMHC(g1,g2,u1,u2,gM)
 
-tfinal = 24*3600; % Final time for simulation
+tfinal = 10*24*3600; % Final time for simulation
 species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2'}; % The list of all species
 %species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2','P3','M_P3','M_P3_T','Me_P3'}; % The list of all species
 
@@ -13,8 +13,8 @@ pi.u1 = u1;
 pi.u2 = u2;
 pi.q = 21035;
 pi.gM = gM;
-x0i=zeros(n,1);
-[ti,xi]=ode15s(@odes, [0 1*1*3600],x0i,[],pi);
+%x0i=zeros(n,1);
+%[ti,xi]=ode15s(@odes, [0 1*0*3600],x0i,[],pi);
 
 % Write out the parameters
 p.g1 = g1;
@@ -24,8 +24,8 @@ p.u2 = u2;
 p.q = 21035;
 p.gM = gM;
 % Assign initial conditions
-x0 = xi(end,:);% 
-%x0 = zeros(n,1);
+%x0 = xi(end,:);% 
+x0 = zeros(n,1);
 % Solve the ODEs
 [t,x] = ode15s(@odes,[0 tfinal],x0,[],p);
 

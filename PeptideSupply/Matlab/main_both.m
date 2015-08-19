@@ -28,6 +28,31 @@ target2_ifn2 = reshape(dat2(locs,6),8,8);
 competitor2_none = reshape(dat2(locs,7),8,8);
 competitor2_ifn1 = reshape(dat2(locs,8),8,8);
 competitor2_ifn2 = reshape(dat2(locs,9),8,8);
+
+dat3 = dlmread([datadir 'AllData_150520_ASN_SSL.txt'],',',1,1);
+locs = 3:66;
+SSL_cyt_none = reshape(dat3(locs,1),8,8);
+SSL_surf_none = reshape(dat3(locs,2),8,8);
+SSL_cyt_ifn1 = reshape(dat3(locs,3),8,8);
+SSL_surf_ifn1 = reshape(dat3(locs,4),8,8);
+SSL_cyt_ifn2 = reshape(dat3(locs,5),8,8);
+SSL_surf_ifn2 = reshape(dat3(locs,6),8,8);
+ASN_cyt_none = reshape(dat3(locs,7),8,8);
+ASN_cyt_ifn1 = reshape(dat3(locs,8),8,8);
+ASN_cyt_ifn2 = reshape(dat3(locs,9),8,8);
+
+dat4 = dlmread([datadir 'AllData_150520_ASN_SSL_reverse.txt'],',',1,1);
+locs = 3:66;
+SSL_cyt_none_2 = reshape(dat4(locs,1),8,8);
+ASN_surf_none = reshape(dat4(locs,2),8,8);
+SSL_cyt_ifn1_2 = reshape(dat4(locs,3),8,8);
+ASN_surf_ifn1 = reshape(dat4(locs,4),8,8);
+SSL_cyt_ifn2_2 = reshape(dat4(locs,5),8,8);
+ASN_surf_ifn2 = reshape(dat4(locs,6),8,8);
+ASN_cyt_none_2 = reshape(dat4(locs,7),8,8);
+ASN_cyt_ifn1_2 = reshape(dat4(locs,8),8,8);
+ASN_cyt_ifn2_2 = reshape(dat4(locs,9),8,8);
+
 %% Simulate the model (test)
 
 % Set u1 to be the measurement of the target peptide off-rate
@@ -35,9 +60,9 @@ u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
 u2 = log(2)/(337.9968 * 60);
 % Set g1 to be the measurement of the target peptide (cytoplasm)
-gtarget_none=in2_none;
+gtarget_none=SSL_cyt_none;%in2_none;
 % Set g2 to be the measurement of the competitor peptide (cytoplasm)
-gcomp_none=competitor2_none;
+gcomp_none=ASN_cyt_none;%competitor2_none;
 
 Ng=8;
 gM=150.5;
@@ -65,18 +90,18 @@ u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
 u2 = log(2)/(337.9968 * 60);
 % Set g1_none to be the measurement of the target peptide (cytoplasm) 
-gtarget_none=in2_none;%
+gtarget_none=SSL_cyt_none;%
 % Set g2 to be the measurement of the competitor peptide (cytoplasm) 
-gcomp_none=competitor2_none;
+gcomp_none=ASN_cyt_none;
 % Set data to be the cell surface measure of the target peptide
-data_none = target2_none;
+data_none = SSL_surf_none;
 % Set g1 to be the measurement of the target peptide (cytoplasm) *sf1
-gtarget_ifn=in2_ifn1;%
+gtarget_ifn=SSL_cyt_ifn1;%
 % Set g2 to be the measurement of the competitor peptide (cytoplasm) *sf2
-gcomp_ifn=competitor2_ifn1;
+gcomp_ifn=ASN_cyt_ifn1;
 % Set data to be the cell surface measure of the target peptide
-data_ifn = target2_ifn1;
-sf=[10,20,100,1e6];%[1,1,105.5,10000.5];
+data_ifn = SSL_surf_ifn1;
+sf=[1,2,1,5,5];%[1,1,105.5,10000.5];
 
 [sf l_s]=fminsearch(@(sf)least_squares_both(sf,gtarget_none,gcomp_none,gtarget_ifn,gcomp_ifn,data_none,data_ifn),sf);
 

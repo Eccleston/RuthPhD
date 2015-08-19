@@ -4,7 +4,9 @@ function [err]=least_squares_both(sf, gtarget_none, gcomp_none, gtarget_ifn, gco
 sf1=sf(1);
 sf2=sf(2);
 gM1=sf(3);
-gM2=sf(4);
+upreg1=sf(4);
+upreg2=sf(5);
+%gM2=sf(4);
 %sf3=sf(5);
 % Set u1 to be the measurement of the target peptide off-rate
 u1 = log(2)/(728.5746 * 60);
@@ -30,30 +32,30 @@ for i1_ifn=1:Ng2
         g1_ifn=gtarget_ifn(i1_ifn, i2_ifn);
         g2_ifn=gcomp_ifn(i1_ifn, i2_ifn);
         
-        [MeP1_ifn(i1_ifn, i2_ifn), MeP2_ifn(i1_ifn, i2_ifn)]=simulateMHC_ifn(sf1*g1_ifn, sf2*g2_ifn, u1, u2, gM2);
+        [MeP1_ifn(i1_ifn, i2_ifn), MeP2_ifn(i1_ifn, i2_ifn)]=simulateMHC_ifn(upreg1*sf1*g1_ifn, upreg1*sf2*g2_ifn, u1, u2, upreg2*gM1);
     end
 end
 
-[p_none,e_none]=polyfit(MeP1_none, data_none,1);
-err_none=e_none.normr;
+%[p_none,e_none]=polyfit(MeP1_none, data_none,1);
+%err_none=e_none.normr;
 %err_none = sum(((MeP1_none*sf3) - data_none).^2);
-[p_ifn,e_ifn]=polyfit(MeP1_ifn, data_ifn, 1);
-err_ifn=e_ifn.normr;
+%[p_ifn,e_ifn]=polyfit(MeP1_ifn, data_ifn, 1);
+%err_ifn=e_ifn.normr;
 %err_ifn = sum(((MeP1_ifn*sf3) - data_ifn).^2);
-err=err_none+err_ifn; %sum(err_none)+sum(err_ifn);
+%err=err_none+err_ifn; %sum(err_none)+sum(err_ifn);
 
-%MeP1_both=[MeP1_none(1:7,1:7), MeP1_ifn];
-%data_both=[data_none(1:7,1:7), data_ifn];
-%[p_both, e_both]=polyfit(MeP1_both, data_both, 1);
-%err = e_both.normr;
+MeP1_both=[MeP1_none(1:7,1:7), MeP1_ifn];
+data_both=[data_none(1:7,1:7), data_ifn];
+[p_both, e_both]=polyfit(MeP1_both, data_both, 1);
+err = e_both.normr;
 sf
-%p_none(1)=sf3;%p_both;
-%p_ifn(1)=sf3;%p_both;
+p_none=p_both;
+p_ifn=p_both;
 %p_none(2)=0;
 %p_ifn(2)=0;
-p_none
-p_ifn
-%p_both
+%p_none
+%p_ifn
+p_both
 cmap=hsv(8);
 figure(8);
 %subplot(1,2,1)

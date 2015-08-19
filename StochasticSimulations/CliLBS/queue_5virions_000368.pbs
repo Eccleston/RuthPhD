@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -N 5virions_000368.lbs 
+#PBS -l walltime=48:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -m e
+#PBS -j oe
+#PBS -M r.eccleston.12@ucl.ac.uk
+
+echo $(date) $USER@$HOSTNAME
+cd $PBS_O_WORKDIR
+
+mono ./CliLBS.exe 5virions_000368.lbs -simulate 
