@@ -7,7 +7,7 @@ format longg;
 format compact;
 
 % Define a starting folder.
-start_path = fullfile('CliLBS\');
+start_path = '.';
 % Ask user to confirm or change.
 topLevelFolder = uigetdir(start_path);
 if topLevelFolder == 0
@@ -25,11 +25,15 @@ while true
 	end
 	listOfFolderNames = [listOfFolderNames singleSubFolder];
 end
-numberOfFolders = length(listOfFolderNames)
+
+% Change how many results to include
+numberOfFolders = length(listOfFolderNames) - 2
+%numberOfFolders = 20
+
 data_all=zeros(9002,10,numberOfFolders);
 
 % Process all tsv files in those folders.
-for k = 2 : numberOfFolders - 1
+for k = 2 : numberOfFolders + 1
 	% Get this folder and print it out.
 	thisFolder = listOfFolderNames{k};
 	fprintf('Processing folder %s\n', thisFolder);
@@ -141,10 +145,8 @@ box off
 title('Vpr');
 xlabel('Time (h)');
 ylabel('Cell surface abundance')
-legend([H.mainLine, H.patch], ...
-'\mu', '\sigma', ...
-'Location', 'Northwest');
+legend([H.mainLine, H.patch],'Mean','Std. dev.','Location', 'Northwest');
 
-save2pdf('StochasticSummary',f2,300)
+save2pdf(sprintf('StochasticSummary%d',numberOfFolders),f2,300)
 
 return
