@@ -7,7 +7,7 @@ format longg;
 format compact;
 
 % Define a starting folder.
-start_path = fullfile('C:\Users\RuthCharlotte\Documents\MATLAB\All\All\CliLBS\');
+start_path = fullfile('CliLBS\');
 % Ask user to confirm or change.
 topLevelFolder = uigetdir(start_path);
 if topLevelFolder == 0
@@ -27,8 +27,9 @@ while true
 end
 numberOfFolders = length(listOfFolderNames)
 data_all=zeros(9002,10,numberOfFolders);
+
 % Process all tsv files in those folders.
-for k = 2 : numberOfFolders-1
+for k = 2 : numberOfFolders - 1
 	% Get this folder and print it out.
 	thisFolder = listOfFolderNames{k};
 	fprintf('Processing folder %s\n', thisFolder);
@@ -86,10 +87,7 @@ vim=mean(vif')';
 vpum=mean(vpu')';
 vprm=mean(vpr')';
 time=time/3600;
-figure(2);hold on
-plot(time,nm,time,gm,time,pm,time,em,time,vim,time,vprm,time,vpum,'LineWidth',1.5);legend({'Nef','Gag','Pol','Env','Vif','Vpr','Vpu'});xlabel('time (h)');ylabel('cell surface abundance');set(gca,'FontSize',16)
 
-workingdir = 'C:\Users\RuthCharlotte\Documents\MATLAB\All\All\';
 std_gag=std(gag')';
 var_gag=var(gag')';
 std_pol=std(pol')';
@@ -105,24 +103,48 @@ var_vif=var(vif')';
 std_vpu=std(vpu')';
 var_vpu=var(vpu')';
 
-figure(3);hold on
-H = shadedErrorBar(time, gm, std_gag, {'-b', 'LineWidth', 2}, 0); title('Average Gag Peptide Presentation, nVirion=5','FontSize',16);xlabel('time (h)','FontSize',16);ylabel('cell surface abundance','FontSize',16)
-legend([H.mainLine, H.patch], ...
-'\mu', '\sigma', ...
-'Location', 'Northwest');
-set(gca,'FontSize',16);
+%% Create the plot
+left = 0.09;
+bottom = 0.1;
+width = 0.37;
+height = 0.36;
+dx = 0.5;
+dy = 0.5;
 
-figure(4);hold on
-H = shadedErrorBar(time, pm, std_pol, {'-b', 'LineWidth', 2}, 0); title('Average Pol Peptide Presentation, nVirion=5','FontSize',16);xlabel('time (h)','FontSize',16);ylabel('cell surface abundance','FontSize',16)
-legend([H.mainLine, H.patch], ...
-'\mu', '\sigma', ...
-'Location', 'Northwest');
-set(gca,'FontSize',16)
+f2 = figure(2);
+set(f2,'position',[100 100 600 500])
+subplot('position',[left bottom+dy width height])
+plot(time,nm,time,gm,time,pm,time,em,time,vim,time,vprm,time,vpum,'LineWidth',1.5);
+box off
+title('Comparison (nVirion = 5)')
+legend({'Nef','Gag','Pol','Env','Vif','Vpr','Vpu'});
+xlabel('Time (h)');
+ylabel('Cell surface abundance')
 
-figure(5);hold on
-H = shadedErrorBar(time, vprm, std_vpr, {'-b', 'LineWidth', 2}, 0); title('Average Vpr Peptide Presentation, nVirion=5','FontSize',16);xlabel('time (h)','FontSize',16);ylabel('cell surface abundance','FontSize',16)
+subplot('position',[left+dx bottom+dy width height])
+shadedErrorBar(time, gm, std_gag, {'-b', 'LineWidth', 2}, 0); 
+box off
+title('Gag');
+xlabel('Time (h)');
+ylabel('Cell surface abundance')
+
+subplot('position',[left bottom width height])
+shadedErrorBar(time, pm, std_pol, {'-b', 'LineWidth', 2}, 0); 
+box off
+title('Pol (nVirion=5)');
+xlabel('Time (h)');
+ylabel('Cell surface abundance')
+
+subplot('position',[left+dx bottom width height])
+H = shadedErrorBar(time, vprm, std_vpr, {'-b', 'LineWidth', 2}, 0); 
+box off
+title('Vpr');
+xlabel('Time (h)');
+ylabel('Cell surface abundance')
 legend([H.mainLine, H.patch], ...
 '\mu', '\sigma', ...
 'Location', 'Northwest');
-set(gca,'FontSize',16)
+
+save2pdf('StochasticSummary',f2,300)
+
 return
