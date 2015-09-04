@@ -7,51 +7,63 @@ warning off
 
 datadir = '../Data/';
 
-dat1 = dlmread([datadir 'AllData_150401_ASN_SSL.txt'],' ',1,1);
+dat1 = dlmread([datadir 'AllData_150520_ASN_SSL.txt'],',',1,1);
 locs = 3:66;
-in1_none = reshape(dat1(locs,1),8,8);
-target1_none = reshape(dat1(locs,2),8,8);
-in1_ifn1 = reshape(dat1(locs,3),8,8);
-target1_ifn1 = reshape(dat1(locs,4),8,8);
-competitor1_none = reshape(dat1(locs,5),8,8);
-competitor1_ifn1 = reshape(dat1(locs,6),8,8);
+SSL_cyt_none = reshape(dat1(locs,1),8,8);
+SSL_surf_none = reshape(dat1(locs,2),8,8);
+SSL_cyt_ifn1 = reshape(dat1(locs,3),8,8);
+SSL_surf_ifn1 = reshape(dat1(locs,4),8,8);
+SSL_cyt_ifn2 = reshape(dat1(locs,5),8,8);
+SSL_surf_ifn2 = reshape(dat1(locs,6),8,8);
+ASN_cyt_none = reshape(dat1(locs,7),8,8);
+ASN_cyt_ifn1 = reshape(dat1(locs,8),8,8);
+ASN_cyt_ifn2 = reshape(dat1(locs,9),8,8);
+
+%dat1 = dlmread([datadir 'AllData_150401_ASN_SSL.txt'],' ',1,1);
+%locs = 3:66;
+%in1_none = reshape(dat1(locs,1),8,8);
+%target1_none = reshape(dat1(locs,2),8,8);
+%in1_ifn1 = reshape(dat1(locs,3),8,8);
+%target1_ifn1 = reshape(dat1(locs,4),8,8);
+%competitor1_none = reshape(dat1(locs,5),8,8);
+%competitor1_ifn1 = reshape(dat1(locs,6),8,8);
 
 
-dat2 = dlmread([datadir 'AllData_150422_ASN_SSL.txt'],' ',1,1);
-locs = 3:66;
-in2_none = reshape(dat2(locs,1),8,8);
-target2_none = reshape(dat2(locs,2),8,8);
-in2_ifn1 = reshape(dat2(locs,3),8,8);
-target2_ifn1 = reshape(dat2(locs,4),8,8);
-in2_ifn2 = reshape(dat2(locs,5),8,8);
-target2_ifn2 = reshape(dat2(locs,6),8,8);
-competitor2_none = reshape(dat2(locs,7),8,8);
-competitor2_ifn1 = reshape(dat2(locs,8),8,8);
-competitor2_ifn2 = reshape(dat2(locs,9),8,8);
+%dat2 = dlmread([datadir 'AllData_150422_ASN_SSL.txt'],' ',1,1);
+%locs = 3:66;
+%in2_none = reshape(dat2(locs,1),8,8);
+%target2_none = reshape(dat2(locs,2),8,8);
+%in2_ifn1 = reshape(dat2(locs,3),8,8);
+%target2_ifn1 = reshape(dat2(locs,4),8,8);
+%in2_ifn2 = reshape(dat2(locs,5),8,8);
+%target2_ifn2 = reshape(dat2(locs,6),8,8);
+%competitor2_none = reshape(dat2(locs,7),8,8);
+%competitor2_ifn1 = reshape(dat2(locs,8),8,8);
+%competitor2_ifn2 = reshape(dat2(locs,9),8,8);
 
-dat3 = dlmread([datadir 'AllData_150520_ASN_SSL.txt'],',',1,1);
-locs = 3:66;
-SSL_cyt_none = reshape(dat3(locs,1),8,8);
-SSL_surf_none = reshape(dat3(locs,2),8,8);
-SSL_cyt_ifn1 = reshape(dat3(locs,3),8,8);
-SSL_surf_ifn1 = reshape(dat3(locs,4),8,8);
-SSL_cyt_ifn2 = reshape(dat3(locs,5),8,8);
-SSL_surf_ifn2 = reshape(dat3(locs,6),8,8);
-ASN_cyt_none = reshape(dat3(locs,7),8,8);
-ASN_cyt_ifn1 = reshape(dat3(locs,8),8,8);
-ASN_cyt_ifn2 = reshape(dat3(locs,9),8,8);
+%dat3 = dlmread([datadir 'AllData_150520_ASN_SSL.txt'],',',1,1);
+%locs = 3:66;
+%SSL_cyt_none = reshape(dat3(locs,1),8,8);
+%SSL_surf_none = reshape(dat3(locs,2),8,8);
+%SSL_cyt_ifn1 = reshape(dat3(locs,3),8,8);
+%SSL_surf_ifn1 = reshape(dat3(locs,4),8,8);
+%SSL_cyt_ifn2 = reshape(dat3(locs,5),8,8);
+%SSL_surf_ifn2 = reshape(dat3(locs,6),8,8);
+%ASN_cyt_none = reshape(dat3(locs,7),8,8);
+%ASN_cyt_ifn1 = reshape(dat3(locs,8),8,8);
+%ASN_cyt_ifn2 = reshape(dat3(locs,9),8,8);%
 
-dat4 = dlmread([datadir 'AllData_150520_ASN_SSL_reverse.txt'],',',1,1);
-locs = 3:66;
-SSL_cyt_none_2 = reshape(dat4(locs,1),8,8);
-ASN_surf_none = reshape(dat4(locs,2),8,8);
-SSL_cyt_ifn1_2 = reshape(dat4(locs,3),8,8);
-ASN_surf_ifn1 = reshape(dat4(locs,4),8,8);
-SSL_cyt_ifn2_2 = reshape(dat4(locs,5),8,8);
-ASN_surf_ifn2 = reshape(dat4(locs,6),8,8);
-ASN_cyt_none_2 = reshape(dat4(locs,7),8,8);
-ASN_cyt_ifn1_2 = reshape(dat4(locs,8),8,8);
-ASN_cyt_ifn2_2 = reshape(dat4(locs,9),8,8);
+%dat4 = dlmread([datadir 'AllData_150520_ASN_SSL_reverse.txt'],',',1,1);
+%locs = 3:66;
+%SSL_cyt_none_2 = reshape(dat4(locs,1),8,8);
+%ASN_surf_none = reshape(dat4(locs,2),8,8);
+%SSL_cyt_ifn1_2 = reshape(dat4(locs,3),8,8);
+%ASN_surf_ifn1 = reshape(dat4(locs,4),8,8);
+%SSL_cyt_ifn2_2 = reshape(dat4(locs,5),8,8);
+%ASN_surf_ifn2 = reshape(dat4(locs,6),8,8);
+%ASN_cyt_none_2 = reshape(dat4(locs,7),8,8);
+%ASN_cyt_ifn1_2 = reshape(dat4(locs,8),8,8);
+%ASN_cyt_ifn2_2 = reshape(dat4(locs,9),8,8);
 
 %% Simulate the model (test)
 
@@ -101,7 +113,7 @@ gtarget_ifn=SSL_cyt_ifn1;%
 gcomp_ifn=ASN_cyt_ifn1;
 % Set data to be the cell surface measure of the target peptide
 data_ifn = SSL_surf_ifn1;
-sf=[1,2,1,5,5];%[1,1,105.5,10000.5];
+sf=[0.003,0.2,0.004,100];%[1,1,105.5,10000.5];
 
 [sf l_s]=fminsearch(@(sf)least_squares_both(sf,gtarget_none,gcomp_none,gtarget_ifn,gcomp_ifn,data_none,data_ifn),sf);
 

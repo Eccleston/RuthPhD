@@ -106,7 +106,7 @@ gcomp_ifn1_2=ASN_cyt_ifn1_2;
 data_ifn1_2 = ASN_surf_ifn1;
 
 
-sf=[1,1,1,1];
+sf=[1,1,1,1,1,1];
 
 [sf l_s]=fminsearch(@(sf)least_squares_asn_ssl_ifn(sf,gtarget_none_1,gcomp_none_1,data_none_1,gtarget_none_2,gcomp_none_2, data_none_2,gtarget_ifn1_1,gcomp_ifn1_1,data_ifn1_1,gtarget_ifn1_2,gcomp_ifn1_2, data_ifn1_2),sf);
 

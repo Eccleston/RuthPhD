@@ -1,8 +1,8 @@
 function [MeP1,MeP2,M,T,MT] = simulateMHC_asn_ssl(g1,g2,u1,u2,gM)
 
 tfinal = 24*3600; % Final time for simulation
-species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2'}; % The list of all species
-%species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2','P3','M_P3','M_P3_T','Me_P3'}; % The list of all species
+%species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2'}; % The list of all species
+species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2','P3','M_P3','M_P3_T','Me_P3'}; % The list of all species
 
 n = length(species);
 % Initialise system at steady state
@@ -12,8 +12,9 @@ pi.u1 = u1;
 pi.u2 = u2;
 pi.q = 21035;
 pi.gM = gM;
+%pi.upreg2 = upreg2;
 x0i=zeros(n,1);
-[ti,xi]=ode15s(@odes, [0 5*3600],x0i,[],pi);
+[ti,xi]=ode15s(@odes_selfpeps, [0 100*3600],x0i,[],pi);
 % Write out the parameters
 p.g1 = g1;
 p.g2 = g2;
@@ -21,12 +22,12 @@ p.u1 = u1;
 p.u2 = u2;
 p.q = 21035;
 p.gM = gM;
-
+%p.upreg2 = upreg2;
 % Assign initial conditions
 x0 = xi(end,:);% zeros(n,1);
 
 % Solve the ODEs
-[t,x] = ode15s(@odes,[0 tfinal],x0,[],p);
+[t,x] = ode15s(@odes_selfpeps,[0 tfinal],x0,[],p);
 
 % Write out a solution structure to be returned by the function
 MeP1 = x(end,7);
@@ -115,9 +116,10 @@ g2 = p.g2;
 u1 = p.u1;
 u2 = p.u2;
 q = p.q;
-
+gM = p.gM;
+%upreg2 = p.upreg2;
 g3=10000;
-u3=1e-3;
+u3=1e-4;
 % Assign states
 P1 = x(1);
 M = x(2);
@@ -154,9 +156,9 @@ r_14 = ((u2 * q) * M_P2_T);
 r_15 = (0.0011091974705091 * M_P2_T);
 r_16 = (0.1141804 * M_P2);
 r_17 = (u2 * Me_P2);
-r_18 = 150.5;
+r_18 = gM; %150.5;
 r_19 = (7.9892E-05 * M);
-r_20 = 1505.0;
+r_20 = gM*10;%1505.0;
 r_21 = (0.001725968 * T);
 r_22 = ((1.662768E-09 * M) * T);
 r_23 = (1.184643E-06 * M_T);
@@ -177,16 +179,16 @@ dM_P1 = r_2 - r_3 + r_6 - r_7;
 dM_T = -r_4 + r_5 - r_13 + r_14 + r_22 - r_23 - r_29 + r_30;
 dM_P1_T = r_4 - r_5 - r_6;
 dT = r_6 + r_15 + r_20 - r_21 - r_22 + r_23 + r_31;
-dMe_P1 = r_7 - r_8;
+dMe_P1 = (r_7 - r_8);
 dMe = r_8 + r_17 - r_24 + r_33;
 dP2 = r_9 - r_10 - r_11 + r_12 - r_13 + r_14;
 dM_P2 = r_11 - r_12 + r_15 - r_16;
 dM_P2_T = r_13 - r_14 - r_15;
-dMe_P2 = r_16 - r_17;
+dMe_P2 = (r_16 - r_17);
 dP3 = r_25 -r_26 -r_27 + r_28 - r_29 + r_30; % self pep
 dM_P3 = r_27 - r_28 + r_31 - r_32; 
 dM_P3_T = r_29 - r_30 - r_31; 
-dMe_P3 = r_32 - r_33; 
+dMe_P3 =(r_32 - r_33); 
 dxdt = [dP1; dM; dM_P1; dM_T; dM_P1_T; dT; dMe_P1; dMe; dP2; dM_P2; dM_P2_T; dMe_P2; dP3; dM_P3; dM_P3_T; dMe_P3];
 
 return
@@ -249,7 +251,7 @@ dM_P1 = r_2 - r_3 + r_6 - r_7;
 dM_T = -r_4 + r_5 - r_13 + r_14 + r_22 - r_23;
 dM_P1_T = r_4 - r_5 - r_6;
 dT = r_6 + r_15 + r_20 - r_21 - r_22 + r_23;
-dMe_P1 = r_7 - r_8;
+dMe_P1 = (r_7 - r_8);
 dMe = r_8 + r_17 - r_24;
 dP2 = r_9 - r_10 - r_11 + r_12 - r_13 + r_14;
 dM_P2 = r_11 - r_12 + r_15 - r_16;

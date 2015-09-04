@@ -1,0 +1,71 @@
+// Simulate for some time in the past, add inputs at time 0.0, then follow for additional time
+directive sample -96*3600.0,96*3600.0 1000
+directive simulation deterministicstiff
+directive plot Me-P1; Me-P2; Me-P0
+
+// Declare all of the parameters that are to be used
+directive parameters [ in1 = 0.0
+					 ; in2 = 0.0
+					 ; s1,(0.001,1000.0),1000.0,log,random
+					 ; s2,(0.001,1000.0),1000.0,log,random
+					 ; sf,(0.001,1000.0),1000.0,log,random ]
+
+// Here, the in1 and in2 variables correspond to the input measurements
+directive sweep mysweep = { (in1,in2) = [(1.0,1.0), (1.0,0.5)] } 
+
+// We add a scaled quantity of each input. The scale factors are s1 and s2 respectively
+// Eventually, we'll be optimizing for s1 and s2
+directive event I1 s1*in1 @ 0.0
+directive event I2 s2*in2 @ 0.0
+
+// Specify the relationship between model simulation and data, and MCMC settings
+directive fit { mysweep; sample_data; [Me-P1*SF] }
+directive fit_run { burnin = 2000; samples = 5000; thin = 10 }
+
+// Standard parameter values
+rate dMe = 9.329349e-5;
+rate b = 3.177334e-11;
+rate c = 8.302928e-8;
+rate dP = 0.13;
+rate uT = 1.184643e-6;
+rate vT = 0.0011091974705091;
+rate bT = 1.662768e-9;
+rate gT = 1505;
+rate dT = 0.001725968;
+rate e = 0.1141804;
+rate gM = 150.5;
+rate dM = 7.9892e-5;
+rate q = 21035;
+
+// Specialising peptide supply and off-rates
+rate g0 = 1000.0;
+rate u1 = 1e-5;
+rate u2 = 2e-5;
+rate u0 = 1e-4;
+
+spec P1; spec I1;
+spec P2; spec I2;
+spec P0; spec I0; 
+
+// You have to use a species in the fit directive, so just initialise a constant species with a parameterized value
+init SF sf |
+
+// Standard modular definition of the MHC model
+module Pep(spec Pi,Ii; rate gi,ui){
+  Ii ~->{gi} Pi | Pi ->{dP} |
+  M + Pi <->{b}{ui} M-Pi |
+  T-M + Pi <->{c}{ui*q} T-M-Pi |
+  T-M-Pi ->{vT} T + M-Pi |
+  M-Pi ->{e} Me-Pi |
+  Me-Pi ->{ui} Me
+};
+
+<->{gM}{dM} M |
+<->{gT}{dT} T |
+T + M <->{bT}{uT} T-M |
+Me ->{dMe} |
+
+// Instantiate the three peptides (target, competitor, background) with BG supplied at rate g0
+Pep(P1,I1,1.0,u1) |
+Pep(P2,I2,1.0,u2) |
+init I0 1 | Pep(P0,I0,g0,u0)

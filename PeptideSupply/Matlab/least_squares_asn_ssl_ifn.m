@@ -5,6 +5,9 @@ sf1=sf(1);
 sf2=sf(2);
 gM1=sf(3);
 upreg=sf(4);
+upreg2=sf(5);
+upreg3=sf(6);
+%sf4=sf(6);
 % Set u1 to be the measurement of the target peptide off-rate
 u1 = log(2)/(728.5746 * 60);
 % Set u2 to be the measurement of the competitor peptide off-rate
@@ -20,8 +23,8 @@ for i1=1:Ng1
         
         [MeP1_none_1(i1, i2), MeP2_none_1(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_none_1(i1, i2), sf2*gcomp_none_1(i1, i2), u1, u2, gM1);
         [MeP1_none_2(i1, i2), MeP2_none_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_none_2(i1, i2), sf2*gcomp_none_2(i1, i2), u1, u2, gM1);
-        [MeP1_ifn1_1(i1, i2), MeP2_ifn1_1(i1, i2)]=simulateMHC_asn_ssl(upreg*sf1*gtarget_ifn1_1(i1, i2), upreg*sf2*gcomp_ifn1_1(i1, i2), u1, u2, upreg*gM1);
-        [MeP1_ifn1_2(i1, i2), MeP2_ifn1_2(i1, i2)]=simulateMHC_asn_ssl(upreg*sf1*gtarget_ifn1_2(i1, i2), upreg*sf2*gcomp_ifn1_2(i1, i2), u1, u2, upreg*gM1);
+        [MeP1_ifn1_1(i1, i2), MeP2_ifn1_1(i1, i2)]=simulateMHC_asn_ssl(upreg2*sf1*gtarget_ifn1_1(i1, i2), upreg3*sf2*gcomp_ifn1_1(i1, i2), u1, u2, upreg*gM1);
+        [MeP1_ifn1_2(i1, i2), MeP2_ifn1_2(i1, i2)]=simulateMHC_asn_ssl(upreg2*sf1*gtarget_ifn1_2(i1, i2), upreg3*sf2*gcomp_ifn1_2(i1, i2), u1, u2, upreg*gM1);
     end
 end
 
@@ -73,10 +76,34 @@ validdataAll_both_1 = validMeP1_both_none_1 &validMeP1_both_ifn1_1 & validdata_b
 %MeP1_both_valid_1 = MeP1_none_1(validdataAll_none_1) ;
 %data_valid_none_1 = data_none_1(validdataBoth_none_1);
 
+%min_MeP1_none_1 = min(MeP1_none_1(validdataAll_both_1));
+%min_MeP1_ifn1_1 = min(MeP1_ifn1_1(validdataAll_both_1));
+%max_MeP1_none_1 = max(MeP1_none_1(validdataAll_both_1));
+%max_MeP1_ifn1_1 = max(MeP1_ifn1_1(validdataAll_both_1));
+
+%norm_MeP1_none_1 = (MeP1_none_1(validdataAll_both_1) - min_MeP1_none_1) / ( max_MeP1_none_1 - min_MeP1_none_1); 
+%your_original_data = minVal + norm_data.*(maxVal - minVal)
+%norm_MeP1_ifn1_1 = (MeP1_ifn1_1(validdataAll_both_1) - min_MeP1_ifn1_1) / ( max_MeP1_ifn1_1 - min_MeP1_ifn1_1);
 
 MeP1_both=[MeP1_none_1(validdataAll_both_1) , MeP1_ifn1_1(validdataAll_both_1) ];
+%MeP1_both=[norm_MeP1_none_1 , norm_MeP1_ifn1_1 ];
+
+%min_data_none_1 = min(data_none_1(validdataAll_both_1));
+%%min_data_ifn1_1 = min(data_ifn1_1(validdataAll_both_1));
+%max_data_none_1 = max(data_none_1(validdataAll_both_1));
+%max_data_ifn1_1 = max(data_ifn1_1(validdataAll_both_1));
+
+%norm_data_none_1 = (data_none_1(validdataAll_both_1) - min_data_none_1) / ( max_data_none_1 - min_data_none_1); 
+%your_original_data = minVal + norm_data.*(maxVal - minVal)
+%norm_data_ifn1_1 = (data_ifn1_1(validdataAll_both_1) - min_data_ifn1_1) / ( max_MeP1_ifn1_1 - min_MeP1_ifn1_1);
+
 data_MeP1_both=[data_none_1(validdataAll_both_1), data_ifn1_1(validdataAll_both_1)];
+
 [p_MeP1_both, e_MeP1_both]=polyfit(MeP1_both, data_MeP1_both, 1);
+
+%err_MeP1_none_1 = sum((sf3*MeP1_none_1(validdataAll_both_1) - data_none_1(validdataAll_both_1)).^2);
+%err_MeP1_ifn1_1 = sum((sf3*MeP1_ifn1_1(validdataAll_both_1) - data_ifn1_1(validdataAll_both_1)).^2);
+
 
 validMeP2_both_none_2 = ~isnan(MeP2_none_2);
 validMeP2_both_ifn1_2 = ~isnan(MeP2_ifn1_2);
@@ -84,22 +111,45 @@ validdata_both_none_2 = ~isnan(data_none_2);
 validdata_both_ifn1_2 = ~isnan(data_ifn1_2);
 validdataAll_both_2 = validMeP2_both_none_2 &validMeP2_both_ifn1_2 & validdata_both_none_2 & validdata_both_ifn1_2 ;
 
+%min_MeP2_none_2 = min(MeP2_none_2(validdataAll_both_2));
+%min_MeP2_ifn1_2 = min(MeP2_ifn1_2(validdataAll_both_2));
+%max_MeP2_none_2 = max(MeP2_none_2(validdataAll_both_2));
+%max_MeP2_ifn1_2 = max(MeP2_ifn1_2(validdataAll_both_2));
+
+%norm_MeP2_none_2 = (MeP2_none_2(validdataAll_both_2) - min_MeP2_none_2) / ( max_MeP2_none_2 - min_MeP2_none_2); 
+%your_original_data = minVal + norm_data.*(maxVal - minVal)
+%norm_MeP2_ifn1_2 = (MeP2_ifn1_2(validdataAll_both_2) - min_MeP2_ifn1_2) / ( max_MeP2_ifn1_2 - min_MeP2_ifn1_2);
+
 MeP2_both=[MeP2_none_2(validdataAll_both_2) , MeP2_ifn1_2(validdataAll_both_2)];
+%MeP2_both=[norm_MeP2_none_2 , norm_MeP2_ifn1_2];
+
+%min_data_none_2 = min(data_none_2(validdataAll_both_2));
+%min_data_ifn1_2 = min(data_ifn1_2(validdataAll_both_2));
+%max_data_none_2 = max(data_none_2(validdataAll_both_2));
+%max_data_ifn1_2 = max(data_ifn1_2(validdataAll_both_2));
+
+%norm_data_none_2 = (data_none_2(validdataAll_both_2) - min_data_none_2) / ( max_data_none_2 - min_data_none_2); 
+%your_original_data = minVal + norm_data.*(maxVal - minVal)
+%norm_data_ifn1_2 = (data_ifn1_2(validdataAll_both_2) - min_data_ifn1_2) / ( max_data_ifn1_2 - min_data_ifn1_2);
+
 data_MeP2_both=[data_none_2(validdataAll_both_2), data_ifn1_2(validdataAll_both_2)];
 [p_MeP2_both, e_MeP2_both]=polyfit(MeP2_both, data_MeP2_both, 1);
+
+%err_MeP2_none_2 = sum((sf4*MeP2_none_2(validdataAll_both_2) - data_none_2(validdataAll_both_2)).^2);
+%err_MeP2_ifn1_2 = sum((sf4*MeP2_ifn1_2(validdataAll_both_2) - data_ifn1_2(validdataAll_both_2)).^2);
 
 err_MeP1_both = e_MeP1_both.normr;
 err_MeP2_both = e_MeP2_both.normr;
 
-err=err_MeP1_both + err_MeP2_both;
+err=err_MeP1_both + err_MeP2_both;%err_MeP1_none_1 + err_MeP1_ifn1_1 + err_MeP2_none_2 + err_MeP2_ifn1_2; %
 sf
-p_MeP1_none_1=p_MeP1_both;
-p_MeP2_none_2=p_MeP2_both;
-p_MeP1_ifn1_1=p_MeP1_both;
-p_MeP2_ifn1_2=p_MeP2_both;
+p_MeP1_none_1=p_MeP1_both;%[sf3 0];%;%
+p_MeP2_none_2=p_MeP2_both;%[sf4 0];%
+p_MeP1_ifn1_1=p_MeP1_both;%[sf3 0];%
+p_MeP2_ifn1_2=p_MeP2_both;%[sf4 0];%
 
-p_MeP1_both
-p_MeP2_both
+%p_MeP1_both
+%p_MeP2_both
 cmap=hsv(8);
 figure(8);
 semilogx(gtarget_none_1(:,1),p_MeP1_none_1(1)*MeP1_none_1(:,1)+p_MeP1_none_1(2),gtarget_none_1(:,1),data_none_1(:,1),'o','Color',cmap(1,:),'LineWidth',2,'MarkerSize',10);hold on;
