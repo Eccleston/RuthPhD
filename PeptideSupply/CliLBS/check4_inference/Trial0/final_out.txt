@@ -1,0 +1,38 @@
+
+params           6             Total number of model parameters.
+free_params      6             Number of free (non-fixed) parameters.
+total_iterations 7000          Number of itrations in burn-in and main sampling phases.
+sample_size      126           User-defined, usually equals to number of terms in likelihood.
+max_likelihood   -7444.5       Maximum log-likelihood reached.
+AIC              14901         Akaike Information Criterion.
+BIC              14918         Schwarz Information Criterion.
+DIC              14968         Deviance Information Criterion.
+
+        name      fixed?        type          lb          ub    priorl67   priormode    prioru67    rootRhat     postl95     postl67    postmean     postu67     postu95      LP_l95      LP_l67      LP_MLE      LP_u67      LP_u95
+noise_sigma_SSL_surf_IFN1_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0       999.7      999.74      999.88      999.99        1000       1E-06       1E-06      999.99        1000        1000
+noise_sigma_SSL_surf_none_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0      999.04      999.53      999.69      999.91      999.96       1E-06       1E-06      999.51        1000        1000
+    upfactor  Randomized    LogSpace       0.001        1000      -999.0      -999.0      -999.0           0   0.0010134   0.0011163   0.0016012   0.0021173   0.0024127       0.001       0.001   0.0011166        1000        1000
+          s1  Randomized    LogSpace       0.001        1000      -999.0      -999.0      -999.0           0   0.0030495   0.0033866    0.004454   0.0060051   0.0067278       0.001       0.001    0.006968        1000        1000
+          s2  Randomized    LogSpace       0.001        1000      -999.0      -999.0      -999.0           0     0.24429     0.26221     0.28224     0.30451     0.32862       0.001       0.001      0.2889        1000        1000
+          sf  Randomized    LogSpace       0.001        1000      -999.0      -999.0      -999.0           0    0.039881    0.044362    0.062902    0.077237     0.08546       0.001       0.001    0.038778        1000        1000
+
+        name:  text identifier together with numeric index for vector parameters if applicable.
+      fixed?:  (0) - free parameter, (1) - fixed parameter, (-1) - free parameter, but do not randomize it at the start.
+        type:  (0) - real valued parameter, (1) - parameter that cannot be negative
+          lb:  user-defined lower bound for parameter values
+          ub:  user-difined upper bound for parameter values
+    priorl67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+   priormode:  most likely value (a.k.a. mode) of this parameter according to the prior; undefined if equals to -999
+    prioru67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+    rootRhat:  square root of R-criteria(?)
+     postl95:  lower bound of 95% confidence interval of posterior parameter distribution
+     postl67:  lower bound of 67% confidence interval of posterior parameter distribution
+    postmean:  mean value of posterior parameter distribution
+     postu67:  upper bound of 67% confidence interval of posterior parameter distribution
+     postu95:  upper bound of 95% confidence interval of posterior parameter distribution
+      LP_l95:  lower bound of 95% band from likelihood profile method
+      LP_l67:  lower bound of 67% band from likelihood profile method
+      LP_MLE:  maximum likelihood estimate
+      LP_u67:  upper bound of 67% band from likelihood profile method
+      LP_u95:  upper bound of 95% band from likelihood profile method
+

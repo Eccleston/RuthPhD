@@ -909,3 +909,2485 @@ Improvement at iteration 6595. New log likelihood: -2794.742832
 Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep_inference\Trial3/mysweep1.tsv
 
 Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep_inference\Trial3/mysweep2.tsv
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 1. New log likelihood: -18405614.883177
+Improvement at iteration 10. New log likelihood: -205771.358025
+Improvement at iteration 43. New log likelihood: -205575.590442
+Improvement at iteration 49. New log likelihood: -184456.258261
+Improvement at iteration 50. New log likelihood: -15120.546340
+Improvement at iteration 72. New log likelihood: -15101.445506
+Improvement at iteration 89. New log likelihood: -12659.901229
+Improvement at iteration 96. New log likelihood: -10132.417527
+Improvement at iteration 186. New log likelihood: -9762.570921
+Improvement at iteration 197. New log likelihood: -9181.922723
+Improvement at iteration 213. New log likelihood: -7115.317974
+Improvement at iteration 267. New log likelihood: -6913.773865
+Improvement at iteration 304. New log likelihood: -6760.159584
+Improvement at iteration 347. New log likelihood: -5399.183939
+Improvement at iteration 362. New log likelihood: -5237.650947
+Improvement at iteration 378. New log likelihood: -5220.966071
+Improvement at iteration 382. New log likelihood: -5211.895053
+Improvement at iteration 443. New log likelihood: -5202.753967
+Improvement at iteration 453. New log likelihood: -5172.841531
+Improvement at iteration 461. New log likelihood: -5074.199088
+Improvement at iteration 491. New log likelihood: -4838.991026
+Improvement at iteration 506. New log likelihood: -4658.145762
+Improvement at iteration 519. New log likelihood: -4249.774530
+Improvement at iteration 523. New log likelihood: -4071.171358
+Improvement at iteration 550. New log likelihood: -4022.727629
+Improvement at iteration 564. New log likelihood: -3792.300047
+Improvement at iteration 606. New log likelihood: -3784.552546
+Improvement at iteration 610. New log likelihood: -3490.698568
+Improvement at iteration 627. New log likelihood: -3330.358651
+Improvement at iteration 636. New log likelihood: -3174.403807
+Improvement at iteration 668. New log likelihood: -3145.206972
+Improvement at iteration 690. New log likelihood: -3141.139196
+Improvement at iteration 712. New log likelihood: -3081.992737
+Improvement at iteration 723. New log likelihood: -3080.148489
+Improvement at iteration 744. New log likelihood: -3053.989978
+Improvement at iteration 760. New log likelihood: -2985.650205
+Improvement at iteration 790. New log likelihood: -2981.733598
+Improvement at iteration 799. New log likelihood: -2971.373804
+Improvement at iteration 828. New log likelihood: -2969.485108
+Improvement at iteration 856. New log likelihood: -2966.040221
+Improvement at iteration 858. New log likelihood: -2944.126113
+Improvement at iteration 860. New log likelihood: -2914.675946
+Improvement at iteration 874. New log likelihood: -2900.280295
+Improvement at iteration 886. New log likelihood: -2899.821229
+Improvement at iteration 887. New log likelihood: -2812.327975
+Improvement at iteration 1020. New log likelihood: -2807.322797
+Improvement at iteration 1024. New log likelihood: -2804.601496
+Improvement at iteration 1041. New log likelihood: -2803.621926
+Improvement at iteration 1160. New log likelihood: -2802.792726
+Improvement at iteration 1413. New log likelihood: -2802.218947
+Improvement at iteration 1427. New log likelihood: -2801.852549
+Improvement at iteration 1429. New log likelihood: -2801.344727
+Improvement at iteration 1472. New log likelihood: -2799.818105
+Improvement at iteration 1480. New log likelihood: -2799.473207
+Improvement at iteration 1488. New log likelihood: -2799.454591
+Improvement at iteration 1498. New log likelihood: -2799.402308
+Improvement at iteration 1506. New log likelihood: -2799.323804
+Improvement at iteration 1518. New log likelihood: -2798.386865
+Improvement at iteration 1539. New log likelihood: -2798.225457
+Improvement at iteration 1631. New log likelihood: -2797.570541
+Improvement at iteration 1661. New log likelihood: -2797.481762
+Improvement at iteration 1689. New log likelihood: -2796.750574
+Improvement at iteration 3025. New log likelihood: -2796.529988
+Improvement at iteration 3273. New log likelihood: -2795.548097
+Improvement at iteration 3447. New log likelihood: -2794.793517
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep_inference\Trial4/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep_inference\Trial4/mysweep2.tsv
+Loading file: checkfmin.lbs
+Loading file: checkfmin.lbs
+Loading file: checkfmin.lbs
+Loading file: checkfmin.lbs
+Loading file: checkfmin.lbs
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 75.0, in2 = 80.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 131.0, in2 = 90.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 525.0, in2 = 86.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1701.0, in2 = 79.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5968.0, in2 = 84.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 17366.0, in2 = 91.0.tsv
+: 30.0% done...
+: 40.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 49139.0, in2 = 78.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 173616.0, in2 = 84.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 82.0, in2 = 135.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 164.0, in2 = 159.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 469.0, in2 = 196.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1668.0, in2 = 174.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5890.0, in2 = 163.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 15926.0, in2 = 169.0.tsv
+: 30.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 54152.0, in2 = 171.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 116012.0, in2 = 186.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 79.0, in2 = 592.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 168.0, in2 = 571.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 546.0, in2 = 581.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1698.0, in2 = 687.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 4542.0, in2 = 670.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 13091.0, in2 = 651.0.tsv
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 58975.0, in2 = 409.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 77.0, in2 = 1826.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 167.0, in2 = 1812.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 586.0, in2 = 1822.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1790.0, in2 = 1920.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 4855.0, in2 = 2061.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 16120.0, in2 = 2035.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 39970.0, in2 = 2018.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 193525.0, in2 = 1666.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 79.0, in2 = 5837.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 169.0, in2 = 5588.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 603.0, in2 = 5677.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1780.0, in2 = 5742.0.tsv
+: 10.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5071.0, in2 = 5974.0.tsv
+: 10.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 16407.0, in2 = 6718.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 48326.0, in2 = 6807.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 80.0, in2 = 16893.0.tsv
+: 10.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 165.0, in2 = 16928.0.tsv
+: 10.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 607.0, in2 = 17248.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1880.0, in2 = 17745.0.tsv
+: 10.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5540.0, in2 = 18540.0.tsv
+: 10.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 17765.0, in2 = 18767.0.tsv
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 48230.0, in2 = 18065.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 127378.0, in2 = 15868.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 69.0, in2 = 52254.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 159.0, in2 = 50719.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 623.0, in2 = 52068.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 70.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1786.0, in2 = 52562.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 6191.0, in2 = 52343.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 17051.0, in2 = 51815.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 46198.0, in2 = 53415.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 124709.0, in2 = 62382.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 74.0, in2 = 135395.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 144.0, in2 = 136368.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 564.0, in2 = 117097.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1886.0, in2 = 136364.0.tsv
+: 10.0% done...
+: 40.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5261.0, in2 = 131070.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 17595.0, in2 = 129041.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 55291.0, in2 = 119896.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 103295.0, in2 = 103978.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 72.0, in2 = 83.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 136.0, in2 = 91.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 535.0, in2 = 87.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1739.0, in2 = 86.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 5529.0, in2 = 87.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 18867.0, in2 = 82.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 53080.0, in2 = 80.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 143300.0, in2 = 84.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 81.0, in2 = 131.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 164.0, in2 = 159.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 491.0, in2 = 185.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1718.0, in2 = 175.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 5341.0, in2 = 171.0.tsv
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 16908.0, in2 = 169.0.tsv
+: 10.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 57423.0, in2 = 164.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 141277.0, in2 = 165.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 78.0, in2 = 589.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 178.0, in2 = 577.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 543.0, in2 = 565.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1739.0, in2 = 629.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 5317.0, in2 = 665.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 15748.0, in2 = 655.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 55311.0, in2 = 559.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 168979.0, in2 = 527.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 77.0, in2 = 1890.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 175.0, in2 = 1837.0.tsv
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 582.0, in2 = 1838.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1794.0, in2 = 1903.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 5333.0, in2 = 1998.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 16332.0, in2 = 2021.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 54669.0, in2 = 1980.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 128796.0, in2 = 1696.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 79.0, in2 = 5718.0.tsv
+: 60.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 173.0, in2 = 5587.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 594.0, in2 = 5721.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1837.0, in2 = 5714.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 5653.0, in2 = 5924.0.tsv
+: 30.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 16985.0, in2 = 6281.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 54257.0, in2 = 7015.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 144588.0, in2 = 6207.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 80.0, in2 = 17563.0.tsv
+: 10.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 168.0, in2 = 17252.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 595.0, in2 = 17114.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1868.0, in2 = 17824.0.tsv
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 6038.0, in2 = 18085.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 18393.0, in2 = 18603.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 60.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 54171.0, in2 = 18968.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 139026.0, in2 = 19903.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 73.0, in2 = 57171.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 168.0, in2 = 54306.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 596.0, in2 = 54894.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1901.0, in2 = 55486.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 6272.0, in2 = 54473.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 18155.0, in2 = 57125.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 57283.0, in2 = 57720.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 145153.0, in2 = 60494.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 70.0, in2 = 140414.0.tsv
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 163.0, in2 = 143727.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 560.0, in2 = 140654.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 1889.0, in2 = 135640.0.tsv
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 6478.0, in2 = 141509.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 18194.0, in2 = 141886.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 59207.0, in2 = 143888.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep1\deterministicstiff_in1 = 137360.0, in2 = 145119.0.tsv
+Loading file: checkfmin2.lbs
+Starting inference
+Loading file: checkfmin2.lbs
+Loading file: checkfmin2.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: checkfmin2.lbs
+Loading file: checkfmin.lbs
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 75.0, in2 = 80.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 131.0, in2 = 90.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 525.0, in2 = 86.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1701.0, in2 = 79.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5968.0, in2 = 84.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 17366.0, in2 = 91.0.tsv
+: 30.0% done...
+: 40.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 49139.0, in2 = 78.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 173616.0, in2 = 84.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 82.0, in2 = 135.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 164.0, in2 = 159.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 469.0, in2 = 196.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1668.0, in2 = 174.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 5890.0, in2 = 163.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 15926.0, in2 = 169.0.tsv
+: 30.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 54152.0, in2 = 171.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 116012.0, in2 = 186.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 79.0, in2 = 592.0.tsv
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 168.0, in2 = 571.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 546.0, in2 = 581.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1698.0, in2 = 687.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 4542.0, in2 = 670.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 13091.0, in2 = 651.0.tsv
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 58975.0, in2 = 409.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 77.0, in2 = 1826.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 167.0, in2 = 1812.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 586.0, in2 = 1822.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1790.0, in2 = 1920.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 4855.0, in2 = 2061.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 16120.0, in2 = 2035.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 39970.0, in2 = 2018.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 193525.0, in2 = 1666.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 79.0, in2 = 5837.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 169.0, in2 = 5588.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 603.0, in2 = 5677.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin_simulation\mysweep2\deterministicstiff_in1 = 1780.0, in2 = 5742.0.tsv
+Loading file: checkfmin3.lbs
+Loading file: checkfmin3.lbs
+Loading file: checkfmin3.lbs
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 75.0, in2 = 80.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 131.0, in2 = 90.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 525.0, in2 = 86.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1701.0, in2 = 79.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 5968.0, in2 = 84.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 17366.0, in2 = 91.0.tsv
+: 30.0% done...
+: 40.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 49139.0, in2 = 78.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 173616.0, in2 = 84.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 82.0, in2 = 135.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 164.0, in2 = 159.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 469.0, in2 = 196.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1668.0, in2 = 174.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 5890.0, in2 = 163.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 15926.0, in2 = 169.0.tsv
+: 30.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 54152.0, in2 = 171.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 116012.0, in2 = 186.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 79.0, in2 = 592.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 168.0, in2 = 571.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 546.0, in2 = 581.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1698.0, in2 = 687.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 4542.0, in2 = 670.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 13091.0, in2 = 651.0.tsv
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 58975.0, in2 = 409.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 77.0, in2 = 1826.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 167.0, in2 = 1812.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 586.0, in2 = 1822.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1790.0, in2 = 1920.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 4855.0, in2 = 2061.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 16120.0, in2 = 2035.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 39970.0, in2 = 2018.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 193525.0, in2 = 1666.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 79.0, in2 = 5837.0.tsv
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 169.0, in2 = 5588.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 603.0, in2 = 5677.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1780.0, in2 = 5742.0.tsv
+: 10.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 5071.0, in2 = 5974.0.tsv
+: 10.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 16407.0, in2 = 6718.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 60.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 48326.0, in2 = 6807.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 80.0, in2 = 16893.0.tsv
+: 10.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 165.0, in2 = 16928.0.tsv
+: 10.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 607.0, in2 = 17248.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1880.0, in2 = 17745.0.tsv
+: 10.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 5540.0, in2 = 18540.0.tsv
+: 10.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 17765.0, in2 = 18767.0.tsv
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 48230.0, in2 = 18065.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 127378.0, in2 = 15868.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 69.0, in2 = 52254.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 159.0, in2 = 50719.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 623.0, in2 = 52068.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 70.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1786.0, in2 = 52562.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 6191.0, in2 = 52343.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 17051.0, in2 = 51815.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 46198.0, in2 = 53415.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 124709.0, in2 = 62382.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 74.0, in2 = 135395.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 144.0, in2 = 136368.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 564.0, in2 = 117097.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 1886.0, in2 = 136364.0.tsv
+: 10.0% done...
+: 40.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 5261.0, in2 = 131070.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 17595.0, in2 = 129041.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 55291.0, in2 = 119896.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep2\deterministicstiff_in1 = 103295.0, in2 = 103978.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 72.0, in2 = 83.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 136.0, in2 = 91.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 535.0, in2 = 87.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1739.0, in2 = 86.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 5529.0, in2 = 87.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 18867.0, in2 = 82.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 53080.0, in2 = 80.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 143300.0, in2 = 84.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 81.0, in2 = 131.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 164.0, in2 = 159.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 491.0, in2 = 185.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1718.0, in2 = 175.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 5341.0, in2 = 171.0.tsv
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 16908.0, in2 = 169.0.tsv
+: 10.0% done...
+: 40.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 57423.0, in2 = 164.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 141277.0, in2 = 165.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 78.0, in2 = 589.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 178.0, in2 = 577.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 543.0, in2 = 565.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1739.0, in2 = 629.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 5317.0, in2 = 665.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 15748.0, in2 = 655.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 55311.0, in2 = 559.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 168979.0, in2 = 527.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 77.0, in2 = 1890.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 175.0, in2 = 1837.0.tsv
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 582.0, in2 = 1838.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1794.0, in2 = 1903.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 5333.0, in2 = 1998.0.tsv
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 16332.0, in2 = 2021.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 54669.0, in2 = 1980.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 128796.0, in2 = 1696.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 79.0, in2 = 5718.0.tsv
+: 60.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 173.0, in2 = 5587.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 594.0, in2 = 5721.0.tsv
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1837.0, in2 = 5714.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 5653.0, in2 = 5924.0.tsv
+: 30.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 16985.0, in2 = 6281.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 60.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 54257.0, in2 = 7015.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 144588.0, in2 = 6207.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 80.0, in2 = 17563.0.tsv
+: 10.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 168.0, in2 = 17252.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 595.0, in2 = 17114.0.tsv
+: 20.0% done...
+: 30.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1868.0, in2 = 17824.0.tsv
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 6038.0, in2 = 18085.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 18393.0, in2 = 18603.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 60.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 54171.0, in2 = 18968.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 139026.0, in2 = 19903.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 73.0, in2 = 57171.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 168.0, in2 = 54306.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 50.0% done...
+: 60.0% done...
+: 80.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 596.0, in2 = 54894.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 50.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1901.0, in2 = 55486.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 60.0% done...
+: 70.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 6272.0, in2 = 54473.0.tsv
+: 10.0% done...
+: 30.0% done...
+: 50.0% done...
+: 60.0% done...
+: 70.0% done...
+: 80.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 18155.0, in2 = 57125.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 40.0% done...
+: 50.0% done...
+: 70.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 57283.0, in2 = 57720.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 145153.0, in2 = 60494.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 70.0, in2 = 140414.0.tsv
+: 40.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 163.0, in2 = 143727.0.tsv
+: 10.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 560.0, in2 = 140654.0.tsv
+: 10.0% done...
+: 20.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 1889.0, in2 = 135640.0.tsv
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 6478.0, in2 = 141509.0.tsv
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 18194.0, in2 = 141886.0.tsv
+: 10.0% done...
+: 20.0% done...
+: 30.0% done...
+: 40.0% done...
+: 90.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 59207.0, in2 = 143888.0.tsv
+: 30.0% done...
+Wrote CSV file: checkfmin3_simulation\mysweep1\deterministicstiff_in1 = 137360.0, in2 = 145119.0.tsv
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep.lbs
+Loading file: 150520_ASN_SSL_sweep.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_sweep.lbs
+Loading file: 150520_ASN_SSL_sweep.lbs
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 14. New log likelihood: -651806384.065516
+Improvement at iteration 21. New log likelihood: -49834191.527163
+Improvement at iteration 24. New log likelihood: -7213672.964571
+Improvement at iteration 25. New log likelihood: -5636.767802
+Improvement at iteration 39. New log likelihood: -1036.776807
+Improvement at iteration 47. New log likelihood: -625.824591
+Improvement at iteration 57. New log likelihood: -553.896048
+Improvement at iteration 60. New log likelihood: -543.703212
+Loading file: 150520_ASN_SSL_ifn1_sweep2.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_ifn1_sweep2.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep2.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading file: 150520_ASN_SSL_ifn1_sweep3.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep3.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_ifn1_sweep3.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep3.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 1. New log likelihood: -38974236.904313
+Improvement at iteration 4. New log likelihood: -16067456.707397
+Improvement at iteration 10. New log likelihood: -923519.620799
+Improvement at iteration 21. New log likelihood: -15124.069720
+Improvement at iteration 35. New log likelihood: -15120.643271
+Improvement at iteration 44. New log likelihood: -14797.864637
+Improvement at iteration 58. New log likelihood: -13718.033332
+Improvement at iteration 59. New log likelihood: -11986.631653
+Improvement at iteration 69. New log likelihood: -11825.745338
+Improvement at iteration 96. New log likelihood: -11358.731034
+Improvement at iteration 105. New log likelihood: -10527.700351
+Improvement at iteration 146. New log likelihood: -10329.518857
+Improvement at iteration 152. New log likelihood: -10327.836798
+Improvement at iteration 179. New log likelihood: -10325.653613
+Improvement at iteration 182. New log likelihood: -10313.765651
+Improvement at iteration 190. New log likelihood: -9778.418413
+Improvement at iteration 216. New log likelihood: -9752.795575
+Improvement at iteration 222. New log likelihood: -9263.421524
+Improvement at iteration 255. New log likelihood: -9246.577747
+Improvement at iteration 256. New log likelihood: -9191.047529
+Improvement at iteration 261. New log likelihood: -8896.470786
+Improvement at iteration 273. New log likelihood: -4935.644736
+Improvement at iteration 274. New log likelihood: -4894.547296
+Improvement at iteration 297. New log likelihood: -4517.261954
+Improvement at iteration 324. New log likelihood: -4201.476882
+Improvement at iteration 329. New log likelihood: -4194.400180
+Improvement at iteration 348. New log likelihood: -4092.785152
+Improvement at iteration 409. New log likelihood: -4067.287705
+Improvement at iteration 423. New log likelihood: -3690.843455
+Improvement at iteration 451. New log likelihood: -3515.069465
+Improvement at iteration 523. New log likelihood: -3481.424394
+Improvement at iteration 528. New log likelihood: -3433.944672
+Improvement at iteration 538. New log likelihood: -3415.333070
+Improvement at iteration 572. New log likelihood: -3368.262546
+Improvement at iteration 577. New log likelihood: -3335.540122
+Improvement at iteration 578. New log likelihood: -3305.197118
+Improvement at iteration 584. New log likelihood: -3295.801682
+Improvement at iteration 586. New log likelihood: -3294.419188
+Improvement at iteration 605. New log likelihood: -3292.344996
+Improvement at iteration 662. New log likelihood: -3237.231287
+Improvement at iteration 675. New log likelihood: -3233.013298
+Improvement at iteration 680. New log likelihood: -3227.282127
+Improvement at iteration 689. New log likelihood: -3218.111579
+Improvement at iteration 713. New log likelihood: -3160.476384
+Improvement at iteration 723. New log likelihood: -3099.967994
+Improvement at iteration 741. New log likelihood: -3066.522765
+Improvement at iteration 745. New log likelihood: -3057.522031
+Improvement at iteration 764. New log likelihood: -3046.930863
+Improvement at iteration 765. New log likelihood: -3044.258320
+Improvement at iteration 786. New log likelihood: -2982.571967
+Improvement at iteration 791. New log likelihood: -2978.024563
+Improvement at iteration 796. New log likelihood: -2970.643491
+Improvement at iteration 809. New log likelihood: -2963.938537
+Improvement at iteration 820. New log likelihood: -2941.606803
+Improvement at iteration 825. New log likelihood: -2898.468214
+Improvement at iteration 843. New log likelihood: -2898.287359
+Improvement at iteration 845. New log likelihood: -2886.342095
+Improvement at iteration 853. New log likelihood: -2877.563119
+Improvement at iteration 881. New log likelihood: -2875.136200
+Improvement at iteration 889. New log likelihood: -2866.961939
+Improvement at iteration 938. New log likelihood: -2865.606118
+Improvement at iteration 954. New log likelihood: -2859.105426
+Improvement at iteration 992. New log likelihood: -2858.634255
+Improvement at iteration 1009. New log likelihood: -2856.763683
+Improvement at iteration 1027. New log likelihood: -2856.589618
+Improvement at iteration 1031. New log likelihood: -2842.329586
+Improvement at iteration 1037. New log likelihood: -2842.023377
+Improvement at iteration 1051. New log likelihood: -2839.254265
+Improvement at iteration 1066. New log likelihood: -2828.330350
+Improvement at iteration 1069. New log likelihood: -2827.966979
+Improvement at iteration 1073. New log likelihood: -2823.382304
+Improvement at iteration 1082. New log likelihood: -2815.892998
+Improvement at iteration 1091. New log likelihood: -2813.529075
+Improvement at iteration 1102. New log likelihood: -2813.003303
+Improvement at iteration 1166. New log likelihood: -2811.597974
+Improvement at iteration 1216. New log likelihood: -2810.577042
+Improvement at iteration 1272. New log likelihood: -2809.308107
+Improvement at iteration 1273. New log likelihood: -2805.576464
+Improvement at iteration 1277. New log likelihood: -2804.362891
+Improvement at iteration 1380. New log likelihood: -2803.672041
+Improvement at iteration 1404. New log likelihood: -2802.895940
+Improvement at iteration 1454. New log likelihood: -2802.081872
+Improvement at iteration 1458. New log likelihood: -2802.048942
+Improvement at iteration 1480. New log likelihood: -2801.776448
+Improvement at iteration 1528. New log likelihood: -2800.898317
+Improvement at iteration 1567. New log likelihood: -2800.768023
+Improvement at iteration 1573. New log likelihood: -2800.548618
+Improvement at iteration 1634. New log likelihood: -2800.058545
+Improvement at iteration 1636. New log likelihood: -2800.045556
+Improvement at iteration 1639. New log likelihood: -2799.992443
+Improvement at iteration 1673. New log likelihood: -2799.297061
+Improvement at iteration 1734. New log likelihood: -2798.238891
+Improvement at iteration 1742. New log likelihood: -2797.328426
+Improvement at iteration 1810. New log likelihood: -2797.023110
+Improvement at iteration 1876. New log likelihood: -2796.921443
+Improvement at iteration 2905. New log likelihood: -2796.906745
+Improvement at iteration 2930. New log likelihood: -2796.407132
+Improvement at iteration 3328. New log likelihood: -2796.232304
+Improvement at iteration 3392. New log likelihood: -2796.141935
+Improvement at iteration 3435. New log likelihood: -2795.783006
+Improvement at iteration 3485. New log likelihood: -2795.663329
+Improvement at iteration 3645. New log likelihood: -2795.119782
+Improvement at iteration 6248. New log likelihood: -2794.980543
+Improvement at iteration 6357. New log likelihood: -2794.876131
+Improvement at iteration 6970. New log likelihood: -2794.781709
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep3_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep3_inference\Trial0/mysweep2.tsv
+Loading file: 150520_ASN_SSL_inf1_sweep4.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep4.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_ifn1_sweep4.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep4.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 6. New log likelihood: -18880228.635446
+Improvement at iteration 9. New log likelihood: -10603.589035
+Improvement at iteration 51. New log likelihood: -10285.894537
+Improvement at iteration 59. New log likelihood: -9890.314711
+Improvement at iteration 127. New log likelihood: -9816.174866
+Improvement at iteration 214. New log likelihood: -8752.097874
+Improvement at iteration 221. New log likelihood: -8580.722603
+Improvement at iteration 224. New log likelihood: -8460.244959
+Improvement at iteration 296. New log likelihood: -8159.373655
+Improvement at iteration 358. New log likelihood: -8144.242285
+Improvement at iteration 364. New log likelihood: -8112.738374
+Improvement at iteration 369. New log likelihood: -8088.715995
+Improvement at iteration 376. New log likelihood: -7944.287667
+Improvement at iteration 380. New log likelihood: -7934.642628
+Improvement at iteration 526. New log likelihood: -7822.381825
+Improvement at iteration 601. New log likelihood: -7815.702706
+Improvement at iteration 623. New log likelihood: -7815.210213
+Improvement at iteration 629. New log likelihood: -7812.058403
+Improvement at iteration 643. New log likelihood: -7810.768938
+Improvement at iteration 718. New log likelihood: -7810.078411
+Improvement at iteration 759. New log likelihood: -7769.147092
+Improvement at iteration 820. New log likelihood: -7768.870184
+Improvement at iteration 839. New log likelihood: -7729.749374
+Improvement at iteration 840. New log likelihood: -7728.339583
+Improvement at iteration 862. New log likelihood: -7728.336131
+Improvement at iteration 909. New log likelihood: -7700.830131
+Improvement at iteration 911. New log likelihood: -7663.926969
+Improvement at iteration 925. New log likelihood: -7646.643090
+Improvement at iteration 935. New log likelihood: -7626.166331
+Improvement at iteration 995. New log likelihood: -7614.362014
+Improvement at iteration 1008. New log likelihood: -7614.076656
+Improvement at iteration 1028. New log likelihood: -7579.694164
+Improvement at iteration 1039. New log likelihood: -7573.904621
+Improvement at iteration 1061. New log likelihood: -7573.020915
+Improvement at iteration 1074. New log likelihood: -7572.309972
+Improvement at iteration 1084. New log likelihood: -7572.212319
+Improvement at iteration 1092. New log likelihood: -7572.149208
+Improvement at iteration 1126. New log likelihood: -7549.582309
+Improvement at iteration 1149. New log likelihood: -7549.305067
+Improvement at iteration 1154. New log likelihood: -7548.672339
+Improvement at iteration 1164. New log likelihood: -7547.979093
+Improvement at iteration 1169. New log likelihood: -7536.189649
+Improvement at iteration 1171. New log likelihood: -7506.405341
+Improvement at iteration 1182. New log likelihood: -7501.075996
+Improvement at iteration 1188. New log likelihood: -7500.665414
+Improvement at iteration 1191. New log likelihood: -7500.607323
+Improvement at iteration 1194. New log likelihood: -7500.540333
+Improvement at iteration 1197. New log likelihood: -7499.867313
+Improvement at iteration 1210. New log likelihood: -7499.425060
+Improvement at iteration 1230. New log likelihood: -7499.416867
+Improvement at iteration 1237. New log likelihood: -7498.605392
+Improvement at iteration 1282. New log likelihood: -7497.889835
+Improvement at iteration 1318. New log likelihood: -7497.855050
+Improvement at iteration 1415. New log likelihood: -7497.516968
+Improvement at iteration 1449. New log likelihood: -7483.026985
+Improvement at iteration 1493. New log likelihood: -7482.522284
+Improvement at iteration 1495. New log likelihood: -7482.098922
+Improvement at iteration 1502. New log likelihood: -7482.008829
+Improvement at iteration 1505. New log likelihood: -7481.342412
+Improvement at iteration 1539. New log likelihood: -7481.200660
+Improvement at iteration 1551. New log likelihood: -7481.145346
+Improvement at iteration 1590. New log likelihood: -7480.963877
+Improvement at iteration 1615. New log likelihood: -7480.662116
+Improvement at iteration 1755. New log likelihood: -7479.342235
+Improvement at iteration 1756. New log likelihood: -7478.414770
+Improvement at iteration 1759. New log likelihood: -7477.791616
+Improvement at iteration 1764. New log likelihood: -7477.373305
+Improvement at iteration 1765. New log likelihood: -7476.966246
+Improvement at iteration 1781. New log likelihood: -7476.941232
+Improvement at iteration 1801. New log likelihood: -7476.765497
+Improvement at iteration 1806. New log likelihood: -7475.728016
+Improvement at iteration 1813. New log likelihood: -7475.658011
+Improvement at iteration 1816. New log likelihood: -7475.218070
+Improvement at iteration 1869. New log likelihood: -7474.554835
+Improvement at iteration 1873. New log likelihood: -7474.395489
+Improvement at iteration 1879. New log likelihood: -7473.625639
+Improvement at iteration 1883. New log likelihood: -7473.012350
+Improvement at iteration 1904. New log likelihood: -7472.361986
+Improvement at iteration 1907. New log likelihood: -7472.352964
+Improvement at iteration 1919. New log likelihood: -7471.916404
+Improvement at iteration 1929. New log likelihood: -7471.815571
+Improvement at iteration 2584. New log likelihood: -7471.811856
+Improvement at iteration 2591. New log likelihood: -7471.573109
+Improvement at iteration 2672. New log likelihood: -7471.414867
+Improvement at iteration 2841. New log likelihood: -7470.719800
+Improvement at iteration 2846. New log likelihood: -7470.715860
+Improvement at iteration 2871. New log likelihood: -7470.636635
+Improvement at iteration 2881. New log likelihood: -7470.089731
+Improvement at iteration 2890. New log likelihood: -7469.991254
+Improvement at iteration 2937. New log likelihood: -7469.870194
+Improvement at iteration 3023. New log likelihood: -7469.748041
+Improvement at iteration 3075. New log likelihood: -7469.579363
+Improvement at iteration 3132. New log likelihood: -7468.593291
+Improvement at iteration 3134. New log likelihood: -7466.738693
+Improvement at iteration 3239. New log likelihood: -7466.626446
+Improvement at iteration 3242. New log likelihood: -7466.604231
+Improvement at iteration 3267. New log likelihood: -7466.593769
+Improvement at iteration 3304. New log likelihood: -7466.268617
+Improvement at iteration 3453. New log likelihood: -7466.244628
+Improvement at iteration 3455. New log likelihood: -7466.228524
+Improvement at iteration 3462. New log likelihood: -7466.087578
+Improvement at iteration 3475. New log likelihood: -7465.850120
+Improvement at iteration 3484. New log likelihood: -7465.706499
+Improvement at iteration 3485. New log likelihood: -7465.466451
+Improvement at iteration 3486. New log likelihood: -7465.422474
+Improvement at iteration 3510. New log likelihood: -7465.355665
+Improvement at iteration 3588. New log likelihood: -7465.283404
+Improvement at iteration 3594. New log likelihood: -7465.194698
+Improvement at iteration 3599. New log likelihood: -7464.135223
+Improvement at iteration 3641. New log likelihood: -7463.327215
+Improvement at iteration 3654. New log likelihood: -7463.080250
+Improvement at iteration 3690. New log likelihood: -7462.622611
+Improvement at iteration 3704. New log likelihood: -7462.546088
+Improvement at iteration 4024. New log likelihood: -7462.303808
+Improvement at iteration 4030. New log likelihood: -7461.269877
+Improvement at iteration 4042. New log likelihood: -7461.021660
+Improvement at iteration 4089. New log likelihood: -7460.800331
+Improvement at iteration 4148. New log likelihood: -7460.722276
+Improvement at iteration 4155. New log likelihood: -7460.493338
+Improvement at iteration 4250. New log likelihood: -7459.815453
+Improvement at iteration 4251. New log likelihood: -7458.805212
+Improvement at iteration 4263. New log likelihood: -7458.381495
+Improvement at iteration 4264. New log likelihood: -7458.371751
+Improvement at iteration 4280. New log likelihood: -7458.244817
+Improvement at iteration 4401. New log likelihood: -7457.714818
+Improvement at iteration 4803. New log likelihood: -7457.128783
+Improvement at iteration 4941. New log likelihood: -7456.838697
+Improvement at iteration 5247. New log likelihood: -7456.769641
+Improvement at iteration 5248. New log likelihood: -7456.045394
+Improvement at iteration 5265. New log likelihood: -7455.526449
+Improvement at iteration 5986. New log likelihood: -7455.351167
+Improvement at iteration 5992. New log likelihood: -7454.251422
+Improvement at iteration 6008. New log likelihood: -7454.240186
+Improvement at iteration 6015. New log likelihood: -7454.123465
+Improvement at iteration 6019. New log likelihood: -7453.795192
+Improvement at iteration 6023. New log likelihood: -7453.726340
+Improvement at iteration 6031. New log likelihood: -7453.567662
+Improvement at iteration 6036. New log likelihood: -7453.408990
+Improvement at iteration 6046. New log likelihood: -7453.388279
+Improvement at iteration 6099. New log likelihood: -7453.177930
+Improvement at iteration 6110. New log likelihood: -7451.556557
+Improvement at iteration 6124. New log likelihood: -7450.886107
+Improvement at iteration 6132. New log likelihood: -7450.806035
+Improvement at iteration 6141. New log likelihood: -7450.434763
+Improvement at iteration 6200. New log likelihood: -7450.350625
+Improvement at iteration 6281. New log likelihood: -7450.191330
+Improvement at iteration 6285. New log likelihood: -7450.061077
+Improvement at iteration 6286. New log likelihood: -7449.865218
+Improvement at iteration 6297. New log likelihood: -7449.282199
+Improvement at iteration 6306. New log likelihood: -7449.061970
+Improvement at iteration 6373. New log likelihood: -7448.892348
+Improvement at iteration 6572. New log likelihood: -7448.117880
+Improvement at iteration 6573. New log likelihood: -7446.277904
+Improvement at iteration 6627. New log likelihood: -7444.731781
+Improvement at iteration 6668. New log likelihood: -7444.621420
+Improvement at iteration 6695. New log likelihood: -7443.422269
+Improvement at iteration 6719. New log likelihood: -7442.122977
+Improvement at iteration 6725. New log likelihood: -7442.096995
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep4_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep4_inference\Trial0/mysweep2.tsv
+Loading file: 150520_ASN_SSL_ifn1_sweep4.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_ifn1_sweep4.lbs
+Loading file: 150520_ASN_SSL_ifn1_sweep4.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 19. New log likelihood: -80979868.913668
+Improvement at iteration 23. New log likelihood: -40548534.820235
+Improvement at iteration 24. New log likelihood: -57221.939839
+Improvement at iteration 42. New log likelihood: -46749.472662
+Improvement at iteration 46. New log likelihood: -37743.960620
+Improvement at iteration 88. New log likelihood: -36961.979260
+Improvement at iteration 91. New log likelihood: -18715.146584
+Improvement at iteration 102. New log likelihood: -18069.802216
+Improvement at iteration 115. New log likelihood: -18015.266473
+Improvement at iteration 124. New log likelihood: -17909.864026
+Improvement at iteration 210. New log likelihood: -17891.201544
+Improvement at iteration 214. New log likelihood: -17873.838090
+Improvement at iteration 220. New log likelihood: -10182.382537
+Improvement at iteration 246. New log likelihood: -9628.746036
+Improvement at iteration 274. New log likelihood: -9580.721013
+Improvement at iteration 292. New log likelihood: -9468.446109
+Improvement at iteration 298. New log likelihood: -9338.326090
+Improvement at iteration 300. New log likelihood: -9274.819696
+Improvement at iteration 302. New log likelihood: -9076.276754
+Improvement at iteration 330. New log likelihood: -8853.630050
+Improvement at iteration 338. New log likelihood: -8765.263441
+Improvement at iteration 382. New log likelihood: -8735.422885
+Improvement at iteration 391. New log likelihood: -8160.327453
+Improvement at iteration 392. New log likelihood: -8097.562850
+Improvement at iteration 395. New log likelihood: -7796.886799
+Improvement at iteration 408. New log likelihood: -7715.009860
+Improvement at iteration 423. New log likelihood: -7268.501110
+Improvement at iteration 429. New log likelihood: -7207.638391
+Improvement at iteration 488. New log likelihood: -7180.478421
+Improvement at iteration 493. New log likelihood: -7057.042543
+Improvement at iteration 502. New log likelihood: -6995.756487
+Improvement at iteration 511. New log likelihood: -6984.265527
+Improvement at iteration 546. New log likelihood: -6981.001820
+Improvement at iteration 549. New log likelihood: -6973.167727
+Improvement at iteration 558. New log likelihood: -6891.903657
+Improvement at iteration 562. New log likelihood: -6891.408497
+Improvement at iteration 643. New log likelihood: -6873.075518
+Improvement at iteration 652. New log likelihood: -6863.316632
+Improvement at iteration 654. New log likelihood: -6856.347664
+Improvement at iteration 671. New log likelihood: -6812.341770
+Improvement at iteration 678. New log likelihood: -6811.983398
+Improvement at iteration 696. New log likelihood: -6801.025969
+Improvement at iteration 731. New log likelihood: -6795.842257
+Improvement at iteration 734. New log likelihood: -6793.715400
+Improvement at iteration 787. New log likelihood: -6788.500455
+Improvement at iteration 805. New log likelihood: -6787.144815
+Improvement at iteration 814. New log likelihood: -6784.973789
+Improvement at iteration 859. New log likelihood: -6784.371608
+Improvement at iteration 952. New log likelihood: -6760.579436
+Improvement at iteration 953. New log likelihood: -6760.235763
+Improvement at iteration 970. New log likelihood: -6759.775438
+Improvement at iteration 1003. New log likelihood: -6757.736013
+Improvement at iteration 1023. New log likelihood: -6757.310697
+Improvement at iteration 1042. New log likelihood: -6756.589350
+Improvement at iteration 1044. New log likelihood: -6755.986314
+Improvement at iteration 1048. New log likelihood: -6755.739343
+Improvement at iteration 1062. New log likelihood: -6755.246754
+Improvement at iteration 1068. New log likelihood: -6755.040453
+Improvement at iteration 1097. New log likelihood: -6754.906646
+Improvement at iteration 1236. New log likelihood: -6750.057934
+Improvement at iteration 1240. New log likelihood: -6749.969788
+Improvement at iteration 1257. New log likelihood: -6749.479475
+Improvement at iteration 1268. New log likelihood: -6749.478835
+Improvement at iteration 1276. New log likelihood: -6749.213390
+Improvement at iteration 1287. New log likelihood: -6748.420781
+Improvement at iteration 1295. New log likelihood: -6748.046842
+Improvement at iteration 1301. New log likelihood: -6747.906871
+Improvement at iteration 1306. New log likelihood: -6747.445948
+Improvement at iteration 1321. New log likelihood: -6747.439867
+Improvement at iteration 1322. New log likelihood: -6747.300222
+Improvement at iteration 1323. New log likelihood: -6747.220435
+Improvement at iteration 1331. New log likelihood: -6747.025057
+Improvement at iteration 1351. New log likelihood: -6746.827689
+Improvement at iteration 1359. New log likelihood: -6746.708236
+Improvement at iteration 1362. New log likelihood: -6740.625833
+Improvement at iteration 1379. New log likelihood: -6740.130663
+Improvement at iteration 1472. New log likelihood: -6739.865335
+Improvement at iteration 1478. New log likelihood: -6738.819003
+Improvement at iteration 1480. New log likelihood: -6737.311483
+Improvement at iteration 1483. New log likelihood: -6737.060978
+Improvement at iteration 1499. New log likelihood: -6734.673107
+Improvement at iteration 1518. New log likelihood: -6730.056528
+Improvement at iteration 1555. New log likelihood: -6729.496659
+Improvement at iteration 1561. New log likelihood: -6729.172430
+Improvement at iteration 1573. New log likelihood: -6729.145320
+Improvement at iteration 1581. New log likelihood: -6727.770690
+Improvement at iteration 1595. New log likelihood: -6727.735645
+Improvement at iteration 1599. New log likelihood: -6727.254268
+Improvement at iteration 1644. New log likelihood: -6725.119939
+Improvement at iteration 1662. New log likelihood: -6725.000920
+Improvement at iteration 1698. New log likelihood: -6724.865062
+Improvement at iteration 1807. New log likelihood: -6724.554155
+Improvement at iteration 2279. New log likelihood: -6724.532416
+Improvement at iteration 2286. New log likelihood: -6724.294182
+Improvement at iteration 2933. New log likelihood: -6724.172109
+Improvement at iteration 3257. New log likelihood: -6724.136067
+Improvement at iteration 5535. New log likelihood: -6724.104801
+Improvement at iteration 5538. New log likelihood: -6724.047132
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep4_inference\Trial1/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_ifn1_sweep4_inference\Trial1/mysweep2.tsv
+Loading file: check1.lbs
+Loading file: check4.lbs
+Loading file: check4.lbs
+Starting inference
+Loading file: check4.lbs
+Loading file: check4.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 9. New log likelihood: -1905590.786120
+Improvement at iteration 13. New log likelihood: -1668920.809564
+Improvement at iteration 29. New log likelihood: -79875.515374
+Improvement at iteration 33. New log likelihood: -21196.625091
+Improvement at iteration 36. New log likelihood: -19792.254199
+Improvement at iteration 48. New log likelihood: -17622.687006
+Improvement at iteration 50. New log likelihood: -17099.211829
+Improvement at iteration 82. New log likelihood: -15537.694007
+Improvement at iteration 102. New log likelihood: -15360.927057
+Improvement at iteration 113. New log likelihood: -15345.257538
+Improvement at iteration 143. New log likelihood: -14377.815161
+Improvement at iteration 158. New log likelihood: -14312.563268
+Improvement at iteration 166. New log likelihood: -14138.652323
+Improvement at iteration 188. New log likelihood: -13797.767617
+Improvement at iteration 197. New log likelihood: -13754.716584
+Improvement at iteration 200. New log likelihood: -12513.986807
+Improvement at iteration 209. New log likelihood: -12498.769743
+Improvement at iteration 263. New log likelihood: -12466.256245
+Improvement at iteration 268. New log likelihood: -12453.774341
+Improvement at iteration 296. New log likelihood: -12445.600456
+Improvement at iteration 304. New log likelihood: -12290.241806
+Improvement at iteration 307. New log likelihood: -12038.406056
+Improvement at iteration 412. New log likelihood: -9465.380393
+Improvement at iteration 448. New log likelihood: -9448.100238
+Improvement at iteration 462. New log likelihood: -9425.603662
+Improvement at iteration 511. New log likelihood: -8945.851220
+Improvement at iteration 512. New log likelihood: -8885.335758
+Improvement at iteration 514. New log likelihood: -8633.198159
+Improvement at iteration 517. New log likelihood: -8598.627550
+Improvement at iteration 520. New log likelihood: -8512.984299
+Improvement at iteration 525. New log likelihood: -8446.953824
+Improvement at iteration 533. New log likelihood: -8225.748763
+Improvement at iteration 534. New log likelihood: -8020.647985
+Improvement at iteration 536. New log likelihood: -7939.813738
+Improvement at iteration 543. New log likelihood: -7828.862188
+Improvement at iteration 562. New log likelihood: -7670.341281
+Improvement at iteration 582. New log likelihood: -7665.372169
+Improvement at iteration 597. New log likelihood: -7625.770159
+Improvement at iteration 623. New log likelihood: -7603.242324
+Improvement at iteration 627. New log likelihood: -7593.998975
+Improvement at iteration 656. New log likelihood: -7592.057058
+Improvement at iteration 663. New log likelihood: -7591.921406
+Improvement at iteration 813. New log likelihood: -7591.900920
+Improvement at iteration 836. New log likelihood: -7535.261219
+Improvement at iteration 849. New log likelihood: -7532.848853
+Improvement at iteration 873. New log likelihood: -7532.382436
+Improvement at iteration 885. New log likelihood: -7493.286917
+Improvement at iteration 936. New log likelihood: -7493.189206
+Improvement at iteration 1092. New log likelihood: -7492.994104
+Improvement at iteration 1298. New log likelihood: -7492.767826
+Improvement at iteration 1325. New log likelihood: -7492.715551
+Improvement at iteration 1326. New log likelihood: -7492.613594
+Improvement at iteration 1330. New log likelihood: -7492.592222
+Improvement at iteration 1346. New log likelihood: -7492.289770
+Improvement at iteration 1347. New log likelihood: -7492.100885
+Improvement at iteration 1443. New log likelihood: -7489.390677
+Improvement at iteration 1552. New log likelihood: -7488.568359
+Improvement at iteration 1558. New log likelihood: -7488.374025
+Improvement at iteration 1608. New log likelihood: -7483.316531
+Improvement at iteration 1621. New log likelihood: -7482.872671
+Improvement at iteration 1632. New log likelihood: -7482.611626
+Improvement at iteration 1675. New log likelihood: -7482.533651
+Improvement at iteration 1716. New log likelihood: -7482.252603
+Improvement at iteration 1724. New log likelihood: -7481.406869
+Improvement at iteration 1725. New log likelihood: -7481.313425
+Improvement at iteration 1768. New log likelihood: -7481.042663
+Improvement at iteration 1770. New log likelihood: -7480.579908
+Improvement at iteration 1774. New log likelihood: -7480.570283
+Improvement at iteration 1775. New log likelihood: -7480.522202
+Improvement at iteration 1810. New log likelihood: -7480.402144
+Improvement at iteration 1817. New log likelihood: -7480.396078
+Improvement at iteration 1901. New log likelihood: -7480.380122
+Improvement at iteration 1951. New log likelihood: -7480.282302
+Improvement at iteration 2058. New log likelihood: -7475.239305
+Improvement at iteration 2061. New log likelihood: -7474.888421
+Improvement at iteration 2068. New log likelihood: -7474.885908
+Improvement at iteration 2090. New log likelihood: -7474.850250
+Improvement at iteration 2092. New log likelihood: -7473.916812
+Improvement at iteration 2096. New log likelihood: -7473.571614
+Improvement at iteration 2099. New log likelihood: -7473.065960
+Improvement at iteration 2103. New log likelihood: -7472.827885
+Improvement at iteration 2104. New log likelihood: -7472.453869
+Improvement at iteration 2120. New log likelihood: -7472.392370
+Improvement at iteration 2127. New log likelihood: -7471.996735
+Improvement at iteration 2145. New log likelihood: -7471.969908
+Improvement at iteration 2179. New log likelihood: -7471.925109
+Improvement at iteration 2310. New log likelihood: -7471.886909
+Improvement at iteration 2311. New log likelihood: -7471.729414
+Improvement at iteration 2314. New log likelihood: -7471.632878
+Improvement at iteration 2315. New log likelihood: -7471.363586
+Improvement at iteration 2389. New log likelihood: -7470.678902
+Improvement at iteration 2409. New log likelihood: -7470.621669
+Improvement at iteration 2564. New log likelihood: -7470.431002
+Improvement at iteration 2571. New log likelihood: -7470.412627
+Improvement at iteration 2593. New log likelihood: -7470.366843
+Improvement at iteration 3365. New log likelihood: -7469.953578
+Improvement at iteration 3387. New log likelihood: -7469.907607
+Improvement at iteration 3388. New log likelihood: -7469.519948
+Improvement at iteration 3394. New log likelihood: -7468.889913
+Improvement at iteration 3399. New log likelihood: -7468.880329
+Improvement at iteration 3402. New log likelihood: -7468.830109
+Improvement at iteration 3461. New log likelihood: -7468.745689
+Improvement at iteration 3493. New log likelihood: -7468.726672
+Improvement at iteration 3916. New log likelihood: -7468.669391
+Improvement at iteration 3925. New log likelihood: -7468.613889
+Improvement at iteration 4047. New log likelihood: -7467.182860
+Improvement at iteration 4060. New log likelihood: -7466.495125
+Improvement at iteration 4067. New log likelihood: -7466.323072
+Improvement at iteration 4069. New log likelihood: -7465.789087
+Improvement at iteration 4084. New log likelihood: -7465.762687
+Improvement at iteration 4486. New log likelihood: -7465.432932
+Improvement at iteration 4491. New log likelihood: -7465.336683
+Improvement at iteration 4495. New log likelihood: -7465.282481
+Improvement at iteration 4496. New log likelihood: -7465.031968
+Improvement at iteration 4520. New log likelihood: -7463.955810
+Improvement at iteration 4530. New log likelihood: -7463.938924
+Improvement at iteration 4531. New log likelihood: -7463.888483
+Improvement at iteration 4583. New log likelihood: -7463.743538
+Improvement at iteration 4607. New log likelihood: -7462.862988
+Improvement at iteration 4627. New log likelihood: -7462.728904
+Improvement at iteration 4673. New log likelihood: -7462.545551
+Improvement at iteration 4761. New log likelihood: -7461.877540
+Improvement at iteration 4775. New log likelihood: -7461.777081
+Improvement at iteration 4789. New log likelihood: -7461.376199
+Improvement at iteration 4792. New log likelihood: -7460.976899
+Improvement at iteration 4928. New log likelihood: -7460.969853
+Improvement at iteration 4929. New log likelihood: -7460.808538
+Improvement at iteration 4931. New log likelihood: -7460.727447
+Improvement at iteration 4980. New log likelihood: -7460.214282
+Improvement at iteration 4982. New log likelihood: -7460.130068
+Improvement at iteration 4987. New log likelihood: -7459.707014
+Improvement at iteration 5015. New log likelihood: -7459.448868
+Improvement at iteration 5367. New log likelihood: -7459.437403
+Improvement at iteration 5371. New log likelihood: -7459.127406
+Improvement at iteration 5377. New log likelihood: -7458.862017
+Improvement at iteration 5381. New log likelihood: -7458.650990
+Improvement at iteration 5570. New log likelihood: -7458.251251
+Improvement at iteration 5857. New log likelihood: -7458.045031
+Improvement at iteration 5910. New log likelihood: -7457.992215
+Improvement at iteration 5938. New log likelihood: -7457.520146
+Improvement at iteration 5942. New log likelihood: -7457.511349
+Improvement at iteration 5947. New log likelihood: -7457.507771
+Improvement at iteration 5948. New log likelihood: -7457.458940
+Improvement at iteration 5949. New log likelihood: -7457.458929
+Improvement at iteration 5950. New log likelihood: -7457.372145
+Improvement at iteration 6006. New log likelihood: -7457.084724
+Improvement at iteration 6008. New log likelihood: -7456.964432
+Improvement at iteration 6031. New log likelihood: -7456.229405
+Improvement at iteration 6065. New log likelihood: -7455.954306
+Improvement at iteration 6068. New log likelihood: -7455.538724
+Improvement at iteration 6072. New log likelihood: -7455.264013
+Improvement at iteration 6075. New log likelihood: -7455.017802
+Improvement at iteration 6078. New log likelihood: -7454.878665
+Improvement at iteration 6080. New log likelihood: -7454.809662
+Improvement at iteration 6093. New log likelihood: -7454.697088
+Improvement at iteration 6095. New log likelihood: -7454.596828
+Improvement at iteration 6222. New log likelihood: -7453.427161
+Improvement at iteration 6265. New log likelihood: -7453.116406
+Improvement at iteration 6275. New log likelihood: -7453.075007
+Improvement at iteration 6291. New log likelihood: -7453.039745
+Improvement at iteration 6354. New log likelihood: -7452.958505
+Improvement at iteration 6357. New log likelihood: -7452.654920
+Improvement at iteration 6359. New log likelihood: -7452.625138
+Improvement at iteration 6365. New log likelihood: -7452.457091
+Improvement at iteration 6366. New log likelihood: -7452.440112
+Improvement at iteration 6367. New log likelihood: -7451.947231
+Improvement at iteration 6396. New log likelihood: -7451.901666
+Improvement at iteration 6398. New log likelihood: -7449.067167
+Improvement at iteration 6404. New log likelihood: -7449.054349
+Improvement at iteration 6432. New log likelihood: -7448.831613
+Improvement at iteration 6435. New log likelihood: -7448.008137
+Improvement at iteration 6463. New log likelihood: -7447.972674
+Improvement at iteration 6510. New log likelihood: -7447.546287
+Improvement at iteration 6544. New log likelihood: -7447.540678
+Improvement at iteration 6580. New log likelihood: -7447.459202
+Improvement at iteration 6591. New log likelihood: -7446.836683
+Improvement at iteration 6607. New log likelihood: -7446.759222
+Improvement at iteration 6820. New log likelihood: -7446.553004
+Improvement at iteration 6826. New log likelihood: -7446.126386
+Improvement at iteration 6827. New log likelihood: -7445.937998
+Improvement at iteration 6939. New log likelihood: -7445.387482
+Improvement at iteration 6952. New log likelihood: -7445.208609
+Improvement at iteration 6985. New log likelihood: -7444.563562
+Improvement at iteration 6986. New log likelihood: -7444.518846
+
+Wrote simulation data file: check4_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: check4_inference\Trial0/mysweep2.tsv
+Loading file: check6.lbs
+Starting inference
+Loading file: check6.lbs
+Loading file: check6.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 14. New log likelihood: -45432220.067578
+Improvement at iteration 35. New log likelihood: -41177708.890954
+Improvement at iteration 37. New log likelihood: -462134.628268
+Improvement at iteration 38. New log likelihood: -249510.716943
+Improvement at iteration 40. New log likelihood: -242851.006543
+Improvement at iteration 41. New log likelihood: -10924.697450
+Improvement at iteration 55. New log likelihood: -10621.968166
+Improvement at iteration 63. New log likelihood: -10481.273992
+Improvement at iteration 80. New log likelihood: -10266.462723
+Improvement at iteration 81. New log likelihood: -9946.417971
+Improvement at iteration 257. New log likelihood: -9872.641140
+Improvement at iteration 280. New log likelihood: -9079.441785
+Improvement at iteration 380. New log likelihood: -8248.271518
+Improvement at iteration 391. New log likelihood: -8211.191953
+Improvement at iteration 412. New log likelihood: -7921.612287
+Improvement at iteration 434. New log likelihood: -7896.540620
+Improvement at iteration 464. New log likelihood: -7726.785788
+Improvement at iteration 465. New log likelihood: -7669.365372
+Improvement at iteration 499. New log likelihood: -7667.531979
+Improvement at iteration 645. New log likelihood: -7667.120502
+Improvement at iteration 677. New log likelihood: -7661.575412
+Improvement at iteration 688. New log likelihood: -7661.549466
+Improvement at iteration 692. New log likelihood: -7456.490588
+Improvement at iteration 706. New log likelihood: -7453.898172
+Improvement at iteration 723. New log likelihood: -7453.771803
+Improvement at iteration 783. New log likelihood: -7347.042730
+Improvement at iteration 795. New log likelihood: -7343.314823
+Improvement at iteration 802. New log likelihood: -7339.905758
+Improvement at iteration 812. New log likelihood: -7339.647953
+Improvement at iteration 827. New log likelihood: -7320.552755
+Improvement at iteration 854. New log likelihood: -7319.521025
+Improvement at iteration 856. New log likelihood: -7319.008907
+Improvement at iteration 891. New log likelihood: -7294.740275
+Improvement at iteration 933. New log likelihood: -7292.981498
+Improvement at iteration 937. New log likelihood: -7292.566074
+Improvement at iteration 941. New log likelihood: -7278.474322
+Improvement at iteration 951. New log likelihood: -7223.528511
+Improvement at iteration 954. New log likelihood: -7222.696097
+Improvement at iteration 955. New log likelihood: -7210.498750
+Improvement at iteration 962. New log likelihood: -7196.469192
+Improvement at iteration 970. New log likelihood: -7189.205204
+Improvement at iteration 973. New log likelihood: -7172.828678
+Improvement at iteration 979. New log likelihood: -7167.866751
+Improvement at iteration 980. New log likelihood: -7165.735316
+Improvement at iteration 985. New log likelihood: -7162.139951
+Improvement at iteration 994. New log likelihood: -7160.373519
+Improvement at iteration 1002. New log likelihood: -7160.212154
+Improvement at iteration 1004. New log likelihood: -7159.788599
+Improvement at iteration 1008. New log likelihood: -7159.747878
+Improvement at iteration 1018. New log likelihood: -7153.562599
+Improvement at iteration 1025. New log likelihood: -7141.759566
+Improvement at iteration 1028. New log likelihood: -7141.085662
+Improvement at iteration 1049. New log likelihood: -7141.085649
+Improvement at iteration 1064. New log likelihood: -7126.120379
+Improvement at iteration 1079. New log likelihood: -7120.690694
+Improvement at iteration 1080. New log likelihood: -7117.581389
+Improvement at iteration 1082. New log likelihood: -7115.580621
+Improvement at iteration 1083. New log likelihood: -7086.619755
+Improvement at iteration 1093. New log likelihood: -7079.533976
+Improvement at iteration 1096. New log likelihood: -7077.810934
+Improvement at iteration 1102. New log likelihood: -7047.723098
+Improvement at iteration 1114. New log likelihood: -7035.946794
+Improvement at iteration 1116. New log likelihood: -7021.668509
+Improvement at iteration 1122. New log likelihood: -7017.902470
+Improvement at iteration 1129. New log likelihood: -7013.660495
+Improvement at iteration 1130. New log likelihood: -7012.933346
+Improvement at iteration 1138. New log likelihood: -7005.727851
+Improvement at iteration 1145. New log likelihood: -7004.608181
+Improvement at iteration 1149. New log likelihood: -7002.342363
+Improvement at iteration 1150. New log likelihood: -7000.221550
+Improvement at iteration 1153. New log likelihood: -6998.048879
+Improvement at iteration 1160. New log likelihood: -6996.544905
+Improvement at iteration 1183. New log likelihood: -6992.186222
+Improvement at iteration 1194. New log likelihood: -6984.249867
+Improvement at iteration 1195. New log likelihood: -6982.576665
+Improvement at iteration 1201. New log likelihood: -6970.758558
+Improvement at iteration 1204. New log likelihood: -6964.846114
+Improvement at iteration 1211. New log likelihood: -6954.260713
+Improvement at iteration 1219. New log likelihood: -6951.649923
+Improvement at iteration 1225. New log likelihood: -6942.434052
+Improvement at iteration 1226. New log likelihood: -6930.562366
+Improvement at iteration 1235. New log likelihood: -6926.441319
+Improvement at iteration 1236. New log likelihood: -6920.694091
+Improvement at iteration 1239. New log likelihood: -6913.306166
+Improvement at iteration 1241. New log likelihood: -6907.568515
+Improvement at iteration 1242. New log likelihood: -6885.159585
+Improvement at iteration 1246. New log likelihood: -6873.231127
+Improvement at iteration 1260. New log likelihood: -6870.427626
+Improvement at iteration 1273. New log likelihood: -6855.666156
+Improvement at iteration 1281. New log likelihood: -6850.636230
+Improvement at iteration 1291. New log likelihood: -6848.462345
+Improvement at iteration 1292. New log likelihood: -6848.226651
+Improvement at iteration 1294. New log likelihood: -6835.117498
+Improvement at iteration 1301. New log likelihood: -6830.457767
+Improvement at iteration 1305. New log likelihood: -6823.805942
+Improvement at iteration 1310. New log likelihood: -6819.316556
+Improvement at iteration 1316. New log likelihood: -6818.185996
+Improvement at iteration 1322. New log likelihood: -6816.327924
+Improvement at iteration 1336. New log likelihood: -6813.236008
+Improvement at iteration 1339. New log likelihood: -6813.133450
+Improvement at iteration 1354. New log likelihood: -6803.600687
+Improvement at iteration 1362. New log likelihood: -6801.300547
+Improvement at iteration 1369. New log likelihood: -6800.625067
+Improvement at iteration 1370. New log likelihood: -6791.254576
+Improvement at iteration 1372. New log likelihood: -6790.270519
+Improvement at iteration 1378. New log likelihood: -6790.236195
+Improvement at iteration 1385. New log likelihood: -6790.163125
+Improvement at iteration 1391. New log likelihood: -6787.817037
+Improvement at iteration 1394. New log likelihood: -6786.217019
+Improvement at iteration 1395. New log likelihood: -6785.976681
+Improvement at iteration 1399. New log likelihood: -6785.389210
+Improvement at iteration 1415. New log likelihood: -6782.768993
+Improvement at iteration 1422. New log likelihood: -6775.985589
+Improvement at iteration 1426. New log likelihood: -6775.850678
+Improvement at iteration 1433. New log likelihood: -6775.767120
+Improvement at iteration 1434. New log likelihood: -6773.232335
+Improvement at iteration 1467. New log likelihood: -6772.834535
+Improvement at iteration 1470. New log likelihood: -6772.712374
+Improvement at iteration 1478. New log likelihood: -6772.684601
+Improvement at iteration 1483. New log likelihood: -6771.830593
+Improvement at iteration 1488. New log likelihood: -6767.306137
+Improvement at iteration 1494. New log likelihood: -6766.838063
+Improvement at iteration 1506. New log likelihood: -6766.023473
+Improvement at iteration 1515. New log likelihood: -6765.598358
+Improvement at iteration 1516. New log likelihood: -6764.497211
+Improvement at iteration 1519. New log likelihood: -6761.398744
+Improvement at iteration 1524. New log likelihood: -6760.472948
+Improvement at iteration 1526. New log likelihood: -6759.464589
+Improvement at iteration 1542. New log likelihood: -6756.403953
+Improvement at iteration 1543. New log likelihood: -6756.304121
+Improvement at iteration 1553. New log likelihood: -6751.342492
+Improvement at iteration 1556. New log likelihood: -6743.342559
+Improvement at iteration 1567. New log likelihood: -6743.052933
+Improvement at iteration 1570. New log likelihood: -6742.606015
+Improvement at iteration 1582. New log likelihood: -6741.933833
+Improvement at iteration 1588. New log likelihood: -6740.248522
+Improvement at iteration 1605. New log likelihood: -6735.903042
+Improvement at iteration 1609. New log likelihood: -6734.576751
+Improvement at iteration 1611. New log likelihood: -6732.970404
+Improvement at iteration 1612. New log likelihood: -6730.533134
+Improvement at iteration 1614. New log likelihood: -6723.719964
+Improvement at iteration 1649. New log likelihood: -6722.972116
+Improvement at iteration 1663. New log likelihood: -6722.931223
+Improvement at iteration 1664. New log likelihood: -6722.737437
+Improvement at iteration 1671. New log likelihood: -6721.167400
+Improvement at iteration 1674. New log likelihood: -6721.142628
+Improvement at iteration 1677. New log likelihood: -6717.074049
+Improvement at iteration 1678. New log likelihood: -6715.380957
+Improvement at iteration 1685. New log likelihood: -6714.274051
+Improvement at iteration 1693. New log likelihood: -6714.165588
+Improvement at iteration 1696. New log likelihood: -6712.971985
+Improvement at iteration 1702. New log likelihood: -6711.171594
+Improvement at iteration 1703. New log likelihood: -6711.111594
+Improvement at iteration 1705. New log likelihood: -6710.419231
+Improvement at iteration 1711. New log likelihood: -6709.394644
+Improvement at iteration 1727. New log likelihood: -6708.062553
+Improvement at iteration 1734. New log likelihood: -6707.394612
+Improvement at iteration 1743. New log likelihood: -6707.185710
+Improvement at iteration 1751. New log likelihood: -6705.794458
+Improvement at iteration 1758. New log likelihood: -6705.325550
+Improvement at iteration 1760. New log likelihood: -6703.264357
+Improvement at iteration 1763. New log likelihood: -6702.001658
+Improvement at iteration 1779. New log likelihood: -6700.738537
+Improvement at iteration 5751. New log likelihood: -6700.637482
+
+Wrote simulation data file: check6_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: check6_inference\Trial0/mysweep2.tsv
+Loading file: check6.lbs
+Starting inference
+Loading file: check6.lbs
+Loading file: check6.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 36. New log likelihood: -1795304.412706
+Improvement at iteration 43. New log likelihood: -868887.863644
+Improvement at iteration 47. New log likelihood: -868526.173430
+Improvement at iteration 49. New log likelihood: -599600.731587
+Improvement at iteration 67. New log likelihood: -516822.035418
+Improvement at iteration 83. New log likelihood: -503215.300307
+Improvement at iteration 89. New log likelihood: -375385.589210
+Improvement at iteration 95. New log likelihood: -100739.720090
+Improvement at iteration 120. New log likelihood: -99006.099552
+Improvement at iteration 136. New log likelihood: -13275.169115
+Improvement at iteration 147. New log likelihood: -7458.032510
+Improvement at iteration 160. New log likelihood: -6279.602119
+Improvement at iteration 184. New log likelihood: -5312.411264
+Improvement at iteration 192. New log likelihood: -4986.952345
+Improvement at iteration 199. New log likelihood: -4626.651537
+Improvement at iteration 224. New log likelihood: -4473.504422
+Improvement at iteration 300. New log likelihood: -4323.488792
+Improvement at iteration 326. New log likelihood: -4216.495870
+Improvement at iteration 423. New log likelihood: -4023.315996
+Improvement at iteration 510. New log likelihood: -3963.301981
+Improvement at iteration 525. New log likelihood: -3932.650043
+Improvement at iteration 558. New log likelihood: -3929.794874
+Improvement at iteration 591. New log likelihood: -3876.427760
+Improvement at iteration 615. New log likelihood: -3866.495488
+Improvement at iteration 625. New log likelihood: -3866.051466
+Improvement at iteration 680. New log likelihood: -3860.498652
+Improvement at iteration 681. New log likelihood: -3853.213853
+Improvement at iteration 718. New log likelihood: -3851.671566
+Improvement at iteration 732. New log likelihood: -3841.804015
+Improvement at iteration 740. New log likelihood: -3820.830944
+Improvement at iteration 758. New log likelihood: -3810.126353
+Improvement at iteration 765. New log likelihood: -3810.062084
+Improvement at iteration 773. New log likelihood: -3799.975074
+Improvement at iteration 849. New log likelihood: -3795.869524
+Improvement at iteration 860. New log likelihood: -3794.344821
+Improvement at iteration 894. New log likelihood: -3794.067702
+Improvement at iteration 921. New log likelihood: -3777.825676
+Improvement at iteration 930. New log likelihood: -3774.867736
+Improvement at iteration 996. New log likelihood: -3765.075650
+Improvement at iteration 1035. New log likelihood: -3762.126807
+Improvement at iteration 1036. New log likelihood: -3761.885452
+Improvement at iteration 1047. New log likelihood: -3758.807971
+Improvement at iteration 1051. New log likelihood: -3757.691641
+Improvement at iteration 1055. New log likelihood: -3753.354531
+Improvement at iteration 1059. New log likelihood: -3737.946031
+Improvement at iteration 1061. New log likelihood: -3735.923228
+Improvement at iteration 1087. New log likelihood: -3729.528660
+Improvement at iteration 1100. New log likelihood: -3725.085901
+Improvement at iteration 1101. New log likelihood: -3723.158399
+Improvement at iteration 1124. New log likelihood: -3708.300022
+Improvement at iteration 1141. New log likelihood: -3701.783067
+Improvement at iteration 1148. New log likelihood: -3701.251373
+Improvement at iteration 1152. New log likelihood: -3699.486342
+Improvement at iteration 1157. New log likelihood: -3697.935739
+Improvement at iteration 1161. New log likelihood: -3697.046090
+Improvement at iteration 1162. New log likelihood: -3694.053870
+Improvement at iteration 1171. New log likelihood: -3691.576850
+Improvement at iteration 1193. New log likelihood: -3691.505753
+Improvement at iteration 1219. New log likelihood: -3691.371445
+Improvement at iteration 1226. New log likelihood: -3691.340414
+Improvement at iteration 1249. New log likelihood: -3690.987744
+Improvement at iteration 1272. New log likelihood: -3672.791614
+Improvement at iteration 1291. New log likelihood: -3671.951166
+Improvement at iteration 1305. New log likelihood: -3671.495535
+Improvement at iteration 1318. New log likelihood: -3671.065516
+Improvement at iteration 1324. New log likelihood: -3670.505641
+Improvement at iteration 1345. New log likelihood: -3670.431455
+Improvement at iteration 1352. New log likelihood: -3668.866167
+Improvement at iteration 1392. New log likelihood: -3668.680351
+Improvement at iteration 1414. New log likelihood: -3668.513590
+Improvement at iteration 1463. New log likelihood: -3666.697091
+Improvement at iteration 1519. New log likelihood: -3666.431840
+Improvement at iteration 1523. New log likelihood: -3666.288322
+Improvement at iteration 1527. New log likelihood: -3664.445687
+Improvement at iteration 1528. New log likelihood: -3663.860371
+Improvement at iteration 1536. New log likelihood: -3662.975197
+Improvement at iteration 1541. New log likelihood: -3662.215617
+Improvement at iteration 1544. New log likelihood: -3661.780177
+Improvement at iteration 1552. New log likelihood: -3661.750952
+Improvement at iteration 1557. New log likelihood: -3661.514930
+Improvement at iteration 1563. New log likelihood: -3661.446639
+Improvement at iteration 1591. New log likelihood: -3660.740755
+Improvement at iteration 1609. New log likelihood: -3660.379614
+Improvement at iteration 1713. New log likelihood: -3659.291136
+Improvement at iteration 1718. New log likelihood: -3658.868818
+Improvement at iteration 1719. New log likelihood: -3658.839023
+Improvement at iteration 1724. New log likelihood: -3658.470580
+Improvement at iteration 1730. New log likelihood: -3658.062867
+Improvement at iteration 2066. New log likelihood: -3658.026372
+Improvement at iteration 2088. New log likelihood: -3657.481715
+Improvement at iteration 2157. New log likelihood: -3657.234496
+Improvement at iteration 2158. New log likelihood: -3657.088301
+Improvement at iteration 2160. New log likelihood: -3656.895267
+Improvement at iteration 2162. New log likelihood: -3655.595151
+Improvement at iteration 2174. New log likelihood: -3655.510912
+Improvement at iteration 2179. New log likelihood: -3655.396223
+Improvement at iteration 2180. New log likelihood: -3655.220105
+Improvement at iteration 2184. New log likelihood: -3655.197629
+Improvement at iteration 2188. New log likelihood: -3655.052592
+Improvement at iteration 2189. New log likelihood: -3654.873014
+Improvement at iteration 2194. New log likelihood: -3654.833189
+Improvement at iteration 2197. New log likelihood: -3654.366602
+Improvement at iteration 2285. New log likelihood: -3653.642444
+Improvement at iteration 2295. New log likelihood: -3652.715756
+Improvement at iteration 2327. New log likelihood: -3652.527164
+Improvement at iteration 2328. New log likelihood: -3651.816679
+Improvement at iteration 2330. New log likelihood: -3651.614372
+Improvement at iteration 2350. New log likelihood: -3651.453802
+Improvement at iteration 2353. New log likelihood: -3650.531556
+Improvement at iteration 2375. New log likelihood: -3648.175076
+Improvement at iteration 2379. New log likelihood: -3647.416967
+Improvement at iteration 2380. New log likelihood: -3647.318711
+Improvement at iteration 2384. New log likelihood: -3646.587350
+Improvement at iteration 2404. New log likelihood: -3643.128413
+Improvement at iteration 2415. New log likelihood: -3642.805576
+Improvement at iteration 2422. New log likelihood: -3642.740607
+Improvement at iteration 2429. New log likelihood: -3642.651888
+Improvement at iteration 2432. New log likelihood: -3642.221188
+Improvement at iteration 2433. New log likelihood: -3641.435237
+Improvement at iteration 2441. New log likelihood: -3641.288521
+Improvement at iteration 2442. New log likelihood: -3641.189407
+Improvement at iteration 2457. New log likelihood: -3640.456032
+Improvement at iteration 2465. New log likelihood: -3640.125472
+Improvement at iteration 2467. New log likelihood: -3640.044246
+Improvement at iteration 2488. New log likelihood: -3640.025507
+Improvement at iteration 2553. New log likelihood: -3639.944177
+Improvement at iteration 2555. New log likelihood: -3639.806592
+Improvement at iteration 2559. New log likelihood: -3639.696668
+Improvement at iteration 2568. New log likelihood: -3639.583931
+Improvement at iteration 2573. New log likelihood: -3639.555555
+Improvement at iteration 2727. New log likelihood: -3639.409005
+Improvement at iteration 2845. New log likelihood: -3639.259945
+Improvement at iteration 2866. New log likelihood: -3638.697803
+Improvement at iteration 2986. New log likelihood: -3634.471180
+Improvement at iteration 2989. New log likelihood: -3634.465932
+Improvement at iteration 3023. New log likelihood: -3633.318219
+Improvement at iteration 3024. New log likelihood: -3633.191834
+Improvement at iteration 3028. New log likelihood: -3631.209818
+Improvement at iteration 3030. New log likelihood: -3630.963180
+Improvement at iteration 3035. New log likelihood: -3630.212774
+Improvement at iteration 3040. New log likelihood: -3629.867954
+Improvement at iteration 3125. New log likelihood: -3629.796290
+Improvement at iteration 3130. New log likelihood: -3629.633050
+Improvement at iteration 3133. New log likelihood: -3629.484444
+Improvement at iteration 3160. New log likelihood: -3629.398316
+Improvement at iteration 3164. New log likelihood: -3629.394733
+Improvement at iteration 3165. New log likelihood: -3629.095476
+Improvement at iteration 3166. New log likelihood: -3628.749809
+Improvement at iteration 3171. New log likelihood: -3628.635058
+Improvement at iteration 3198. New log likelihood: -3626.768423
+Improvement at iteration 3204. New log likelihood: -3625.863709
+Improvement at iteration 3209. New log likelihood: -3624.783020
+Improvement at iteration 3212. New log likelihood: -3623.992705
+Improvement at iteration 3213. New log likelihood: -3623.794330
+Improvement at iteration 3280. New log likelihood: -3623.783716
+Improvement at iteration 3281. New log likelihood: -3623.395332
+Improvement at iteration 3282. New log likelihood: -3622.798287
+Improvement at iteration 3298. New log likelihood: -3622.677535
+Improvement at iteration 3330. New log likelihood: -3622.464580
+Improvement at iteration 3342. New log likelihood: -3620.755141
+Improvement at iteration 3352. New log likelihood: -3620.375337
+Improvement at iteration 3392. New log likelihood: -3620.363040
+Improvement at iteration 3396. New log likelihood: -3617.278952
+Improvement at iteration 3402. New log likelihood: -3616.706889
+Improvement at iteration 3437. New log likelihood: -3616.413554
+Improvement at iteration 3444. New log likelihood: -3615.578181
+Improvement at iteration 3445. New log likelihood: -3615.542988
+Improvement at iteration 3480. New log likelihood: -3614.706818
+Improvement at iteration 3482. New log likelihood: -3614.552768
+Improvement at iteration 3572. New log likelihood: -3614.487528
+Improvement at iteration 3582. New log likelihood: -3614.370460
+Improvement at iteration 3584. New log likelihood: -3613.354764
+Improvement at iteration 3593. New log likelihood: -3611.698092
+Improvement at iteration 3596. New log likelihood: -3611.148834
+Improvement at iteration 3602. New log likelihood: -3610.850848
+Improvement at iteration 3636. New log likelihood: -3610.100078
+Improvement at iteration 3637. New log likelihood: -3609.928426
+Improvement at iteration 3639. New log likelihood: -3608.432323
+Improvement at iteration 3648. New log likelihood: -3608.398900
+Improvement at iteration 3947. New log likelihood: -3607.801787
+Improvement at iteration 3956. New log likelihood: -3607.262779
+Improvement at iteration 3958. New log likelihood: -3607.177678
+Improvement at iteration 3977. New log likelihood: -3606.147693
+Improvement at iteration 3995. New log likelihood: -3606.003736
+Improvement at iteration 4008. New log likelihood: -3604.875025
+Improvement at iteration 4018. New log likelihood: -3604.387996
+Improvement at iteration 4020. New log likelihood: -3604.174529
+Improvement at iteration 4027. New log likelihood: -3603.597385
+Improvement at iteration 4084. New log likelihood: -3602.146031
+Improvement at iteration 4093. New log likelihood: -3602.113093
+Improvement at iteration 4122. New log likelihood: -3601.781297
+Improvement at iteration 4123. New log likelihood: -3601.155703
+Improvement at iteration 4130. New log likelihood: -3600.797957
+Improvement at iteration 4222. New log likelihood: -3599.731888
+Improvement at iteration 4236. New log likelihood: -3599.282526
+Improvement at iteration 4238. New log likelihood: -3599.221124
+Improvement at iteration 4239. New log likelihood: -3598.416755
+Improvement at iteration 4252. New log likelihood: -3597.604593
+Improvement at iteration 4253. New log likelihood: -3597.382079
+Improvement at iteration 4254. New log likelihood: -3596.201903
+Improvement at iteration 4256. New log likelihood: -3596.190242
+Improvement at iteration 4284. New log likelihood: -3596.123208
+Improvement at iteration 4286. New log likelihood: -3595.784293
+Improvement at iteration 4291. New log likelihood: -3595.539427
+Improvement at iteration 4299. New log likelihood: -3592.831871
+Improvement at iteration 4301. New log likelihood: -3591.882001
+Improvement at iteration 4312. New log likelihood: -3590.617198
+Improvement at iteration 4322. New log likelihood: -3589.495376
+Improvement at iteration 4324. New log likelihood: -3589.380395
+Improvement at iteration 4616. New log likelihood: -3589.213221
+Improvement at iteration 4618. New log likelihood: -3587.758492
+Improvement at iteration 4630. New log likelihood: -3587.489933
+Improvement at iteration 4633. New log likelihood: -3587.414372
+Improvement at iteration 4689. New log likelihood: -3586.300894
+Improvement at iteration 4710. New log likelihood: -3585.176975
+Improvement at iteration 4713. New log likelihood: -3582.732035
+Improvement at iteration 4721. New log likelihood: -3582.193804
+Improvement at iteration 4731. New log likelihood: -3581.725673
+Improvement at iteration 4752. New log likelihood: -3581.266971
+Improvement at iteration 4757. New log likelihood: -3580.404617
+Improvement at iteration 4758. New log likelihood: -3580.194114
+Improvement at iteration 4765. New log likelihood: -3579.190781
+Improvement at iteration 4861. New log likelihood: -3579.170982
+Improvement at iteration 4863. New log likelihood: -3578.991791
+Improvement at iteration 4864. New log likelihood: -3578.137901
+Improvement at iteration 4865. New log likelihood: -3577.772376
+Improvement at iteration 4869. New log likelihood: -3576.923183
+Improvement at iteration 4873. New log likelihood: -3576.124477
+Improvement at iteration 4874. New log likelihood: -3574.171842
+Improvement at iteration 4877. New log likelihood: -3574.041669
+Improvement at iteration 4880. New log likelihood: -3573.250095
+Improvement at iteration 4884. New log likelihood: -3573.148646
+Improvement at iteration 4913. New log likelihood: -3572.765548
+Improvement at iteration 4923. New log likelihood: -3572.042296
+Improvement at iteration 4925. New log likelihood: -3570.113255
+Improvement at iteration 4930. New log likelihood: -3569.850428
+Improvement at iteration 4932. New log likelihood: -3569.807100
+Improvement at iteration 4944. New log likelihood: -3569.248261
+Improvement at iteration 4947. New log likelihood: -3568.733273
+Improvement at iteration 4952. New log likelihood: -3568.605412
+Improvement at iteration 4958. New log likelihood: -3568.299872
+Improvement at iteration 4976. New log likelihood: -3568.275779
+Improvement at iteration 4980. New log likelihood: -3568.041749
+Improvement at iteration 4981. New log likelihood: -3567.643066
+Improvement at iteration 4983. New log likelihood: -3567.027333
+Improvement at iteration 4986. New log likelihood: -3565.117636
+Improvement at iteration 4996. New log likelihood: -3564.697640
+Improvement at iteration 5011. New log likelihood: -3564.059719
+Improvement at iteration 5013. New log likelihood: -3564.048898
+Improvement at iteration 5015. New log likelihood: -3563.526075
+Improvement at iteration 5016. New log likelihood: -3561.794918
+Improvement at iteration 5027. New log likelihood: -3561.729476
+Improvement at iteration 5038. New log likelihood: -3561.220022
+Improvement at iteration 5047. New log likelihood: -3561.073439
+Improvement at iteration 5063. New log likelihood: -3560.715649
+Improvement at iteration 5067. New log likelihood: -3559.771530
+Improvement at iteration 5189. New log likelihood: -3558.569675
+Improvement at iteration 5195. New log likelihood: -3558.563386
+Improvement at iteration 5198. New log likelihood: -3558.192680
+Improvement at iteration 5200. New log likelihood: -3557.765644
+Improvement at iteration 5243. New log likelihood: -3556.631818
+Improvement at iteration 5255. New log likelihood: -3556.329886
+Improvement at iteration 5262. New log likelihood: -3555.912723
+Improvement at iteration 5268. New log likelihood: -3554.316969
+Improvement at iteration 5269. New log likelihood: -3554.208057
+Improvement at iteration 5274. New log likelihood: -3553.060615
+Improvement at iteration 5280. New log likelihood: -3552.169301
+Improvement at iteration 5288. New log likelihood: -3550.774217
+Improvement at iteration 5290. New log likelihood: -3549.775503
+Improvement at iteration 5297. New log likelihood: -3547.942842
+Improvement at iteration 5300. New log likelihood: -3546.701279
+Improvement at iteration 5302. New log likelihood: -3545.780755
+Improvement at iteration 5305. New log likelihood: -3544.730068
+Improvement at iteration 5306. New log likelihood: -3544.618910
+Improvement at iteration 5313. New log likelihood: -3544.516149
+Improvement at iteration 5314. New log likelihood: -3543.796794
+Improvement at iteration 5317. New log likelihood: -3538.370798
+Improvement at iteration 5336. New log likelihood: -3538.114316
+Improvement at iteration 5342. New log likelihood: -3537.131161
+Improvement at iteration 5352. New log likelihood: -3536.789409
+Improvement at iteration 5357. New log likelihood: -3536.269520
+Improvement at iteration 5394. New log likelihood: -3535.236327
+Improvement at iteration 5398. New log likelihood: -3534.687953
+Improvement at iteration 5402. New log likelihood: -3534.244849
+Improvement at iteration 5404. New log likelihood: -3533.806594
+Improvement at iteration 5414. New log likelihood: -3532.716019
+Improvement at iteration 5418. New log likelihood: -3531.172090
+Improvement at iteration 5419. New log likelihood: -3530.830764
+Improvement at iteration 5426. New log likelihood: -3530.282857
+Improvement at iteration 5427. New log likelihood: -3527.797734
+Improvement at iteration 5430. New log likelihood: -3527.444614
+Improvement at iteration 5431. New log likelihood: -3525.677294
+Improvement at iteration 5509. New log likelihood: -3525.636212
+Improvement at iteration 5513. New log likelihood: -3523.416309
+Improvement at iteration 5527. New log likelihood: -3523.049334
+Improvement at iteration 5528. New log likelihood: -3522.895720
+Improvement at iteration 5529. New log likelihood: -3521.813790
+Improvement at iteration 5531. New log likelihood: -3521.253181
+Improvement at iteration 5535. New log likelihood: -3518.603712
+Improvement at iteration 5541. New log likelihood: -3517.381164
+Improvement at iteration 5545. New log likelihood: -3516.721436
+Improvement at iteration 5551. New log likelihood: -3515.779540
+Improvement at iteration 5559. New log likelihood: -3514.393817
+Improvement at iteration 5562. New log likelihood: -3513.328924
+Improvement at iteration 5565. New log likelihood: -3513.243153
+Improvement at iteration 5566. New log likelihood: -3513.071577
+Improvement at iteration 5572. New log likelihood: -3511.793955
+Improvement at iteration 5574. New log likelihood: -3510.974334
+Improvement at iteration 5582. New log likelihood: -3510.390099
+Improvement at iteration 5583. New log likelihood: -3508.874012
+Improvement at iteration 5590. New log likelihood: -3508.661894
+Improvement at iteration 5594. New log likelihood: -3507.333971
+Improvement at iteration 5600. New log likelihood: -3507.246338
+Improvement at iteration 5603. New log likelihood: -3506.255463
+Improvement at iteration 5605. New log likelihood: -3505.402284
+Improvement at iteration 5610. New log likelihood: -3503.906055
+Improvement at iteration 5620. New log likelihood: -3503.451411
+Improvement at iteration 5622. New log likelihood: -3502.016526
+Improvement at iteration 5623. New log likelihood: -3501.842556
+Improvement at iteration 5624. New log likelihood: -3499.057741
+Improvement at iteration 5639. New log likelihood: -3498.296969
+Improvement at iteration 5641. New log likelihood: -3498.003929
+Improvement at iteration 5649. New log likelihood: -3497.727851
+Improvement at iteration 5651. New log likelihood: -3496.929954
+Improvement at iteration 5656. New log likelihood: -3494.337611
+Improvement at iteration 5682. New log likelihood: -3491.924691
+Improvement at iteration 5684. New log likelihood: -3491.829009
+Improvement at iteration 5685. New log likelihood: -3491.255640
+Improvement at iteration 5686. New log likelihood: -3491.232494
+Improvement at iteration 5697. New log likelihood: -3489.752636
+Improvement at iteration 5699. New log likelihood: -3488.583817
+Improvement at iteration 5704. New log likelihood: -3487.882373
+Improvement at iteration 5708. New log likelihood: -3487.439007
+Improvement at iteration 5712. New log likelihood: -3486.774131
+Improvement at iteration 5715. New log likelihood: -3486.743681
+Improvement at iteration 5718. New log likelihood: -3481.139464
+Improvement at iteration 5719. New log likelihood: -3479.615849
+Improvement at iteration 5758. New log likelihood: -3477.716109
+Improvement at iteration 5761. New log likelihood: -3472.915726
+Improvement at iteration 5764. New log likelihood: -3472.725446
+Improvement at iteration 5776. New log likelihood: -3472.233390
+Improvement at iteration 5777. New log likelihood: -3471.927890
+Improvement at iteration 5778. New log likelihood: -3471.496991
+Improvement at iteration 5797. New log likelihood: -3469.501749
+Improvement at iteration 5802. New log likelihood: -3468.497643
+Improvement at iteration 5803. New log likelihood: -3468.497422
+Improvement at iteration 5809. New log likelihood: -3467.609024
+Improvement at iteration 5810. New log likelihood: -3467.097964
+Improvement at iteration 5820. New log likelihood: -3464.979167
+Improvement at iteration 5825. New log likelihood: -3464.805957
+Improvement at iteration 5833. New log likelihood: -3462.212401
+Improvement at iteration 5853. New log likelihood: -3461.901289
+Improvement at iteration 5858. New log likelihood: -3457.409623
+Improvement at iteration 5867. New log likelihood: -3457.065826
+Improvement at iteration 5869. New log likelihood: -3455.724672
+Improvement at iteration 5874. New log likelihood: -3454.299008
+Improvement at iteration 5895. New log likelihood: -3453.770790
+Improvement at iteration 5896. New log likelihood: -3453.372593
+Improvement at iteration 5897. New log likelihood: -3453.255533
+Improvement at iteration 5898. New log likelihood: -3452.966912
+Improvement at iteration 5907. New log likelihood: -3452.680713
+Improvement at iteration 5954. New log likelihood: -3451.053116
+Improvement at iteration 5956. New log likelihood: -3450.463164
+Improvement at iteration 5962. New log likelihood: -3449.233651
+Improvement at iteration 5964. New log likelihood: -3447.298002
+Improvement at iteration 5965. New log likelihood: -3446.390462
+Improvement at iteration 5970. New log likelihood: -3445.229172
+Improvement at iteration 5971. New log likelihood: -3445.213259
+Improvement at iteration 5972. New log likelihood: -3445.071028
+Improvement at iteration 5977. New log likelihood: -3443.611091
+Improvement at iteration 5982. New log likelihood: -3441.351228
+Improvement at iteration 5983. New log likelihood: -3440.815945
+Improvement at iteration 5986. New log likelihood: -3440.205085
+Improvement at iteration 5989. New log likelihood: -3437.534468
+Improvement at iteration 5993. New log likelihood: -3435.010227
+Improvement at iteration 5994. New log likelihood: -3433.429508
+Improvement at iteration 5996. New log likelihood: -3428.812698
+Improvement at iteration 6004. New log likelihood: -3428.742241
+Improvement at iteration 6008. New log likelihood: -3428.557564
+Improvement at iteration 6029. New log likelihood: -3425.173240
+Improvement at iteration 6030. New log likelihood: -3423.900541
+Improvement at iteration 6050. New log likelihood: -3420.271750
+Improvement at iteration 6051. New log likelihood: -3420.000704
+Improvement at iteration 6052. New log likelihood: -3418.595751
+Improvement at iteration 6057. New log likelihood: -3417.409956
+Improvement at iteration 6058. New log likelihood: -3414.996089
+Improvement at iteration 6059. New log likelihood: -3414.465375
+Improvement at iteration 6062. New log likelihood: -3413.479965
+Improvement at iteration 6064. New log likelihood: -3410.739397
+Improvement at iteration 6065. New log likelihood: -3409.281773
+Improvement at iteration 6067. New log likelihood: -3406.930377
+Improvement at iteration 6068. New log likelihood: -3406.888379
+Improvement at iteration 6069. New log likelihood: -3406.750558
+Improvement at iteration 6070. New log likelihood: -3406.624768
+Improvement at iteration 6079. New log likelihood: -3403.596529
+Improvement at iteration 6080. New log likelihood: -3402.960826
+Improvement at iteration 6083. New log likelihood: -3402.307168
+Improvement at iteration 6095. New log likelihood: -3398.477990
+Improvement at iteration 6114. New log likelihood: -3396.463514
+Improvement at iteration 6118. New log likelihood: -3396.299209
+Improvement at iteration 6120. New log likelihood: -3395.151404
+Improvement at iteration 6123. New log likelihood: -3394.025198
+Improvement at iteration 6126. New log likelihood: -3392.019073
+Improvement at iteration 6128. New log likelihood: -3391.311965
+Improvement at iteration 6176. New log likelihood: -3390.140778
+Improvement at iteration 6177. New log likelihood: -3388.651926
+Improvement at iteration 6184. New log likelihood: -3388.451445
+Improvement at iteration 6191. New log likelihood: -3387.313870
+Improvement at iteration 6193. New log likelihood: -3386.475096
+Improvement at iteration 6199. New log likelihood: -3382.125162
+Improvement at iteration 6202. New log likelihood: -3382.074755
+Improvement at iteration 6212. New log likelihood: -3379.006231
+Improvement at iteration 6225. New log likelihood: -3378.235967
+Improvement at iteration 6227. New log likelihood: -3377.960987
+Improvement at iteration 6229. New log likelihood: -3377.124818
+Improvement at iteration 6230. New log likelihood: -3374.005557
+Improvement at iteration 6238. New log likelihood: -3373.116275
+Improvement at iteration 6239. New log likelihood: -3373.026114
+Improvement at iteration 6255. New log likelihood: -3368.019340
+Improvement at iteration 6256. New log likelihood: -3366.607396
+Improvement at iteration 6265. New log likelihood: -3366.588360
+Improvement at iteration 6267. New log likelihood: -3365.978144
+Improvement at iteration 6280. New log likelihood: -3365.571247
+Improvement at iteration 6282. New log likelihood: -3364.743532
+Improvement at iteration 6283. New log likelihood: -3363.069813
+Improvement at iteration 6296. New log likelihood: -3361.120609
+Improvement at iteration 6299. New log likelihood: -3358.840243
+Improvement at iteration 6301. New log likelihood: -3357.847362
+Improvement at iteration 6312. New log likelihood: -3357.182731
+Improvement at iteration 6319. New log likelihood: -3357.150504
+Improvement at iteration 6324. New log likelihood: -3356.584447
+Improvement at iteration 6327. New log likelihood: -3355.406526
+Improvement at iteration 6329. New log likelihood: -3355.233490
+Improvement at iteration 6335. New log likelihood: -3352.927280
+Improvement at iteration 6338. New log likelihood: -3349.762973
+Improvement at iteration 6341. New log likelihood: -3349.579094
+Improvement at iteration 6353. New log likelihood: -3348.949086
+Improvement at iteration 6363. New log likelihood: -3348.088639
+Improvement at iteration 6368. New log likelihood: -3345.908333
+Improvement at iteration 6372. New log likelihood: -3344.366818
+Improvement at iteration 6373. New log likelihood: -3343.480360
+Improvement at iteration 6379. New log likelihood: -3342.212574
+Improvement at iteration 6382. New log likelihood: -3340.743807
+Improvement at iteration 6384. New log likelihood: -3340.666461
+Improvement at iteration 6386. New log likelihood: -3337.777678
+Improvement at iteration 6387. New log likelihood: -3337.451947
+Improvement at iteration 6391. New log likelihood: -3332.414047
+Improvement at iteration 6395. New log likelihood: -3332.038330
+Improvement at iteration 6405. New log likelihood: -3330.423598
+Improvement at iteration 6407. New log likelihood: -3330.021832
+Improvement at iteration 6415. New log likelihood: -3327.587345
+Improvement at iteration 6425. New log likelihood: -3327.087583
+Improvement at iteration 6426. New log likelihood: -3326.691540
+Improvement at iteration 6429. New log likelihood: -3326.202708
+Improvement at iteration 6445. New log likelihood: -3325.269962
+Improvement at iteration 6455. New log likelihood: -3324.981438
+Improvement at iteration 6457. New log likelihood: -3321.945113
+Improvement at iteration 6459. New log likelihood: -3321.102624
+Improvement at iteration 6471. New log likelihood: -3320.709382
+Improvement at iteration 6472. New log likelihood: -3319.291448
+Improvement at iteration 6475. New log likelihood: -3318.115129
+Improvement at iteration 6476. New log likelihood: -3317.803053
+Improvement at iteration 6478. New log likelihood: -3317.794387
+Improvement at iteration 6481. New log likelihood: -3315.259933
+Improvement at iteration 6487. New log likelihood: -3314.304692
+Improvement at iteration 6491. New log likelihood: -3314.229380
+Improvement at iteration 6497. New log likelihood: -3312.801942
+Improvement at iteration 6500. New log likelihood: -3312.503400
+Improvement at iteration 6501. New log likelihood: -3306.674125
+Improvement at iteration 6503. New log likelihood: -3305.618783
+Improvement at iteration 6507. New log likelihood: -3304.982402
+Improvement at iteration 6508. New log likelihood: -3303.037962
+Improvement at iteration 6511. New log likelihood: -3303.011317
+Improvement at iteration 6512. New log likelihood: -3302.877963
+Improvement at iteration 6521. New log likelihood: -3300.621278
+Improvement at iteration 6528. New log likelihood: -3297.726931
+Improvement at iteration 6542. New log likelihood: -3296.026415
+Improvement at iteration 6543. New log likelihood: -3293.484564
+Improvement at iteration 6547. New log likelihood: -3293.229980
+Improvement at iteration 6549. New log likelihood: -3293.188760
+Improvement at iteration 6550. New log likelihood: -3290.893990
+Improvement at iteration 6553. New log likelihood: -3288.221770
+Improvement at iteration 6556. New log likelihood: -3288.167414
+Improvement at iteration 6557. New log likelihood: -3288.088442
+Improvement at iteration 6558. New log likelihood: -3283.657855
+Improvement at iteration 6562. New log likelihood: -3283.419073
+Improvement at iteration 6566. New log likelihood: -3283.150570
+Improvement at iteration 6575. New log likelihood: -3282.469909
+Improvement at iteration 6585. New log likelihood: -3278.853507
+Improvement at iteration 6586. New log likelihood: -3276.173572
+Improvement at iteration 6593. New log likelihood: -3275.159228
+Improvement at iteration 6595. New log likelihood: -3274.033877
+Improvement at iteration 6598. New log likelihood: -3273.425663
+Improvement at iteration 6604. New log likelihood: -3270.818897
+Improvement at iteration 6606. New log likelihood: -3270.399208
+Improvement at iteration 6615. New log likelihood: -3269.863544
+Improvement at iteration 6616. New log likelihood: -3269.036200
+Improvement at iteration 6618. New log likelihood: -3265.458511
+Improvement at iteration 6623. New log likelihood: -3265.301524
+Improvement at iteration 6626. New log likelihood: -3258.711265
+Improvement at iteration 6629. New log likelihood: -3258.689076
+Improvement at iteration 6633. New log likelihood: -3258.021497
+Improvement at iteration 6635. New log likelihood: -3255.966945
+Improvement at iteration 6644. New log likelihood: -3254.628313
+Improvement at iteration 6647. New log likelihood: -3249.140041
+Improvement at iteration 6649. New log likelihood: -3243.942882
+Improvement at iteration 6654. New log likelihood: -3235.057798
+Improvement at iteration 6660. New log likelihood: -3233.596702
+Improvement at iteration 6661. New log likelihood: -3232.951125
+Improvement at iteration 6665. New log likelihood: -3226.442572
+Improvement at iteration 6666. New log likelihood: -3225.316814
+Improvement at iteration 6671. New log likelihood: -3224.956680
+Improvement at iteration 6672. New log likelihood: -3221.060255
+Improvement at iteration 6685. New log likelihood: -3219.849890
+Improvement at iteration 6704. New log likelihood: -3219.319705
+Improvement at iteration 6707. New log likelihood: -3218.281427
+Improvement at iteration 6711. New log likelihood: -3218.003561
+Improvement at iteration 6712. New log likelihood: -3217.616648
+Improvement at iteration 6715. New log likelihood: -3216.972998
+Improvement at iteration 6717. New log likelihood: -3216.637324
+Improvement at iteration 6718. New log likelihood: -3216.387953
+Improvement at iteration 6729. New log likelihood: -3214.700157
+Improvement at iteration 6731. New log likelihood: -3212.756744
+Improvement at iteration 6735. New log likelihood: -3212.592311
+Improvement at iteration 6740. New log likelihood: -3207.328697
+Improvement at iteration 6746. New log likelihood: -3206.882280
+Improvement at iteration 6747. New log likelihood: -3205.071675
+Improvement at iteration 6749. New log likelihood: -3202.293031
+Improvement at iteration 6751. New log likelihood: -3202.105896
+Improvement at iteration 6753. New log likelihood: -3202.075768
+Improvement at iteration 6758. New log likelihood: -3200.052114
+Improvement at iteration 6760. New log likelihood: -3193.174396
+Improvement at iteration 6770. New log likelihood: -3191.579994
+Improvement at iteration 6773. New log likelihood: -3188.084660
+Improvement at iteration 6774. New log likelihood: -3185.441254
+Improvement at iteration 6779. New log likelihood: -3184.971470
+Improvement at iteration 6798. New log likelihood: -3182.695592
+Improvement at iteration 6806. New log likelihood: -3178.255977
+Improvement at iteration 6808. New log likelihood: -3175.896038
+Improvement at iteration 6813. New log likelihood: -3174.424235
+Improvement at iteration 6814. New log likelihood: -3174.237747
+Improvement at iteration 6816. New log likelihood: -3173.243847
+Improvement at iteration 6823. New log likelihood: -3172.927771
+Improvement at iteration 6824. New log likelihood: -3172.868841
+Improvement at iteration 6834. New log likelihood: -3172.329822
+Improvement at iteration 6853. New log likelihood: -3167.869445
+Improvement at iteration 6855. New log likelihood: -3167.525456
+Improvement at iteration 6863. New log likelihood: -3165.675708
+Improvement at iteration 6864. New log likelihood: -3165.411786
+Improvement at iteration 6868. New log likelihood: -3164.395202
+Improvement at iteration 6872. New log likelihood: -3161.696206
+Improvement at iteration 6912. New log likelihood: -3156.630648
+Improvement at iteration 6921. New log likelihood: -3155.938243
+Improvement at iteration 6923. New log likelihood: -3153.841285
+Improvement at iteration 6924. New log likelihood: -3150.671264
+Improvement at iteration 6930. New log likelihood: -3150.075830
+Improvement at iteration 6931. New log likelihood: -3149.387607
+Improvement at iteration 6932. New log likelihood: -3149.149549
+Improvement at iteration 6934. New log likelihood: -3146.397676
+Improvement at iteration 6944. New log likelihood: -3145.457437
+Improvement at iteration 6950. New log likelihood: -3138.651116
+Improvement at iteration 6962. New log likelihood: -3138.646760
+Improvement at iteration 6965. New log likelihood: -3136.565599
+Improvement at iteration 6967. New log likelihood: -3134.151453
+Improvement at iteration 6970. New log likelihood: -3130.975362
+Improvement at iteration 6975. New log likelihood: -3128.018669
+Improvement at iteration 6983. New log likelihood: -3125.447286
+Improvement at iteration 6985. New log likelihood: -3123.814556
+Improvement at iteration 6994. New log likelihood: -3122.019654
+
+Wrote simulation data file: check6_inference\Trial1/mysweep1.tsv
+
+Wrote simulation data file: check6_inference\Trial1/mysweep2.tsv

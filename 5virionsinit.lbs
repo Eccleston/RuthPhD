@@ -1,7 +1,7 @@
 directive sample 9*3600.0 9000
 directive simulation stochastic
 directive parameters [N=5.0]
-directive plot Me-P1;Me-P2;Me-P3;Me-P4;Me-P5;Me-P6;Me-P7;Me-P8;Me-P9
+//directive plot Me-P1;Me-P2;Me-P3;Me-P4;Me-P5;Me-P6;Me-P7;Me-P8;Me-P9
 directive time s
 
 // MHC model parameters

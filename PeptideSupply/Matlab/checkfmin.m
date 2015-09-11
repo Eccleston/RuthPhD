@@ -1,16 +1,3 @@
-
-sf1=0.1323;%0.109191165981564;%0.00504133178459042;%0.003411838;
-
-sf2=0.78040.555429420251379;%0.969957735248499;%0.237878986;
-
-sf3=0.00100010131001115;%0.00131976368681847;%0.004997214;
-
-gM=150.5;
-
-upfactor=390.7520171688;%0;%999.228892;
-
-%% Load data
-
 datadir = '../Data/';
 
 dat1 = dlmread([datadir 'AllData_150520_ASN_SSL.txt'],',',1,1);
@@ -24,6 +11,80 @@ SSL_surf_ifn2 = reshape(dat1(locs,6),8,8);
 ASN_cyt_none = reshape(dat1(locs,7),8,8);
 ASN_cyt_ifn1 = reshape(dat1(locs,8),8,8);
 ASN_cyt_ifn2 = reshape(dat1(locs,9),8,8);
+
+A = [SSL_cyt_none(:,1) ASN_cyt_none(:,1);
+     SSL_cyt_none(:,2) ASN_cyt_none(:,2);
+     SSL_cyt_none(:,3) ASN_cyt_none(:,3);
+     SSL_cyt_none(:,4) ASN_cyt_none(:,4);
+     SSL_cyt_none(:,5) ASN_cyt_none(:,5);
+     SSL_cyt_none(:,6) ASN_cyt_none(:,6);
+     SSL_cyt_none(:,7) ASN_cyt_none(:,7);
+     SSL_cyt_none(:,8) ASN_cyt_none(:,8);];
+ 
+ str = 'deterministicstiff_in1 ='
+ % Start with first entry
+str = sprintf('%s(%1.2f,%1.2f)',str,A(1,1),A(1,2));
+% Then add a comma and additional entries in a loop
+MeP1_none_1=zeros(8,8);
+Folder = fullfile('C:\Users\RuthCharlotte\Documents\GitHub\RuthPhD\PeptideSupply\CliLBS\checkfmin3_simulation\mysweep1\')
+for i = 1:length(A)
+  str= 'deterministicstiff_in1 =';
+  str = sprintf('%s %.1f',str,A(i,1));
+  str2 ='in2 =';
+  str=sprintf('%s, %s %.1f', str, str2, A(i,2));
+  str3 = '.tsv';
+  str=sprintf('%s%s',str,str3);
+  d = dlmread([Folder str],'\t',1,0);
+  MeP1_none_1(i)=d(end,2);
+end
+
+B = [SSL_cyt_ifn1(:,1) ASN_cyt_ifn1(:,1);
+     SSL_cyt_ifn1(:,2) ASN_cyt_ifn1(:,2);
+     SSL_cyt_ifn1(:,3) ASN_cyt_ifn1(:,3);
+     SSL_cyt_ifn1(:,4) ASN_cyt_ifn1(:,4);
+     SSL_cyt_ifn1(:,5) ASN_cyt_ifn1(:,5);
+     SSL_cyt_ifn1(:,6) ASN_cyt_ifn1(:,6);
+     SSL_cyt_ifn1(:,7) ASN_cyt_ifn1(:,7);
+     SSL_cyt_ifn1(:,8) ASN_cyt_ifn1(:,8);];
+
+valid = ~isnan(B(:,1));
+valid2 = ~isnan(B(:,2));
+v=B(valid,1);
+w=B(valid2,2);
+B=[v w];
+
+MeP1_ifn1_1=zeros(8,8);
+IFN1=zeros(62,1);
+Folder = fullfile('C:\Users\RuthCharlotte\Documents\GitHub\RuthPhD\PeptideSupply\CliLBS\checkfmin_simulation\mysweep2\')
+for i = 1:length(B)
+  str= 'deterministicstiff_in1 =';
+  str = sprintf('%s %.1f',str,B(i,1));
+  str2 ='in2 =';
+  str=sprintf('%s, %s %.1f', str, str2, B(i,2));
+  str3 = '.tsv';
+  str=sprintf('%s%s',str,str3);
+  d = dlmread([Folder str],'\t',1,0);
+  IFN1(i)=d(end,2);
+end
+
+MeP1_ifn1_1(1:8,1)=IFN1(1:8);
+MeP1_ifn1_1(1:8,2)=IFN1(9:16);
+MeP1_ifn1_1(1:7,3)=IFN1(17:23);
+MeP1_ifn1_1(1:8,4)=IFN1(24:31);
+MeP1_ifn1_1(1:7,5)=IFN1(32:38);
+MeP1_ifn1_1(1:8,6)=IFN1(39:46);
+MeP1_ifn1_1(1:8,7)=IFN1(47:54);
+MeP1_ifn1_1(1:8,8)=IFN1(55:62);
+
+sf1=0.1323;%0.109191165981564;%0.00504133178459042;%0.003411838;
+
+sf2=0.7804;%0.555429420251379;%0.969957735248499;%0.237878986;
+
+sf3=3.9468e-4;%0.00100010131001115;%0.00131976368681847;%0.004997214;
+
+gM=150.5;
+
+upfactor=1.5371e3;%390.7520171688;%0;%999.228892;
 
 % Set u1 to be the measurement of the target peptide off-rate
 u1 = log(2)/(728.5746 * 60);
@@ -47,39 +108,7 @@ gtarget_ifn1_1=SSL_cyt_ifn1(1:7,1:7);
 gcomp_ifn1_1=ASN_cyt_ifn1(1:7,1:7);
 % Set data_2 to be the cell surface measure of the competitor peptide
 data_ifn1_1=SSL_surf_ifn1(1:7,1:7);
-
-Ng1=8; Ng2=8;
-
-for i1=1:Ng1
-    for i2=1:Ng1
-                
-        [MeP1_none_1(i1, i2), MeP2_none_1(i1, i2)]=simulateMHC_mcmc(sf1*gtarget_none_1(i1, i2), sf2*gcomp_none_1(i1, i2), u1, u2, gM, 0, 0);
-        %[MeP1_none_2(i1, i2), MeP2_none_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_none_2(i1, i2), sf2*gcomp_none_2(i1, i2), u1, u2, gM1);
-        %[MeP1_ifn1_1(i1, i2), MeP2_ifn1_1(i1, i2)]=simulateMHC_mcmc(sf1*gtarget_ifn1_1(i1, i2), sf2*gcomp_ifn1_1(i1, i2), u1, u2, gM, 1, upfactor);
-        %[MeP1_ifn1_2(i1, i2), MeP2_ifn1_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_ifn1_2(i1, i2), sf2*gcomp_ifn1_2(i1, i2), u1, u2, upreg*gM1);
-    end
-end
-for i1=1:7
-    for i2=1:7
-                
-        %[MeP1_none_1(i1, i2), MeP2_none_1(i1, i2)]=simulateMHC_mcmc(sf1*gtarget_none_1(i1, i2), sf2*gcomp_none_1(i1, i2), u1, u2, gM, 0, upfactor);
-        %[MeP1_none_2(i1, i2), MeP2_none_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_none_2(i1, i2), sf2*gcomp_none_2(i1, i2), u1, u2, gM1);
-        [MeP1_ifn1_1(i1, i2), MeP2_ifn1_1(i1, i2)]=simulateMHC_mcmc(sf1*gtarget_ifn1_1(i1, i2), sf2*gcomp_ifn1_1(i1, i2), u1, u2, gM, 1, upfactor);
-        %[MeP1_ifn1_2(i1, i2), MeP2_ifn1_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_ifn1_2(i1, i2), sf2*gcomp_ifn1_2(i1, i2), u1, u2, upreg*gM1);
-   end
-end
-%validMeP1_both_none_1 = ~isnan(MeP1_none_1);
-%validMeP1_both_ifn1_1 = ~isnan(MeP1_ifn1_1);
-%validdata_both_none_1 = ~isnan(data_none_1);
-%validdata_both_ifn1_1 = ~isnan(data_ifn1_1);
-%validdataAll_both_1 = validMeP1_both_none_1 &validMeP1_both_ifn1_1 & validdata_both_none_1 & validdata_both_ifn1_1 ;
-p_MeP1_none_1=[sf3 0];%;%p_MeP1_both;
-%p_MeP2_none_2=[sf4 0];%p_MeP2_both;
-p_MeP1_ifn1_1=[sf3 0];%p_MeP1_both;
-%p_MeP2_ifn1_2=[sf4 0];%p_MeP2_both;
-
-%p_MeP1_both
-%p_MeP2_both
+MeP1_ifn1_1=MeP1_ifn1_1(1:7,1:7);
 cmap=hsv(8);
 figure(10);
 semilogx(gtarget_none_1(:,1),sf3*MeP1_none_1(:,1),gtarget_none_1(:,1),data_none_1(:,1),'o','Color',cmap(1,:),'LineWidth',2,'MarkerSize',10);hold on;

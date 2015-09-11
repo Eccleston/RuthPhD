@@ -1,6 +1,6 @@
 
 // Simulate for some time in the past, add inputs at time 0.0, then follow for additional time
-directive sample -96*3600.0,96*3600.0 1000
+directive sample -96*3600.0,24*3600.0 1000
 directive simulation deterministicstiff
 directive plot Me-P1; Me-P2; Me-P0
 
@@ -70,7 +70,7 @@ module Pep(spec Pi,Ii; rate gi,ui){
 
 <->[gM+upreg*upfactor]{dM} M |
 <->{gT}{dT} T |
-T + M <->{bT}{uT} T-M |
+T + M ->{bT}{uT} T-M |
 Me ->{dMe} |
 
 // Instantiate the three peptides (target, competitor, background) with BG supplied at rate g0

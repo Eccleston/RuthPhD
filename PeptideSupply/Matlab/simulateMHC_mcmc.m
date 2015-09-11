@@ -1,6 +1,6 @@
 function [MeP1,MeP2,M,T,MT] = simulateMHC_mcmc(g1,g2,u1,u2,gM,upreg,upfactor)
 
-tfinal = 96*3600; % Final time for simulation
+tfinal = 24*3600; % Final time for simulation
 %species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2'}; % The list of all species
 species = {'P1','M','M_P1','M_T','M_P1_T','T','Me_P1','Me','P2','M_P2','M_P2_T','Me_P2','P3','M_P3','M_P3_T','Me_P3'}; % The list of all species
 
@@ -11,17 +11,21 @@ pi.g2 = 0;
 pi.u1 = u1;
 pi.u2 = u2;
 pi.q = 21035;
-pi.gM = gM + upreg*upfactor;
+pi.gM = gM;
+pi.upreg = upreg;
+pi.upfactor = upfactor;
 %pi.upreg2 = upreg2;
 x0i=zeros(n,1);
-[ti,xi]=ode15s(@odes_selfpeps, [0 96*3600],x0i,[],pi);
+[ti,xi]=ode15s(@odes_selfpeps, [0 1*3600],x0i,[],pi);
 % Write out the parameters
 p.g1 = g1;
 p.g2 = g2;
 p.u1 = u1;
 p.u2 = u2;
 p.q = 21035;
-p.gM = gM + upreg*upfactor;
+p.gM = gM;
+p.upreg = upreg;
+p.upfactor = upfactor;
 %p.upreg2 = upreg2;
 % Assign initial conditions
 x0 = xi(end,:);% zeros(n,1);
@@ -117,6 +121,8 @@ u1 = p.u1;
 u2 = p.u2;
 q = p.q;
 gM = p.gM;
+upreg = p.upreg;
+upfactor = p.upfactor;
 %upreg2 = p.upreg2;
 g3=10000;
 u3=1e-4;
@@ -156,9 +162,9 @@ r_14 = ((u2 * q) * M_P2_T);
 r_15 = (0.0011091974705091 * M_P2_T);
 r_16 = (0.1141804 * M_P2);
 r_17 = (u2 * Me_P2);
-r_18 = gM; %150.5;
+r_18 = gM +(upreg*upfactor); %150.5;
 r_19 = (7.9892E-05 * M);
-r_20 = gM*10;%1505.0;
+r_20 = 1505.0;%*10;%1505.0;
 r_21 = (0.001725968 * T);
 r_22 = ((1.662768E-09 * M) * T);
 r_23 = (1.184643E-06 * M_T);
