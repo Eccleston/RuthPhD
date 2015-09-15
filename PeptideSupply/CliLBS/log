@@ -5154,3 +5154,79 @@ Improvement at iteration 5918. New log likelihood: -3362.155978
 Improvement at iteration 6193. New log likelihood: -3361.662177
 Improvement at iteration 6205. New log likelihood: -3361.571176
 Improvement at iteration 9850. New log likelihood: -3361.525568
+Improvement at iteration 11432. New log likelihood: -3361.433547
+
+Wrote simulation data file: check11_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: check11_inference\Trial0/mysweep2.tsv
+
+Wrote simulation data file: check11_inference\Trial0/mysweep4.tsv
+Loading file: check11.lbs
+Starting inference
+Loading file: check11.lbs
+Loading file: check11.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 8. New log likelihood: -1241561821.127750
+Improvement at iteration 10. New log likelihood: -1226488792.807410
+Improvement at iteration 11. New log likelihood: -39343627.887005
+Improvement at iteration 16. New log likelihood: -2876140.129978
+Improvement at iteration 17. New log likelihood: -1448270.565815
+Improvement at iteration 18. New log likelihood: -1446329.532822
+Improvement at iteration 19. New log likelihood: -1417674.202871
+Improvement at iteration 21. New log likelihood: -386670.039283
+Improvement at iteration 40. New log likelihood: -276261.692159
+Improvement at iteration 68. New log likelihood: -256921.261599
+Improvement at iteration 76. New log likelihood: -157348.457533
+Improvement at iteration 77. New log likelihood: -157195.041767
+Improvement at iteration 81. New log likelihood: -157194.725896
+Improvement at iteration 85. New log likelihood: -156575.989300
+Improvement at iteration 86. New log likelihood: -152218.625820
+Improvement at iteration 87. New log likelihood: -146971.438065
+Improvement at iteration 91. New log likelihood: -146788.881508
+Improvement at iteration 94. New log likelihood: -140586.605438
+Improvement at iteration 96. New log likelihood: -124218.598227
+Improvement at iteration 97. New log likelihood: -121726.828461
+Improvement at iteration 98. New log likelihood: -72325.463077
+Improvement at iteration 103. New log likelihood: -54969.097103
+Improvement at iteration 133. New log likelihood: -54889.488203
+Improvement at iteration 171. New log likelihood: -50817.761735
+Improvement at iteration 183. New log likelihood: -48619.408128
+Improvement at iteration 217. New log likelihood: -41808.259088
+Improvement at iteration 220. New log likelihood: -9786.400478
+Improvement at iteration 224. New log likelihood: -8764.338335
+Improvement at iteration 254. New log likelihood: -8527.490157
+Improvement at iteration 280. New log likelihood: -8493.194347
+Improvement at iteration 292. New log likelihood: -8492.224692
+Improvement at iteration 297. New log likelihood: -8420.366527
+Improvement at iteration 300. New log likelihood: -7812.635512
+Improvement at iteration 305. New log likelihood: -7555.106347
+Improvement at iteration 314. New log likelihood: -6890.945143
+Improvement at iteration 325. New log likelihood: -5353.257452
+Improvement at iteration 345. New log likelihood: -5304.388117
+Improvement at iteration 348. New log likelihood: -5225.795393
+Improvement at iteration 354. New log likelihood: -5174.696522
+Improvement at iteration 367. New log likelihood: -4984.359217
+Improvement at iteration 396. New log likelihood: -4966.018696
+Improvement at iteration 444. New log likelihood: -4386.941376
+Improvement at iteration 465. New log likelihood: -4084.195074
+Improvement at iteration 481. New log likelihood: -3953.164058
+Improvement at iteration 503. New log likelihood: -3841.638687
+Improvement at iteration 527. New log likelihood: -3812.721618
+Improvement at iteration 545. New log likelihood: -3808.069087
+Improvement at iteration 580. New log likelihood: -3806.938129
+Improvement at iteration 613. New log likelihood: -3795.288432
+Improvement at iteration 614. New log likelihood: -3789.959770
+Improvement at iteration 675. New log likelihood: -3787.112240
+Improvement at iteration 694. New log likelihood: -3786.976534
+Improvement at iteration 707. New log likelihood: -3785.127261
+Improvement at iteration 722. New log likelihood: -3772.715459
+Improvement at iteration 724. New log likelihood: -3763.668860
+Improvement at iteration 734. New log likelihood: -3763.546832
+Improvement at iteration 744. New log likelihood: -3754.193167
+Improvement at iteration 815. New log likelihood: -3752.829385
+Improvement at iteration 831. New log likelihood: -3735.880825
+Improvement at iteration 834. New log likelihood: -3729.308214
+Improvement at iteration 835. New log likelihood: -3726.832017
+Improvement at iteration 844. New log likelihood: -3725.055283
