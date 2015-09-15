@@ -54,9 +54,9 @@ Me_P1=x(:,12);%x(:,7);%
 Me_P2=x(:,16);%x(:,12);%
 Me_P0 =x(:,20);%x(:,16);% 
 % Produce a plot
-figure(6);hold on;
-plot(t, [sf3*Me_P1])%, Me_P2, Me_P0])
-legend('Me-P1')%, 'Me-P2', 'Me-P0')
+%figure(6);hold on;
+%plot(t, [sf3*Me_P1])%, Me_P2, Me_P0])
+%legend('Me-P1')%, 'Me-P2', 'Me-P0')
 
 % Write out a solution structure to be returned by the function
 MeP1 = x(end,12);
@@ -101,7 +101,7 @@ Me_P0 = x(20);
 % Define reaction propensities
 r_0 = (150.5 + (upreg * upfactor));
 r_1 = (7.9892E-05 * M);
-r_2 = 1505.0;
+r_2 = 10*(150.5 + (upreg * upfactor));%1505.0;
 r_3 = (0.001725968 * T);
 r_4 = ((1.662768E-09 * M) * T);
 r_5 = (1.184643E-06 * M_T);

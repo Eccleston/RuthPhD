@@ -3391,3 +3391,1504 @@ Improvement at iteration 6994. New log likelihood: -3122.019654
 Wrote simulation data file: check6_inference\Trial1/mysweep1.tsv
 
 Wrote simulation data file: check6_inference\Trial1/mysweep2.tsv
+Loading file: check7.lbs
+Starting inference
+Loading file: check7.lbs
+Loading file: check7.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Improvement at iteration 7. New log likelihood: -260071.231207
+Improvement at iteration 15. New log likelihood: -109211.875964
+Improvement at iteration 17. New log likelihood: -59967.168422
+Improvement at iteration 23. New log likelihood: -10943.902031
+Improvement at iteration 27. New log likelihood: -8517.366772
+Improvement at iteration 38. New log likelihood: -4662.339011
+Improvement at iteration 42. New log likelihood: -3181.168771
+Improvement at iteration 157. New log likelihood: -3080.655860
+Improvement at iteration 238. New log likelihood: -2959.416144
+Improvement at iteration 243. New log likelihood: -2913.630601
+Improvement at iteration 338. New log likelihood: -2883.847275
+Improvement at iteration 339. New log likelihood: -2865.807942
+Improvement at iteration 394. New log likelihood: -2854.714184
+Improvement at iteration 396. New log likelihood: -2136.564248
+Improvement at iteration 429. New log likelihood: -1904.760099
+Improvement at iteration 441. New log likelihood: -1809.265136
+Improvement at iteration 449. New log likelihood: -1798.961729
+Improvement at iteration 466. New log likelihood: -1770.325452
+Improvement at iteration 490. New log likelihood: -1748.693740
+Improvement at iteration 501. New log likelihood: -1697.908197
+Improvement at iteration 518. New log likelihood: -1689.975585
+Improvement at iteration 526. New log likelihood: -1685.765880
+Improvement at iteration 558. New log likelihood: -1683.488651
+Improvement at iteration 560. New log likelihood: -1672.645982
+Improvement at iteration 565. New log likelihood: -1668.655899
+Improvement at iteration 585. New log likelihood: -1667.195324
+Improvement at iteration 643. New log likelihood: -1666.567601
+Improvement at iteration 665. New log likelihood: -1662.524049
+Improvement at iteration 697. New log likelihood: -1655.040963
+Improvement at iteration 806. New log likelihood: -1653.233567
+Improvement at iteration 826. New log likelihood: -1650.135363
+Improvement at iteration 857. New log likelihood: -1648.279763
+Improvement at iteration 998. New log likelihood: -1633.908369
+Improvement at iteration 1034. New log likelihood: -1633.767469
+Improvement at iteration 1065. New log likelihood: -1625.188835
+Improvement at iteration 1071. New log likelihood: -1624.782370
+Improvement at iteration 1077. New log likelihood: -1624.557401
+Improvement at iteration 1127. New log likelihood: -1623.828208
+Improvement at iteration 1131. New log likelihood: -1623.692748
+Improvement at iteration 1148. New log likelihood: -1617.422328
+Improvement at iteration 1174. New log likelihood: -1616.381621
+Improvement at iteration 1273. New log likelihood: -1616.333044
+Improvement at iteration 1347. New log likelihood: -1615.931422
+Improvement at iteration 1357. New log likelihood: -1615.850183
+Improvement at iteration 1426. New log likelihood: -1615.327443
+Improvement at iteration 1433. New log likelihood: -1614.424933
+Improvement at iteration 1438. New log likelihood: -1614.249753
+Improvement at iteration 1787. New log likelihood: -1614.243405
+Improvement at iteration 1827. New log likelihood: -1613.828840
+Improvement at iteration 1830. New log likelihood: -1613.558975
+Improvement at iteration 1844. New log likelihood: -1613.538592
+Improvement at iteration 6312. New log likelihood: -1613.272262
+
+Wrote simulation data file: check7_inference\Trial0/mysweep2.tsv
+Loading file: check8.lbs
+Starting inference
+Loading file: check8.lbs
+Loading file: check8.lbs
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 5. New log likelihood: -981992.700559
+Improvement at iteration 6. New log likelihood: -876098.391133
+Improvement at iteration 7. New log likelihood: -90710.014838
+Improvement at iteration 16. New log likelihood: -1668.349478
+Improvement at iteration 22. New log likelihood: -935.499938
+Improvement at iteration 28. New log likelihood: -567.739870
+Improvement at iteration 47. New log likelihood: -489.160464
+Improvement at iteration 68. New log likelihood: -484.255383
+Improvement at iteration 93. New log likelihood: -483.925475
+Improvement at iteration 102. New log likelihood: -483.869947
+Improvement at iteration 192. New log likelihood: -481.013913
+Improvement at iteration 241. New log likelihood: -480.965144
+Improvement at iteration 270. New log likelihood: -480.750785
+Improvement at iteration 371. New log likelihood: -480.148134
+Improvement at iteration 401. New log likelihood: -480.014228
+Improvement at iteration 405. New log likelihood: -479.245897
+Improvement at iteration 509. New log likelihood: -477.614484
+Improvement at iteration 532. New log likelihood: -476.248324
+Improvement at iteration 550. New log likelihood: -475.534280
+Improvement at iteration 562. New log likelihood: -475.455998
+Improvement at iteration 677. New log likelihood: -474.527234
+Improvement at iteration 773. New log likelihood: -474.321720
+Improvement at iteration 778. New log likelihood: -473.583864
+Improvement at iteration 794. New log likelihood: -472.827086
+Improvement at iteration 800. New log likelihood: -472.709198
+Improvement at iteration 802. New log likelihood: -472.453901
+Improvement at iteration 856. New log likelihood: -472.436808
+Improvement at iteration 866. New log likelihood: -472.431294
+Improvement at iteration 2560. New log likelihood: -472.412380
+Improvement at iteration 2745. New log likelihood: -472.372254
+Improvement at iteration 3010. New log likelihood: -472.341696
+Improvement at iteration 3023. New log likelihood: -472.319542
+
+Wrote simulation data file: check8_inference\Trial0/mysweep1.tsv
+Loading file: check8.lbs
+Starting inference
+Loading file: check8.lbs
+Loading file: check8.lbs
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 13. New log likelihood: -163788.404179
+Improvement at iteration 15. New log likelihood: -593.717420
+Improvement at iteration 21. New log likelihood: -581.443996
+Improvement at iteration 27. New log likelihood: -580.783617
+Improvement at iteration 28. New log likelihood: -579.942701
+Improvement at iteration 36. New log likelihood: -577.953511
+Improvement at iteration 61. New log likelihood: -564.397868
+Improvement at iteration 67. New log likelihood: -563.356332
+Improvement at iteration 78. New log likelihood: -557.773377
+Improvement at iteration 81. New log likelihood: -541.634574
+Improvement at iteration 89. New log likelihood: -530.427078
+Improvement at iteration 100. New log likelihood: -520.896831
+Improvement at iteration 115. New log likelihood: -520.469115
+Improvement at iteration 139. New log likelihood: -520.083997
+Improvement at iteration 161. New log likelihood: -510.839249
+Improvement at iteration 174. New log likelihood: -503.977152
+Improvement at iteration 176. New log likelihood: -503.168925
+Improvement at iteration 232. New log likelihood: -502.972003
+Improvement at iteration 271. New log likelihood: -500.526618
+Improvement at iteration 280. New log likelihood: -500.231281
+Improvement at iteration 285. New log likelihood: -495.016403
+Improvement at iteration 335. New log likelihood: -491.592176
+Improvement at iteration 378. New log likelihood: -484.911852
+Improvement at iteration 385. New log likelihood: -478.154008
+Improvement at iteration 422. New log likelihood: -478.066993
+Improvement at iteration 448. New log likelihood: -474.450939
+Improvement at iteration 465. New log likelihood: -474.356727
+Improvement at iteration 522. New log likelihood: -474.023814
+Improvement at iteration 587. New log likelihood: -474.001096
+Improvement at iteration 722. New log likelihood: -473.797682
+Improvement at iteration 726. New log likelihood: -472.806957
+Improvement at iteration 769. New log likelihood: -472.758232
+Improvement at iteration 770. New log likelihood: -472.726269
+Improvement at iteration 827. New log likelihood: -472.668131
+Improvement at iteration 849. New log likelihood: -472.562163
+Improvement at iteration 850. New log likelihood: -472.556406
+Improvement at iteration 851. New log likelihood: -472.534512
+Improvement at iteration 1213. New log likelihood: -472.400104
+Improvement at iteration 2192. New log likelihood: -472.382090
+Improvement at iteration 3889. New log likelihood: -472.374456
+Improvement at iteration 3895. New log likelihood: -472.371712
+
+Wrote simulation data file: check8_inference\Trial1/mysweep1.tsv
+Loading file: check9.lbs
+Starting inference
+Loading file: check9.lbs
+Loading file: check9.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 6. New log likelihood: -5650753.027655
+Improvement at iteration 9. New log likelihood: -6019.377675
+Improvement at iteration 11. New log likelihood: -5497.811619
+Improvement at iteration 12. New log likelihood: -4877.875624
+Improvement at iteration 30. New log likelihood: -4649.248797
+Improvement at iteration 118. New log likelihood: -4487.626124
+Improvement at iteration 169. New log likelihood: -4399.580113
+Improvement at iteration 206. New log likelihood: -4251.402321
+Improvement at iteration 279. New log likelihood: -4138.202480
+Improvement at iteration 300. New log likelihood: -4134.550283
+Improvement at iteration 319. New log likelihood: -4097.225481
+Improvement at iteration 322. New log likelihood: -4096.685089
+Improvement at iteration 400. New log likelihood: -3618.113326
+Improvement at iteration 443. New log likelihood: -3252.704818
+Improvement at iteration 473. New log likelihood: -3250.883570
+Improvement at iteration 491. New log likelihood: -3239.933035
+Improvement at iteration 543. New log likelihood: -2883.321291
+Improvement at iteration 570. New log likelihood: -2880.837798
+Improvement at iteration 586. New log likelihood: -2853.685669
+Improvement at iteration 587. New log likelihood: -2813.634761
+Improvement at iteration 596. New log likelihood: -2768.675523
+Improvement at iteration 604. New log likelihood: -2597.640286
+Improvement at iteration 610. New log likelihood: -2546.860874
+Improvement at iteration 612. New log likelihood: -2535.838107
+Improvement at iteration 615. New log likelihood: -2366.910056
+Improvement at iteration 641. New log likelihood: -2361.482071
+Improvement at iteration 695. New log likelihood: -2355.687992
+Improvement at iteration 701. New log likelihood: -2305.256935
+Improvement at iteration 703. New log likelihood: -2298.751110
+Improvement at iteration 710. New log likelihood: -2288.813411
+Improvement at iteration 722. New log likelihood: -2285.914067
+Improvement at iteration 743. New log likelihood: -2206.255369
+Improvement at iteration 783. New log likelihood: -2197.451651
+Improvement at iteration 801. New log likelihood: -2194.222301
+Improvement at iteration 819. New log likelihood: -2170.403386
+Improvement at iteration 856. New log likelihood: -2169.904236
+Improvement at iteration 857. New log likelihood: -2168.130489
+Improvement at iteration 858. New log likelihood: -2147.334731
+Improvement at iteration 934. New log likelihood: -2128.535483
+Improvement at iteration 972. New log likelihood: -2128.347361
+Improvement at iteration 1006. New log likelihood: -2126.323786
+Improvement at iteration 1007. New log likelihood: -2124.895008
+Improvement at iteration 1042. New log likelihood: -2120.613274
+Improvement at iteration 1078. New log likelihood: -2119.648556
+Improvement at iteration 1079. New log likelihood: -2118.374008
+Improvement at iteration 1084. New log likelihood: -2115.668375
+Improvement at iteration 1086. New log likelihood: -2111.787706
+Improvement at iteration 1104. New log likelihood: -2107.588791
+Improvement at iteration 1109. New log likelihood: -2107.351869
+Improvement at iteration 1140. New log likelihood: -2107.274317
+Improvement at iteration 1157. New log likelihood: -2107.203476
+Improvement at iteration 1167. New log likelihood: -2106.861234
+Improvement at iteration 1187. New log likelihood: -2106.427655
+Improvement at iteration 1191. New log likelihood: -2106.299407
+Improvement at iteration 1204. New log likelihood: -2103.753642
+Improvement at iteration 1210. New log likelihood: -2102.231712
+Improvement at iteration 1219. New log likelihood: -2101.801511
+Improvement at iteration 1253. New log likelihood: -2101.672664
+Improvement at iteration 1288. New log likelihood: -2100.503820
+Improvement at iteration 1289. New log likelihood: -2100.423653
+Improvement at iteration 1293. New log likelihood: -2099.578588
+Improvement at iteration 1354. New log likelihood: -2098.858664
+Improvement at iteration 1356. New log likelihood: -2097.993183
+Improvement at iteration 1361. New log likelihood: -2097.985919
+Improvement at iteration 1369. New log likelihood: -2097.933128
+Improvement at iteration 1417. New log likelihood: -2097.397722
+
+Wrote simulation data file: check9_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: check9_inference\Trial0/mysweep2.tsv
+Loading file: check10.lbs
+Starting inference
+Loading file: check10.lbs
+Loading file: check10.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 3. New log likelihood: -46389969.508500
+Improvement at iteration 17. New log likelihood: -18954654.515735
+Improvement at iteration 21. New log likelihood: -15241.251736
+Improvement at iteration 28. New log likelihood: -14161.751983
+Improvement at iteration 37. New log likelihood: -5876.541269
+Improvement at iteration 66. New log likelihood: -5695.093565
+Improvement at iteration 115. New log likelihood: -5244.030255
+Improvement at iteration 243. New log likelihood: -5146.883229
+Improvement at iteration 244. New log likelihood: -5120.616478
+Improvement at iteration 254. New log likelihood: -4718.966609
+Improvement at iteration 280. New log likelihood: -4605.591650
+Improvement at iteration 301. New log likelihood: -4565.956988
+Improvement at iteration 330. New log likelihood: -4553.420295
+Improvement at iteration 346. New log likelihood: -4416.816394
+Improvement at iteration 350. New log likelihood: -4411.763446
+Improvement at iteration 351. New log likelihood: -4364.203298
+Improvement at iteration 391. New log likelihood: -4361.978266
+Improvement at iteration 414. New log likelihood: -4355.444635
+Improvement at iteration 486. New log likelihood: -2571.924130
+Improvement at iteration 514. New log likelihood: -2569.480292
+Improvement at iteration 525. New log likelihood: -2351.301072
+Improvement at iteration 538. New log likelihood: -2335.983110
+Improvement at iteration 556. New log likelihood: -2327.316581
+Improvement at iteration 610. New log likelihood: -2326.594147
+Improvement at iteration 623. New log likelihood: -2324.040389
+Improvement at iteration 661. New log likelihood: -2315.451091
+Improvement at iteration 665. New log likelihood: -2310.526433
+Improvement at iteration 729. New log likelihood: -2235.720452
+Improvement at iteration 735. New log likelihood: -2229.618915
+Improvement at iteration 750. New log likelihood: -2225.646734
+Improvement at iteration 762. New log likelihood: -2222.767485
+Improvement at iteration 778. New log likelihood: -2207.910544
+Improvement at iteration 818. New log likelihood: -2195.637282
+Improvement at iteration 826. New log likelihood: -2182.823079
+Improvement at iteration 833. New log likelihood: -2182.198819
+Improvement at iteration 840. New log likelihood: -2180.152105
+Improvement at iteration 857. New log likelihood: -2170.604472
+Improvement at iteration 875. New log likelihood: -2167.303734
+Improvement at iteration 876. New log likelihood: -2165.548344
+Improvement at iteration 878. New log likelihood: -2159.731352
+Improvement at iteration 905. New log likelihood: -2159.576053
+Improvement at iteration 1067. New log likelihood: -2159.566754
+Improvement at iteration 1157. New log likelihood: -2159.400529
+Improvement at iteration 1238. New log likelihood: -2147.619309
+Improvement at iteration 1261. New log likelihood: -2116.762607
+Improvement at iteration 1269. New log likelihood: -2116.586494
+Improvement at iteration 1272. New log likelihood: -2116.134362
+Improvement at iteration 1273. New log likelihood: -2115.976849
+Improvement at iteration 1364. New log likelihood: -2112.427484
+Improvement at iteration 1366. New log likelihood: -2111.997160
+Improvement at iteration 1367. New log likelihood: -2111.295913
+Improvement at iteration 1452. New log likelihood: -2110.859501
+Improvement at iteration 1463. New log likelihood: -2110.739908
+Improvement at iteration 1468. New log likelihood: -2109.721059
+Improvement at iteration 1470. New log likelihood: -2108.495609
+Improvement at iteration 1479. New log likelihood: -2107.473770
+Improvement at iteration 1482. New log likelihood: -2106.452287
+Improvement at iteration 1550. New log likelihood: -2106.443213
+Improvement at iteration 1568. New log likelihood: -2104.373936
+Improvement at iteration 1590. New log likelihood: -2104.117745
+Improvement at iteration 1674. New log likelihood: -2102.724070
+Improvement at iteration 1675. New log likelihood: -2102.637103
+Improvement at iteration 1684. New log likelihood: -2101.975579
+Improvement at iteration 1688. New log likelihood: -2101.948169
+Improvement at iteration 1694. New log likelihood: -2101.808971
+Improvement at iteration 1696. New log likelihood: -2101.192904
+Improvement at iteration 1698. New log likelihood: -2100.683166
+Improvement at iteration 1705. New log likelihood: -2100.550757
+Improvement at iteration 1707. New log likelihood: -2100.544197
+Improvement at iteration 1709. New log likelihood: -2099.448511
+Improvement at iteration 1713. New log likelihood: -2098.683227
+Improvement at iteration 3254. New log likelihood: -2098.488036
+Improvement at iteration 4333. New log likelihood: -2097.823400
+
+Wrote simulation data file: check10_inference\Trial0/mysweep1.tsv
+
+Wrote simulation data file: check10_inference\Trial0/mysweep2.tsv
+Loading file: check10.lbs
+Starting inference
+Loading file: check10.lbs
+Loading file: check10.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 37. New log likelihood: -41767615.849841
+Improvement at iteration 38. New log likelihood: -41320066.929073
+Improvement at iteration 40. New log likelihood: -30283897.988811
+Improvement at iteration 46. New log likelihood: -24990617.847656
+Improvement at iteration 53. New log likelihood: -21891050.636507
+Improvement at iteration 54. New log likelihood: -21828213.388144
+Improvement at iteration 73. New log likelihood: -215259.199863
+Improvement at iteration 79. New log likelihood: -215122.172014
+Improvement at iteration 82. New log likelihood: -208259.575078
+Improvement at iteration 88. New log likelihood: -177133.591294
+Improvement at iteration 92. New log likelihood: -119796.337137
+Improvement at iteration 95. New log likelihood: -114889.417585
+Improvement at iteration 171. New log likelihood: -45000.090456
+Improvement at iteration 185. New log likelihood: -32519.554416
+Improvement at iteration 259. New log likelihood: -23697.611647
+Improvement at iteration 301. New log likelihood: -18708.438588
+Improvement at iteration 310. New log likelihood: -7628.714777
+Improvement at iteration 341. New log likelihood: -5727.686656
+Improvement at iteration 379. New log likelihood: -3987.745947
+Improvement at iteration 423. New log likelihood: -3495.442344
+Improvement at iteration 426. New log likelihood: -3424.989558
+Improvement at iteration 436. New log likelihood: -3416.180791
+Improvement at iteration 517. New log likelihood: -3406.107775
+Improvement at iteration 529. New log likelihood: -3373.623949
+Improvement at iteration 557. New log likelihood: -3373.199810
+Improvement at iteration 573. New log likelihood: -3074.138863
+Improvement at iteration 635. New log likelihood: -2488.866151
+Improvement at iteration 640. New log likelihood: -2131.430496
+Improvement at iteration 681. New log likelihood: -2123.753646
+Improvement at iteration 692. New log likelihood: -2123.721322
+Improvement at iteration 860. New log likelihood: -2122.202732
+Improvement at iteration 906. New log likelihood: -2120.005557
+Improvement at iteration 912. New log likelihood: -2119.200613
+Improvement at iteration 948. New log likelihood: -2118.590892
+Improvement at iteration 1036. New log likelihood: -2118.363965
+Improvement at iteration 1092. New log likelihood: -2117.401585
+Improvement at iteration 1103. New log likelihood: -2117.370799
+Improvement at iteration 1222. New log likelihood: -2115.093070
+Improvement at iteration 1236. New log likelihood: -2114.676014
+Improvement at iteration 1238. New log likelihood: -2113.739837
+Improvement at iteration 1249. New log likelihood: -2113.304724
+Improvement at iteration 1257. New log likelihood: -2113.130813
+Improvement at iteration 1319. New log likelihood: -2112.478669
+Improvement at iteration 1644. New log likelihood: -2109.704702
+Improvement at iteration 1648. New log likelihood: -2109.300131
+Improvement at iteration 1651. New log likelihood: -2108.484937
+Improvement at iteration 1652. New log likelihood: -2108.461358
+Improvement at iteration 1738. New log likelihood: -2108.196886
+Improvement at iteration 1742. New log likelihood: -2107.928274
+Improvement at iteration 1744. New log likelihood: -2107.603323
+Improvement at iteration 1781. New log likelihood: -2106.870814
+Improvement at iteration 1803. New log likelihood: -2106.130157
+Improvement at iteration 1812. New log likelihood: -2105.759600
+Improvement at iteration 1825. New log likelihood: -2105.749768
+Improvement at iteration 1826. New log likelihood: -2105.228887
+Improvement at iteration 2032. New log likelihood: -2105.208669
+Improvement at iteration 2093. New log likelihood: -2105.186021
+Improvement at iteration 2096. New log likelihood: -2105.139969
+Improvement at iteration 2312. New log likelihood: -2105.003384
+Improvement at iteration 2367. New log likelihood: -2104.955386
+Improvement at iteration 2373. New log likelihood: -2104.709885
+Improvement at iteration 2374. New log likelihood: -2104.329019
+
+Wrote simulation data file: check10_inference\Trial1/mysweep1.tsv
+
+Wrote simulation data file: check10_inference\Trial1/mysweep2.tsv
+Loading file: check10.lbs
+Starting inference
+Loading file: check10.lbs
+Loading file: check10.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 5. New log likelihood: -25497514.580129
+Improvement at iteration 12. New log likelihood: -19899149.385388
+Improvement at iteration 14. New log likelihood: -12550774.433049
+Improvement at iteration 30. New log likelihood: -1427824.523763
+Improvement at iteration 31. New log likelihood: -185882.028926
+Improvement at iteration 34. New log likelihood: -160685.078373
+Improvement at iteration 49. New log likelihood: -122969.632884
+Improvement at iteration 54. New log likelihood: -75728.381773
+Improvement at iteration 78. New log likelihood: -66672.943594
+Improvement at iteration 80. New log likelihood: -15469.955574
+Improvement at iteration 113. New log likelihood: -15394.573733
+Improvement at iteration 117. New log likelihood: -14676.705048
+Improvement at iteration 124. New log likelihood: -13893.252034
+Improvement at iteration 145. New log likelihood: -13886.968229
+Improvement at iteration 151. New log likelihood: -13869.037794
+Improvement at iteration 179. New log likelihood: -13815.574419
+Improvement at iteration 224. New log likelihood: -5227.468478
+Improvement at iteration 254. New log likelihood: -5097.501611
+Improvement at iteration 269. New log likelihood: -4991.101234
+Improvement at iteration 278. New log likelihood: -4940.379828
+Improvement at iteration 299. New log likelihood: -4939.162930
+Improvement at iteration 310. New log likelihood: -4919.875556
+Improvement at iteration 334. New log likelihood: -4915.890901
+Improvement at iteration 361. New log likelihood: -4489.203123
+Improvement at iteration 368. New log likelihood: -4062.371810
+Improvement at iteration 371. New log likelihood: -3709.946862
+Improvement at iteration 388. New log likelihood: -3409.135447
+Improvement at iteration 415. New log likelihood: -3408.361216
+Improvement at iteration 433. New log likelihood: -3405.689448
+Improvement at iteration 449. New log likelihood: -3357.392035
+Improvement at iteration 451. New log likelihood: -3353.758058
+Improvement at iteration 553. New log likelihood: -2916.129441
+Improvement at iteration 560. New log likelihood: -2913.436948
+Improvement at iteration 569. New log likelihood: -2874.905430
+Improvement at iteration 580. New log likelihood: -2579.629708
+Improvement at iteration 588. New log likelihood: -2488.086575
+Improvement at iteration 602. New log likelihood: -2476.243144
+Improvement at iteration 653. New log likelihood: -2437.990940
+Improvement at iteration 658. New log likelihood: -2393.380451
+Improvement at iteration 668. New log likelihood: -2377.977340
+Improvement at iteration 672. New log likelihood: -2371.006905
+Improvement at iteration 742. New log likelihood: -2346.917519
+Improvement at iteration 778. New log likelihood: -2343.596756
+Improvement at iteration 782. New log likelihood: -2343.193074
+Improvement at iteration 784. New log likelihood: -2342.741121
+Improvement at iteration 819. New log likelihood: -2316.485162
+Improvement at iteration 825. New log likelihood: -2316.180561
+Improvement at iteration 836. New log likelihood: -2287.426839
+Improvement at iteration 852. New log likelihood: -2257.521850
+Improvement at iteration 888. New log likelihood: -2237.885620
+Improvement at iteration 889. New log likelihood: -2218.926260
+Improvement at iteration 892. New log likelihood: -2213.440098
+Improvement at iteration 893. New log likelihood: -2210.468430
+Improvement at iteration 920. New log likelihood: -2166.320602
+Improvement at iteration 922. New log likelihood: -2153.679856
+Improvement at iteration 923. New log likelihood: -2140.122694
+Improvement at iteration 937. New log likelihood: -2138.327137
+Improvement at iteration 970. New log likelihood: -2133.665497
+Improvement at iteration 982. New log likelihood: -2131.725683
+Improvement at iteration 1001. New log likelihood: -2128.250284
+Improvement at iteration 1024. New log likelihood: -2126.903903
+Improvement at iteration 1027. New log likelihood: -2126.456652
+Improvement at iteration 1033. New log likelihood: -2126.347614
+Improvement at iteration 1068. New log likelihood: -2126.298876
+Improvement at iteration 1081. New log likelihood: -2126.213392
+Improvement at iteration 1110. New log likelihood: -2125.304124
+Improvement at iteration 1201. New log likelihood: -2125.089550
+Improvement at iteration 1244. New log likelihood: -2124.787592
+Improvement at iteration 1282. New log likelihood: -2124.573798
+Improvement at iteration 1346. New log likelihood: -2113.976602
+Improvement at iteration 1349. New log likelihood: -2107.660383
+Improvement at iteration 1377. New log likelihood: -2107.235923
+Improvement at iteration 1385. New log likelihood: -2107.110008
+Improvement at iteration 1554. New log likelihood: -2107.072463
+Improvement at iteration 1568. New log likelihood: -2106.691525
+Improvement at iteration 1570. New log likelihood: -2106.289128
+Improvement at iteration 1572. New log likelihood: -2102.510195
+Improvement at iteration 1582. New log likelihood: -2100.521907
+Improvement at iteration 1947. New log likelihood: -2100.314093
+Improvement at iteration 2090. New log likelihood: -2100.030777
+Improvement at iteration 2263. New log likelihood: -2100.019193
+Improvement at iteration 3124. New log likelihood: -2099.940074
+Improvement at iteration 3127. New log likelihood: -2099.856228
+Improvement at iteration 3159. New log likelihood: -2099.722055
+Improvement at iteration 3285. New log likelihood: -2099.710292
+Improvement at iteration 3713. New log likelihood: -2099.524604
+Improvement at iteration 3717. New log likelihood: -2099.307784
+Improvement at iteration 3719. New log likelihood: -2099.149174
+Improvement at iteration 3784. New log likelihood: -2099.141859
+Improvement at iteration 4042. New log likelihood: -2098.861201
+Improvement at iteration 4104. New log likelihood: -2098.794954
+Improvement at iteration 4105. New log likelihood: -2098.438126
+Improvement at iteration 4113. New log likelihood: -2098.412381
+
+Wrote simulation data file: check10_inference\Trial2/mysweep1.tsv
+
+Wrote simulation data file: check10_inference\Trial2/mysweep2.tsv
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\ASN_surf_none_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\ASN_surf_none_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_none_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 14. New log likelihood: -72394.519522
+Improvement at iteration 19. New log likelihood: -43546.805867
+Improvement at iteration 23. New log likelihood: -32657.208160
+Improvement at iteration 24. New log likelihood: -27112.135666
+Improvement at iteration 75. New log likelihood: -27102.717453
+Improvement at iteration 88. New log likelihood: -26793.512830
+Improvement at iteration 91. New log likelihood: -24137.981787
+Improvement at iteration 156. New log likelihood: -17045.357076
+Improvement at iteration 254. New log likelihood: -16822.029659
+Improvement at iteration 268. New log likelihood: -16265.348496
+Improvement at iteration 290. New log likelihood: -12681.317795
+Improvement at iteration 295. New log likelihood: -12575.829895
+Improvement at iteration 357. New log likelihood: -12361.139702
+Improvement at iteration 373. New log likelihood: -10777.535728
+Improvement at iteration 376. New log likelihood: -10772.650778
+Improvement at iteration 379. New log likelihood: -10395.762021
+Improvement at iteration 380. New log likelihood: -10373.259628
+Improvement at iteration 382. New log likelihood: -10158.859970
+Improvement at iteration 384. New log likelihood: -4837.644435
+Improvement at iteration 385. New log likelihood: -4777.395629
+Improvement at iteration 401. New log likelihood: -4494.007049
+Improvement at iteration 402. New log likelihood: -4208.007363
+Improvement at iteration 427. New log likelihood: -4204.811214
+Improvement at iteration 431. New log likelihood: -4082.632565
+Improvement at iteration 436. New log likelihood: -4035.162552
+Improvement at iteration 441. New log likelihood: -3802.521138
+Improvement at iteration 461. New log likelihood: -3737.859765
+Improvement at iteration 483. New log likelihood: -3727.645391
+Improvement at iteration 490. New log likelihood: -3723.791441
+Improvement at iteration 513. New log likelihood: -3489.203675
+Improvement at iteration 545. New log likelihood: -3447.636581
+Improvement at iteration 635. New log likelihood: -3444.880948
+Improvement at iteration 746. New log likelihood: -3443.461856
+Improvement at iteration 780. New log likelihood: -3443.410014
+Improvement at iteration 784. New log likelihood: -3443.247893
+Improvement at iteration 817. New log likelihood: -3438.623005
+Improvement at iteration 882. New log likelihood: -3436.582589
+Improvement at iteration 918. New log likelihood: -3426.176210
+Improvement at iteration 940. New log likelihood: -3426.142549
+Improvement at iteration 951. New log likelihood: -3425.610326
+Improvement at iteration 968. New log likelihood: -3423.147346
+Improvement at iteration 1027. New log likelihood: -3419.534659
+Improvement at iteration 1041. New log likelihood: -3396.493309
+Improvement at iteration 1074. New log likelihood: -3391.237284
+Improvement at iteration 1076. New log likelihood: -3388.065735
+Improvement at iteration 1090. New log likelihood: -3386.824202
+Improvement at iteration 1095. New log likelihood: -3385.895232
+Improvement at iteration 1102. New log likelihood: -3385.669888
+Improvement at iteration 1103. New log likelihood: -3382.967746
+Improvement at iteration 1138. New log likelihood: -3382.684957
+Improvement at iteration 1141. New log likelihood: -3381.153862
+Improvement at iteration 1150. New log likelihood: -3381.017575
+Improvement at iteration 1169. New log likelihood: -3379.074254
+Improvement at iteration 1228. New log likelihood: -3378.305669
+Improvement at iteration 1231. New log likelihood: -3378.003804
+Improvement at iteration 1271. New log likelihood: -3377.564856
+Improvement at iteration 1273. New log likelihood: -3377.522784
+Improvement at iteration 1519. New log likelihood: -3377.332645
+Improvement at iteration 1689. New log likelihood: -3376.695547
+Improvement at iteration 1693. New log likelihood: -3376.278207
+Improvement at iteration 2968. New log likelihood: -3376.130289
+Improvement at iteration 2975. New log likelihood: -3375.958256
+Improvement at iteration 2978. New log likelihood: -3375.702330
+Improvement at iteration 2981. New log likelihood: -3375.646431
+Improvement at iteration 5559. New log likelihood: -3375.240115
+Improvement at iteration 5590. New log likelihood: -3375.094764
+Improvement at iteration 6705. New log likelihood: -3374.889662
+Improvement at iteration 6708. New log likelihood: -3374.888137
+Improvement at iteration 6718. New log likelihood: -3374.684339
+Improvement at iteration 6749. New log likelihood: -3374.500339
+Improvement at iteration 6753. New log likelihood: -3373.992805
+Improvement at iteration 6831. New log likelihood: -3373.835703
+Improvement at iteration 6834. New log likelihood: -3373.801149
+Improvement at iteration 6835. New log likelihood: -3373.768768
+Improvement at iteration 7039. New log likelihood: -3372.720440
+Improvement at iteration 7044. New log likelihood: -3372.040845
+Improvement at iteration 7178. New log likelihood: -3371.911769
+Improvement at iteration 7185. New log likelihood: -3371.500082
+Improvement at iteration 7187. New log likelihood: -3371.435325
+Improvement at iteration 7192. New log likelihood: -3371.375269
+Improvement at iteration 7193. New log likelihood: -3371.317166
+Improvement at iteration 7196. New log likelihood: -3371.148035
+Improvement at iteration 7670. New log likelihood: -3371.131053
+Improvement at iteration 7671. New log likelihood: -3371.069346
+Improvement at iteration 7967. New log likelihood: -3371.040776
+Improvement at iteration 7969. New log likelihood: -3371.011035
+Improvement at iteration 8654. New log likelihood: -3370.645137
+Improvement at iteration 10790. New log likelihood: -3370.357280
+Improvement at iteration 10793. New log likelihood: -3369.981759
+Improvement at iteration 10813. New log likelihood: -3369.892857
+Improvement at iteration 10819. New log likelihood: -3369.865372
+Improvement at iteration 10820. New log likelihood: -3369.465948
+Improvement at iteration 11189. New log likelihood: -3369.255703
+Improvement at iteration 11317. New log likelihood: -3369.090679
+Improvement at iteration 11339. New log likelihood: -3369.028174
+Improvement at iteration 11351. New log likelihood: -3368.900017
+Improvement at iteration 11460. New log likelihood: -3368.680817
+Improvement at iteration 11466. New log likelihood: -3368.602013
+Improvement at iteration 11485. New log likelihood: -3368.519508
+Improvement at iteration 11503. New log likelihood: -3368.307658
+Improvement at iteration 11509. New log likelihood: -3368.258432
+Improvement at iteration 11513. New log likelihood: -3367.980852
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial6/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial6/mysweep2.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial6/mysweep4.tsv
+Loading file: 150520_ASN_SSL_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\ASN_surf_none_data.txt
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 18. New log likelihood: -552083114.045902
+Improvement at iteration 19. New log likelihood: -142581856.469047
+Improvement at iteration 23. New log likelihood: -128045106.488608
+Improvement at iteration 26. New log likelihood: -353621.154081
+Improvement at iteration 28. New log likelihood: -19190.784406
+Improvement at iteration 35. New log likelihood: -18954.574063
+Improvement at iteration 36. New log likelihood: -18426.625922
+Improvement at iteration 41. New log likelihood: -11965.022667
+Improvement at iteration 85. New log likelihood: -11860.315848
+Improvement at iteration 142. New log likelihood: -11437.899150
+Improvement at iteration 154. New log likelihood: -10122.474717
+Improvement at iteration 179. New log likelihood: -9216.333906
+Improvement at iteration 186. New log likelihood: -9208.600813
+Improvement at iteration 202. New log likelihood: -7399.573896
+Improvement at iteration 207. New log likelihood: -6023.283228
+Improvement at iteration 211. New log likelihood: -4728.449090
+Improvement at iteration 243. New log likelihood: -4725.488129
+Improvement at iteration 318. New log likelihood: -4724.934866
+Improvement at iteration 381. New log likelihood: -4724.761823
+Improvement at iteration 546. New log likelihood: -4701.599302
+Improvement at iteration 548. New log likelihood: -4701.147243
+Improvement at iteration 556. New log likelihood: -4700.608306
+Improvement at iteration 655. New log likelihood: -4316.295243
+Improvement at iteration 657. New log likelihood: -4250.047455
+Improvement at iteration 663. New log likelihood: -4248.018314
+Improvement at iteration 668. New log likelihood: -3822.661324
+Improvement at iteration 670. New log likelihood: -3822.552436
+Improvement at iteration 672. New log likelihood: -3723.976322
+Improvement at iteration 674. New log likelihood: -3713.174658
+Improvement at iteration 742. New log likelihood: -3546.416603
+Improvement at iteration 823. New log likelihood: -3545.709868
+Improvement at iteration 847. New log likelihood: -3545.476884
+Improvement at iteration 865. New log likelihood: -3489.820266
+Improvement at iteration 882. New log likelihood: -3486.487091
+Improvement at iteration 883. New log likelihood: -3485.454479
+Improvement at iteration 892. New log likelihood: -3480.430257
+Improvement at iteration 898. New log likelihood: -3479.336361
+Improvement at iteration 904. New log likelihood: -3477.951636
+Improvement at iteration 909. New log likelihood: -3467.812581
+Improvement at iteration 920. New log likelihood: -3460.709293
+Improvement at iteration 927. New log likelihood: -3448.570253
+Improvement at iteration 961. New log likelihood: -3446.215406
+Improvement at iteration 1023. New log likelihood: -3443.751282
+Improvement at iteration 1047. New log likelihood: -3443.274488
+Improvement at iteration 1069. New log likelihood: -3442.993477
+Improvement at iteration 1071. New log likelihood: -3441.472704
+Improvement at iteration 1072. New log likelihood: -3440.527603
+Improvement at iteration 1076. New log likelihood: -3439.590663
+Improvement at iteration 1085. New log likelihood: -3438.532472
+Improvement at iteration 1088. New log likelihood: -3419.256370
+Improvement at iteration 1099. New log likelihood: -3417.481693
+Improvement at iteration 1112. New log likelihood: -3417.233681
+Improvement at iteration 1119. New log likelihood: -3412.448918
+Improvement at iteration 1147. New log likelihood: -3411.451530
+Improvement at iteration 1171. New log likelihood: -3411.403587
+Improvement at iteration 1187. New log likelihood: -3411.393633
+Improvement at iteration 1196. New log likelihood: -3411.384688
+Improvement at iteration 1199. New log likelihood: -3410.606504
+Improvement at iteration 1214. New log likelihood: -3410.491382
+Improvement at iteration 1343. New log likelihood: -3410.232662
+Improvement at iteration 1346. New log likelihood: -3410.230464
+Improvement at iteration 1360. New log likelihood: -3409.448157
+Improvement at iteration 1392. New log likelihood: -3409.082775
+Improvement at iteration 1426. New log likelihood: -3407.777431
+Improvement at iteration 1428. New log likelihood: -3407.547969
+Improvement at iteration 1522. New log likelihood: -3407.000771
+Improvement at iteration 1525. New log likelihood: -3406.838946
+Improvement at iteration 1572. New log likelihood: -3405.380820
+Improvement at iteration 1762. New log likelihood: -3405.047506
+Improvement at iteration 1769. New log likelihood: -3404.763509
+Improvement at iteration 1789. New log likelihood: -3404.709542
+Improvement at iteration 1795. New log likelihood: -3404.695143
+Improvement at iteration 1806. New log likelihood: -3404.644395
+Improvement at iteration 1827. New log likelihood: -3403.379912
+Improvement at iteration 2424. New log likelihood: -3403.316615
+Improvement at iteration 2430. New log likelihood: -3403.299548
+Improvement at iteration 4277. New log likelihood: -3403.193130
+Improvement at iteration 4278. New log likelihood: -3403.159154
+Improvement at iteration 4399. New log likelihood: -3403.013256
+Improvement at iteration 4417. New log likelihood: -3403.006956
+Improvement at iteration 5216. New log likelihood: -3402.888721
+Improvement at iteration 5253. New log likelihood: -3402.819676
+Improvement at iteration 5280. New log likelihood: -3402.793413
+Improvement at iteration 7445. New log likelihood: -3402.737168
+Improvement at iteration 7454. New log likelihood: -3402.525610
+Improvement at iteration 7643. New log likelihood: -3402.378065
+Improvement at iteration 7706. New log likelihood: -3402.029881
+Improvement at iteration 8305. New log likelihood: -3401.917886
+Improvement at iteration 8863. New log likelihood: -3401.906469
+Improvement at iteration 8864. New log likelihood: -3401.293573
+Improvement at iteration 8955. New log likelihood: -3400.822117
+Improvement at iteration 9033. New log likelihood: -3400.730912
+Improvement at iteration 9155. New log likelihood: -3400.481836
+Improvement at iteration 9167. New log likelihood: -3400.315664
+Improvement at iteration 9174. New log likelihood: -3400.300561
+Improvement at iteration 9181. New log likelihood: -3400.255064
+Improvement at iteration 9182. New log likelihood: -3400.060269
+Improvement at iteration 9184. New log likelihood: -3399.812163
+Improvement at iteration 9191. New log likelihood: -3399.751258
+Improvement at iteration 9192. New log likelihood: -3399.646204
+Improvement at iteration 9242. New log likelihood: -3399.635841
+Improvement at iteration 9374. New log likelihood: -3399.601791
+Improvement at iteration 9377. New log likelihood: -3399.513339
+Improvement at iteration 9381. New log likelihood: -3399.478530
+Improvement at iteration 9391. New log likelihood: -3399.448710
+Improvement at iteration 9396. New log likelihood: -3399.345369
+Improvement at iteration 11145. New log likelihood: -3399.337654
+Improvement at iteration 11146. New log likelihood: -3399.325022
+Improvement at iteration 11156. New log likelihood: -3399.089367
+Improvement at iteration 11337. New log likelihood: -3398.974765
+Improvement at iteration 11347. New log likelihood: -3398.966322
+Improvement at iteration 11353. New log likelihood: -3398.846810
+Improvement at iteration 11656. New log likelihood: -3398.543127
+Improvement at iteration 11658. New log likelihood: -3398.492179
+Improvement at iteration 11713. New log likelihood: -3398.471204
+Improvement at iteration 11714. New log likelihood: -3398.395434
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial8/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial8/mysweep2.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial8/mysweep4.tsv
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 6. New log likelihood: -37677098.064886
+Improvement at iteration 11. New log likelihood: -37553862.742080
+Improvement at iteration 17. New log likelihood: -37240838.161035
+Improvement at iteration 18. New log likelihood: -37238856.227555
+Improvement at iteration 19. New log likelihood: -37190537.289002
+Improvement at iteration 20. New log likelihood: -36988142.981202
+Improvement at iteration 21. New log likelihood: -31877383.638110
+Improvement at iteration 25. New log likelihood: -31640457.400785
+Improvement at iteration 26. New log likelihood: -30982606.930685
+Improvement at iteration 29. New log likelihood: -30982252.259071
+Improvement at iteration 31. New log likelihood: -30982213.958727
+Improvement at iteration 35. New log likelihood: -30959096.336011
+Improvement at iteration 45. New log likelihood: -8094457.300186
+Improvement at iteration 51. New log likelihood: -8057520.147074
+Improvement at iteration 52. New log likelihood: -4885334.854820
+Improvement at iteration 56. New log likelihood: -4885270.682149
+Improvement at iteration 59. New log likelihood: -202025.855617
+Improvement at iteration 71. New log likelihood: -29724.739975
+Improvement at iteration 83. New log likelihood: -13141.975263
+Improvement at iteration 86. New log likelihood: -5422.994816
+Improvement at iteration 110. New log likelihood: -5422.590939
+Improvement at iteration 132. New log likelihood: -4664.010663
+Improvement at iteration 147. New log likelihood: -4663.255478
+Improvement at iteration 246. New log likelihood: -4297.409111
+Improvement at iteration 309. New log likelihood: -3026.584529
+Improvement at iteration 316. New log likelihood: -2660.861952
+Improvement at iteration 326. New log likelihood: -2657.916961
+Improvement at iteration 347. New log likelihood: -2584.601521
+Improvement at iteration 426. New log likelihood: -2568.629461
+Improvement at iteration 514. New log likelihood: -2448.327205
+Improvement at iteration 515. New log likelihood: -2434.026219
+Improvement at iteration 522. New log likelihood: -2431.988553
+Improvement at iteration 558. New log likelihood: -2414.808233
+Improvement at iteration 562. New log likelihood: -2414.298706
+Improvement at iteration 565. New log likelihood: -2257.305272
+Improvement at iteration 592. New log likelihood: -2228.844022
+Improvement at iteration 614. New log likelihood: -2228.333248
+Improvement at iteration 626. New log likelihood: -2220.223072
+Improvement at iteration 671. New log likelihood: -2206.727406
+Improvement at iteration 699. New log likelihood: -2195.776643
+Improvement at iteration 702. New log likelihood: -2194.119129
+Improvement at iteration 705. New log likelihood: -2178.467967
+Improvement at iteration 714. New log likelihood: -2168.220983
+Improvement at iteration 716. New log likelihood: -2166.804062
+Improvement at iteration 728. New log likelihood: -2158.667081
+Improvement at iteration 730. New log likelihood: -2157.220412
+Improvement at iteration 739. New log likelihood: -2156.099209
+Improvement at iteration 797. New log likelihood: -2149.785504
+Improvement at iteration 807. New log likelihood: -2148.349902
+Improvement at iteration 854. New log likelihood: -2148.292094
+Improvement at iteration 874. New log likelihood: -2127.519566
+Improvement at iteration 925. New log likelihood: -2127.248359
+Improvement at iteration 951. New log likelihood: -2125.581849
+Improvement at iteration 963. New log likelihood: -2124.570813
+Improvement at iteration 989. New log likelihood: -2123.761411
+Improvement at iteration 1225. New log likelihood: -2123.285304
+Improvement at iteration 1232. New log likelihood: -2122.934282
+Improvement at iteration 1270. New log likelihood: -2122.260737
+Improvement at iteration 1271. New log likelihood: -2121.678545
+Improvement at iteration 1435. New log likelihood: -2119.090120
+Improvement at iteration 1453. New log likelihood: -2119.037351
+Improvement at iteration 1577. New log likelihood: -2118.856030
+Improvement at iteration 1604. New log likelihood: -2118.731359
+Improvement at iteration 1641. New log likelihood: -2118.656797
+Improvement at iteration 1642. New log likelihood: -2118.348512
+Improvement at iteration 1708. New log likelihood: -2117.704856
+Improvement at iteration 1709. New log likelihood: -2117.630600
+Improvement at iteration 1710. New log likelihood: -2117.345576
+Improvement at iteration 1720. New log likelihood: -2117.266811
+Improvement at iteration 1749. New log likelihood: -2117.266503
+Improvement at iteration 1753. New log likelihood: -2117.253981
+Improvement at iteration 1847. New log likelihood: -2117.236208
+Improvement at iteration 1871. New log likelihood: -2117.200735
+Improvement at iteration 2370. New log likelihood: -2117.143591
+Improvement at iteration 2375. New log likelihood: -2117.136838
+Improvement at iteration 2406. New log likelihood: -2116.946124
+Improvement at iteration 2543. New log likelihood: -2116.657200
+Improvement at iteration 2544. New log likelihood: -2116.643023
+Improvement at iteration 2555. New log likelihood: -2116.421609
+Improvement at iteration 2598. New log likelihood: -2116.324193
+Improvement at iteration 2776. New log likelihood: -2116.300163
+Improvement at iteration 2781. New log likelihood: -2116.122460
+Improvement at iteration 3914. New log likelihood: -2115.670448
+Improvement at iteration 3931. New log likelihood: -2115.156181
+Improvement at iteration 4105. New log likelihood: -2114.189881
+Improvement at iteration 4522. New log likelihood: -2113.626397
+Improvement at iteration 4527. New log likelihood: -2113.354032
+Improvement at iteration 4556. New log likelihood: -2113.124224
+Improvement at iteration 4560. New log likelihood: -2113.113080
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading file: 150520_ASN_SSL_surf_both.lbs
+Loading data file: .\ASN_surf_IFN1_data1.txt
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 10. New log likelihood: -721771095.391905
+Improvement at iteration 12. New log likelihood: -27804.077602
+Improvement at iteration 13. New log likelihood: -23599.470673
+Improvement at iteration 15. New log likelihood: -23583.215475
+Improvement at iteration 17. New log likelihood: -23572.512307
+Improvement at iteration 24. New log likelihood: -18833.846793
+Improvement at iteration 34. New log likelihood: -17649.239660
+Improvement at iteration 35. New log likelihood: -16905.474330
+Improvement at iteration 45. New log likelihood: -15791.679524
+Improvement at iteration 55. New log likelihood: -9796.628421
+Improvement at iteration 66. New log likelihood: -8311.165198
+Improvement at iteration 155. New log likelihood: -7810.873092
+Improvement at iteration 171. New log likelihood: -7799.569596
+Improvement at iteration 245. New log likelihood: -7552.485840
+Improvement at iteration 256. New log likelihood: -7461.634502
+Improvement at iteration 309. New log likelihood: -4995.536493
+Improvement at iteration 398. New log likelihood: -4779.493035
+Improvement at iteration 414. New log likelihood: -4692.820447
+Improvement at iteration 420. New log likelihood: -4653.497890
+Improvement at iteration 515. New log likelihood: -4649.066718
+Improvement at iteration 562. New log likelihood: -4498.724832
+Improvement at iteration 563. New log likelihood: -4494.920393
+Improvement at iteration 570. New log likelihood: -4467.830964
+Improvement at iteration 575. New log likelihood: -4398.994637
+Improvement at iteration 585. New log likelihood: -4385.201823
+Improvement at iteration 788. New log likelihood: -4325.803613
+Improvement at iteration 845. New log likelihood: -4295.190182
+Improvement at iteration 875. New log likelihood: -4295.062898
+Improvement at iteration 878. New log likelihood: -4293.887529
+Improvement at iteration 913. New log likelihood: -4278.083057
+Improvement at iteration 918. New log likelihood: -4276.411193
+Improvement at iteration 929. New log likelihood: -4272.114758
+Improvement at iteration 959. New log likelihood: -4271.519737
+Improvement at iteration 962. New log likelihood: -4269.186270
+Improvement at iteration 980. New log likelihood: -4262.940390
+Improvement at iteration 984. New log likelihood: -4233.810780
+Improvement at iteration 996. New log likelihood: -4216.853593
+Improvement at iteration 1006. New log likelihood: -4216.734000
+Improvement at iteration 1014. New log likelihood: -4215.669308
+Improvement at iteration 1048. New log likelihood: -4205.379315
+Improvement at iteration 1073. New log likelihood: -4204.669940
+Improvement at iteration 1101. New log likelihood: -4198.833117
+Improvement at iteration 1105. New log likelihood: -4196.691710
+Improvement at iteration 1113. New log likelihood: -4192.151180
+Improvement at iteration 1144. New log likelihood: -4182.081563
+Improvement at iteration 1158. New log likelihood: -4180.800237
+Improvement at iteration 1161. New log likelihood: -4175.283207
+Improvement at iteration 1172. New log likelihood: -4172.296914
+Improvement at iteration 1174. New log likelihood: -4160.562155
+Improvement at iteration 1178. New log likelihood: -4149.579111
+Improvement at iteration 1194. New log likelihood: -4145.929688
+Improvement at iteration 1229. New log likelihood: -4145.471804
+Improvement at iteration 1234. New log likelihood: -4145.364377
+Improvement at iteration 1237. New log likelihood: -4123.288190
+Improvement at iteration 1252. New log likelihood: -4120.609381
+Improvement at iteration 1255. New log likelihood: -4118.222434
+Improvement at iteration 1258. New log likelihood: -4110.075414
+Improvement at iteration 1262. New log likelihood: -4090.084478
+Improvement at iteration 1288. New log likelihood: -4085.882625
+Improvement at iteration 1295. New log likelihood: -4077.857752
+Improvement at iteration 1300. New log likelihood: -4077.499860
+Improvement at iteration 1306. New log likelihood: -4076.911217
+Improvement at iteration 1307. New log likelihood: -4076.548626
+Improvement at iteration 1321. New log likelihood: -4076.229500
+Improvement at iteration 1367. New log likelihood: -4074.008538
+Improvement at iteration 1369. New log likelihood: -4073.898687
+Improvement at iteration 1387. New log likelihood: -4065.885871
+Improvement at iteration 1399. New log likelihood: -4065.683643
+Improvement at iteration 1414. New log likelihood: -4065.229794
+Improvement at iteration 1418. New log likelihood: -4065.216417
+Improvement at iteration 1423. New log likelihood: -4062.368101
+Improvement at iteration 1424. New log likelihood: -4061.301293
+Improvement at iteration 1430. New log likelihood: -4055.898281
+Improvement at iteration 1469. New log likelihood: -4052.944968
+Improvement at iteration 1476. New log likelihood: -4052.724361
+Improvement at iteration 1480. New log likelihood: -4038.322850
+Improvement at iteration 1486. New log likelihood: -4037.343035
+Improvement at iteration 1487. New log likelihood: -4037.070993
+Improvement at iteration 1512. New log likelihood: -4035.683870
+Improvement at iteration 1515. New log likelihood: -4034.872276
+Improvement at iteration 1542. New log likelihood: -4034.280349
+Improvement at iteration 1545. New log likelihood: -4032.334971
+Improvement at iteration 1548. New log likelihood: -4032.279382
+Improvement at iteration 1549. New log likelihood: -4032.032547
+Improvement at iteration 1557. New log likelihood: -4028.905984
+Improvement at iteration 1559. New log likelihood: -4025.376397
+Improvement at iteration 1570. New log likelihood: -4024.680736
+Improvement at iteration 1571. New log likelihood: -4023.256202
+Improvement at iteration 1572. New log likelihood: -4021.111770
+Improvement at iteration 1575. New log likelihood: -4020.510000
+Improvement at iteration 1577. New log likelihood: -4020.435636
+Improvement at iteration 1579. New log likelihood: -4018.627234
+Improvement at iteration 1587. New log likelihood: -4016.899204
+Improvement at iteration 1600. New log likelihood: -4015.725816
+Improvement at iteration 1601. New log likelihood: -4013.764706
+Improvement at iteration 1603. New log likelihood: -4010.023428
+Improvement at iteration 1604. New log likelihood: -3999.559344
+Improvement at iteration 1606. New log likelihood: -3999.295852
+Improvement at iteration 1609. New log likelihood: -3996.259193
+Improvement at iteration 1618. New log likelihood: -3995.673546
+Improvement at iteration 1619. New log likelihood: -3994.320114
+Improvement at iteration 1623. New log likelihood: -3984.137426
+Improvement at iteration 1631. New log likelihood: -3983.371314
+Improvement at iteration 1636. New log likelihood: -3979.010132
+Improvement at iteration 1637. New log likelihood: -3976.887226
+Improvement at iteration 1651. New log likelihood: -3975.955727
+Improvement at iteration 1653. New log likelihood: -3974.430496
+Improvement at iteration 1656. New log likelihood: -3961.460037
+Improvement at iteration 1675. New log likelihood: -3961.032031
+Improvement at iteration 1676. New log likelihood: -3947.204067
+Improvement at iteration 1681. New log likelihood: -3946.134801
+Improvement at iteration 1688. New log likelihood: -3945.428788
+Improvement at iteration 1694. New log likelihood: -3942.368428
+Improvement at iteration 1697. New log likelihood: -3941.985726
+Improvement at iteration 1700. New log likelihood: -3941.735047
+Improvement at iteration 1705. New log likelihood: -3940.490444
+Improvement at iteration 1719. New log likelihood: -3940.304630
+Improvement at iteration 1727. New log likelihood: -3940.270808
+Improvement at iteration 1731. New log likelihood: -3940.148829
+Improvement at iteration 1736. New log likelihood: -3940.125546
+Improvement at iteration 1737. New log likelihood: -3938.108885
+Improvement at iteration 1739. New log likelihood: -3938.088981
+Improvement at iteration 1743. New log likelihood: -3937.957743
+Improvement at iteration 1753. New log likelihood: -3936.317393
+Improvement at iteration 1758. New log likelihood: -3932.911477
+Improvement at iteration 1760. New log likelihood: -3931.645092
+Improvement at iteration 1763. New log likelihood: -3923.927490
+Improvement at iteration 1764. New log likelihood: -3922.273301
+Improvement at iteration 1765. New log likelihood: -3921.107523
+Improvement at iteration 1767. New log likelihood: -3918.405475
+Improvement at iteration 1771. New log likelihood: -3915.065578
+Improvement at iteration 1773. New log likelihood: -3914.879269
+Improvement at iteration 1774. New log likelihood: -3913.561242
+Improvement at iteration 1775. New log likelihood: -3902.295755
+Improvement at iteration 1778. New log likelihood: -3896.529832
+Improvement at iteration 1779. New log likelihood: -3896.158038
+Improvement at iteration 1781. New log likelihood: -3894.580425
+Improvement at iteration 1785. New log likelihood: -3893.845622
+Improvement at iteration 1810. New log likelihood: -3893.290265
+Improvement at iteration 1811. New log likelihood: -3892.891339
+Improvement at iteration 1815. New log likelihood: -3892.304078
+Improvement at iteration 1819. New log likelihood: -3880.333312
+Improvement at iteration 1820. New log likelihood: -3879.468984
+Improvement at iteration 1826. New log likelihood: -3875.768557
+Improvement at iteration 1831. New log likelihood: -3875.685593
+Improvement at iteration 1836. New log likelihood: -3875.160155
+Improvement at iteration 1838. New log likelihood: -3872.788906
+Improvement at iteration 1841. New log likelihood: -3872.616401
+Improvement at iteration 1881. New log likelihood: -3869.312064
+Improvement at iteration 1882. New log likelihood: -3867.574777
+Improvement at iteration 1884. New log likelihood: -3862.720512
+Improvement at iteration 1888. New log likelihood: -3862.580614
+Improvement at iteration 1890. New log likelihood: -3861.491049
+Improvement at iteration 1895. New log likelihood: -3852.003919
+Improvement at iteration 1899. New log likelihood: -3851.834577
+Improvement at iteration 1907. New log likelihood: -3847.429290
+Improvement at iteration 1908. New log likelihood: -3846.664950
+Improvement at iteration 1913. New log likelihood: -3836.635547
+Improvement at iteration 1917. New log likelihood: -3833.027153
+Improvement at iteration 1919. New log likelihood: -3824.323809
+Improvement at iteration 1923. New log likelihood: -3820.894989
+Improvement at iteration 1929. New log likelihood: -3813.766550
+Improvement at iteration 1930. New log likelihood: -3811.299324
+Improvement at iteration 1931. New log likelihood: -3809.623489
+Improvement at iteration 1938. New log likelihood: -3808.891975
+Improvement at iteration 1940. New log likelihood: -3801.242910
+Improvement at iteration 1944. New log likelihood: -3800.540798
+Improvement at iteration 1946. New log likelihood: -3800.295571
+Improvement at iteration 1955. New log likelihood: -3800.197194
+Improvement at iteration 1959. New log likelihood: -3799.320946
+Improvement at iteration 1965. New log likelihood: -3798.766814
+Improvement at iteration 1967. New log likelihood: -3794.439919
+Improvement at iteration 1968. New log likelihood: -3794.315122
+Improvement at iteration 1970. New log likelihood: -3792.780096
+Improvement at iteration 1971. New log likelihood: -3792.240359
+Improvement at iteration 1972. New log likelihood: -3787.567473
+Improvement at iteration 1973. New log likelihood: -3785.815445
+Improvement at iteration 1977. New log likelihood: -3785.781040
+Improvement at iteration 1980. New log likelihood: -3784.866250
+Improvement at iteration 1981. New log likelihood: -3779.901429
+Improvement at iteration 1988. New log likelihood: -3778.731951
+Improvement at iteration 1990. New log likelihood: -3778.480790
+Improvement at iteration 2004. New log likelihood: -3778.474897
+Improvement at iteration 2008. New log likelihood: -3777.680871
+Improvement at iteration 2010. New log likelihood: -3776.007469
+Improvement at iteration 2011. New log likelihood: -3775.974338
+Improvement at iteration 2021. New log likelihood: -3769.526475
+Improvement at iteration 2022. New log likelihood: -3769.347096
+Improvement at iteration 2023. New log likelihood: -3768.498118
+Improvement at iteration 2026. New log likelihood: -3765.222875
+Improvement at iteration 2029. New log likelihood: -3764.917965
+Improvement at iteration 2032. New log likelihood: -3762.917103
+Improvement at iteration 2038. New log likelihood: -3755.493707
+Improvement at iteration 2039. New log likelihood: -3754.888874
+Improvement at iteration 2044. New log likelihood: -3754.011867
+Improvement at iteration 2050. New log likelihood: -3753.990338
+Improvement at iteration 2060. New log likelihood: -3751.534533
+Improvement at iteration 2062. New log likelihood: -3748.102871
+Improvement at iteration 2064. New log likelihood: -3747.232939
+Improvement at iteration 2066. New log likelihood: -3746.864930
+Improvement at iteration 2067. New log likelihood: -3742.981612
+Improvement at iteration 2069. New log likelihood: -3742.924185
+Improvement at iteration 2078. New log likelihood: -3739.234460
+Improvement at iteration 2096. New log likelihood: -3738.692162
+Improvement at iteration 2102. New log likelihood: -3738.555408
+Improvement at iteration 2108. New log likelihood: -3735.787484
+Improvement at iteration 2109. New log likelihood: -3722.677627
+Improvement at iteration 2110. New log likelihood: -3721.479790
+Improvement at iteration 2126. New log likelihood: -3718.349330
+Improvement at iteration 2127. New log likelihood: -3715.909874
+Improvement at iteration 2136. New log likelihood: -3711.430471
+Improvement at iteration 2142. New log likelihood: -3711.098573
+Improvement at iteration 2144. New log likelihood: -3710.534480
+Improvement at iteration 2145. New log likelihood: -3710.246521
+Improvement at iteration 2154. New log likelihood: -3709.858684
+Improvement at iteration 2155. New log likelihood: -3709.596134
+Improvement at iteration 2158. New log likelihood: -3709.126206
+Improvement at iteration 2169. New log likelihood: -3698.646838
+Improvement at iteration 2173. New log likelihood: -3695.687836
+Improvement at iteration 2178. New log likelihood: -3691.621500
+Improvement at iteration 2186. New log likelihood: -3680.374438
+Improvement at iteration 2188. New log likelihood: -3674.320786
+Improvement at iteration 2191. New log likelihood: -3673.932192
+Improvement at iteration 2195. New log likelihood: -3659.783565
+Improvement at iteration 2199. New log likelihood: -3652.420146
+Improvement at iteration 2201. New log likelihood: -3652.317772
+Improvement at iteration 2204. New log likelihood: -3645.873893
+Improvement at iteration 2206. New log likelihood: -3645.863632
+Improvement at iteration 2210. New log likelihood: -3641.261681
+Improvement at iteration 2212. New log likelihood: -3640.751869
+Improvement at iteration 2214. New log likelihood: -3631.695308
+Improvement at iteration 2219. New log likelihood: -3631.381639
+Improvement at iteration 2220. New log likelihood: -3621.977820
+Improvement at iteration 2222. New log likelihood: -3611.713987
+Improvement at iteration 2230. New log likelihood: -3611.698287
+Improvement at iteration 2231. New log likelihood: -3611.510457
+Improvement at iteration 2232. New log likelihood: -3610.845166
+Improvement at iteration 2235. New log likelihood: -3610.610973
+Improvement at iteration 2236. New log likelihood: -3610.584015
+Improvement at iteration 2240. New log likelihood: -3587.846886
+Improvement at iteration 2242. New log likelihood: -3587.812215
+Improvement at iteration 2243. New log likelihood: -3587.216692
+Improvement at iteration 2245. New log likelihood: -3584.379222
+Improvement at iteration 2249. New log likelihood: -3583.870966
+Improvement at iteration 2253. New log likelihood: -3583.279159
+Improvement at iteration 2255. New log likelihood: -3582.165792
+Improvement at iteration 2258. New log likelihood: -3578.578528
+Improvement at iteration 2261. New log likelihood: -3575.623680
+Improvement at iteration 2266. New log likelihood: -3572.167062
+Improvement at iteration 2267. New log likelihood: -3572.076759
+Improvement at iteration 2273. New log likelihood: -3570.979386
+Improvement at iteration 2274. New log likelihood: -3569.811585
+Improvement at iteration 2276. New log likelihood: -3568.760833
+Improvement at iteration 2280. New log likelihood: -3568.452206
+Improvement at iteration 2283. New log likelihood: -3568.422795
+Improvement at iteration 2303. New log likelihood: -3565.507474
+Improvement at iteration 2310. New log likelihood: -3564.947665
+Improvement at iteration 2312. New log likelihood: -3563.509436
+Improvement at iteration 2316. New log likelihood: -3548.810029
+Improvement at iteration 2319. New log likelihood: -3530.247168
+Improvement at iteration 2321. New log likelihood: -3530.081880
+Improvement at iteration 2326. New log likelihood: -3530.027082
+Improvement at iteration 2332. New log likelihood: -3518.084053
+Improvement at iteration 2333. New log likelihood: -3515.679267
+Improvement at iteration 2336. New log likelihood: -3515.375136
+Improvement at iteration 2345. New log likelihood: -3514.512345
+Improvement at iteration 2346. New log likelihood: -3499.139511
+Improvement at iteration 2351. New log likelihood: -3498.640584
+Improvement at iteration 2358. New log likelihood: -3497.347918
+Improvement at iteration 2361. New log likelihood: -3495.537069
+Improvement at iteration 2362. New log likelihood: -3494.714642
+Improvement at iteration 2365. New log likelihood: -3492.096375
+Improvement at iteration 2368. New log likelihood: -3489.588197
+Improvement at iteration 2370. New log likelihood: -3488.432822
+Improvement at iteration 2373. New log likelihood: -3485.539202
+Improvement at iteration 2374. New log likelihood: -3485.430347
+Improvement at iteration 2403. New log likelihood: -3481.120185
+Improvement at iteration 2405. New log likelihood: -3478.631640
+Improvement at iteration 2407. New log likelihood: -3477.999740
+Improvement at iteration 2412. New log likelihood: -3477.774135
+Improvement at iteration 2414. New log likelihood: -3471.712270
+Improvement at iteration 2424. New log likelihood: -3471.625345
+Improvement at iteration 2426. New log likelihood: -3469.726802
+Improvement at iteration 2430. New log likelihood: -3469.519685
+Improvement at iteration 2433. New log likelihood: -3468.195843
+Improvement at iteration 2437. New log likelihood: -3465.912847
+Improvement at iteration 2440. New log likelihood: -3465.612499
+Improvement at iteration 2449. New log likelihood: -3465.001515
+Improvement at iteration 2450. New log likelihood: -3463.824774
+Improvement at iteration 2466. New log likelihood: -3463.682547
+Improvement at iteration 2468. New log likelihood: -3463.308364
+Improvement at iteration 2486. New log likelihood: -3462.945202
+Improvement at iteration 2490. New log likelihood: -3457.883603
+Improvement at iteration 2494. New log likelihood: -3457.883316
+Improvement at iteration 2496. New log likelihood: -3457.338015
+Improvement at iteration 2506. New log likelihood: -3456.955769
+Improvement at iteration 2531. New log likelihood: -3452.671211
+Improvement at iteration 2533. New log likelihood: -3448.713570
+Improvement at iteration 2540. New log likelihood: -3448.710086
+Improvement at iteration 2550. New log likelihood: -3447.382993
+Improvement at iteration 2551. New log likelihood: -3445.920868
+Improvement at iteration 2558. New log likelihood: -3445.902644
+Improvement at iteration 2562. New log likelihood: -3445.856100
+Improvement at iteration 2566. New log likelihood: -3441.625448
+Improvement at iteration 2567. New log likelihood: -3440.772004
+Improvement at iteration 2591. New log likelihood: -3440.547417
+Improvement at iteration 2592. New log likelihood: -3440.385142
+Improvement at iteration 2594. New log likelihood: -3440.232855
+Improvement at iteration 2595. New log likelihood: -3435.870833
+Improvement at iteration 2599. New log likelihood: -3435.518263
+Improvement at iteration 2609. New log likelihood: -3435.341798
+Improvement at iteration 2610. New log likelihood: -3435.097720
+Improvement at iteration 2627. New log likelihood: -3429.408299
+Improvement at iteration 2628. New log likelihood: -3429.099142
+Improvement at iteration 2641. New log likelihood: -3426.860106
+Improvement at iteration 2653. New log likelihood: -3426.786282
+Improvement at iteration 2656. New log likelihood: -3426.612312
+Improvement at iteration 2664. New log likelihood: -3426.527469
+Improvement at iteration 2677. New log likelihood: -3425.484354
+Improvement at iteration 2680. New log likelihood: -3422.122308
+Improvement at iteration 2700. New log likelihood: -3421.903839
+Improvement at iteration 2707. New log likelihood: -3420.221191
+Improvement at iteration 2708. New log likelihood: -3420.008121
+Improvement at iteration 2710. New log likelihood: -3419.606519
+Improvement at iteration 2713. New log likelihood: -3419.486888
+Improvement at iteration 2721. New log likelihood: -3416.895363
+Improvement at iteration 2722. New log likelihood: -3412.519378
+Improvement at iteration 2727. New log likelihood: -3412.365503
+Improvement at iteration 2751. New log likelihood: -3411.776677
+Improvement at iteration 2753. New log likelihood: -3410.350625
+Improvement at iteration 2764. New log likelihood: -3409.703515
+Improvement at iteration 2768. New log likelihood: -3409.661610
+Improvement at iteration 2779. New log likelihood: -3409.378115
+Improvement at iteration 2785. New log likelihood: -3408.744927
+Improvement at iteration 2789. New log likelihood: -3408.376422
+Improvement at iteration 2793. New log likelihood: -3408.352190
+Improvement at iteration 2807. New log likelihood: -3408.157745
+Improvement at iteration 2811. New log likelihood: -3407.524972
+Improvement at iteration 2819. New log likelihood: -3406.831345
+Improvement at iteration 2822. New log likelihood: -3406.798964
+Improvement at iteration 2836. New log likelihood: -3406.407636
+Improvement at iteration 2839. New log likelihood: -3406.183468
+Improvement at iteration 2873. New log likelihood: -3404.216879
+Improvement at iteration 2875. New log likelihood: -3403.377642
+Improvement at iteration 2930. New log likelihood: -3403.100018
+Improvement at iteration 2939. New log likelihood: -3402.537786
+Improvement at iteration 3041. New log likelihood: -3402.444022
+Improvement at iteration 3042. New log likelihood: -3402.393023
+Improvement at iteration 3070. New log likelihood: -3401.663075
+Improvement at iteration 3191. New log likelihood: -3401.223133
+Improvement at iteration 3199. New log likelihood: -3401.195141
+Improvement at iteration 3230. New log likelihood: -3401.104657
+Improvement at iteration 3238. New log likelihood: -3400.982038
+Improvement at iteration 3261. New log likelihood: -3400.906814
+Improvement at iteration 3350. New log likelihood: -3400.006478
+Improvement at iteration 3791. New log likelihood: -3399.985603
+Improvement at iteration 3984. New log likelihood: -3399.838060
+Improvement at iteration 3985. New log likelihood: -3399.773062
+Improvement at iteration 4241. New log likelihood: -3398.877531
+Improvement at iteration 4249. New log likelihood: -3398.711851
+Improvement at iteration 4985. New log likelihood: -3398.132375
+Improvement at iteration 6647. New log likelihood: -3397.817486
+Improvement at iteration 6653. New log likelihood: -3397.764294
+Improvement at iteration 6654. New log likelihood: -3397.153181
+Improvement at iteration 6658. New log likelihood: -3397.007616
+Improvement at iteration 6663. New log likelihood: -3396.970254
+Improvement at iteration 6665. New log likelihood: -3396.552492
+Improvement at iteration 6675. New log likelihood: -3396.537266
+Improvement at iteration 6817. New log likelihood: -3396.327787
+Improvement at iteration 6819. New log likelihood: -3396.302937
+Improvement at iteration 6992. New log likelihood: -3396.113474
+Improvement at iteration 10507. New log likelihood: -3395.263239
+Improvement at iteration 10524. New log likelihood: -3394.819494
+Improvement at iteration 10620. New log likelihood: -3394.613947
+Improvement at iteration 10622. New log likelihood: -3394.593660
+Improvement at iteration 10624. New log likelihood: -3394.391130
+Improvement at iteration 11474. New log likelihood: -3394.255775
+Improvement at iteration 11481. New log likelihood: -3394.142974
+Improvement at iteration 11517. New log likelihood: -3393.693782
+Improvement at iteration 11634. New log likelihood: -3393.005382
+Improvement at iteration 11651. New log likelihood: -3392.641457
+Improvement at iteration 11663. New log likelihood: -3392.555143
+Improvement at iteration 11666. New log likelihood: -3392.485003
+Improvement at iteration 11705. New log likelihood: -3392.359168
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial9/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial9/mysweep2.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both_inference\Trial9/mysweep4.tsv
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 5. New log likelihood: -553237.170807
+Improvement at iteration 9. New log likelihood: -254760.865263
+Improvement at iteration 11. New log likelihood: -114845.401602
+Improvement at iteration 18. New log likelihood: -34804.611471
+Improvement at iteration 28. New log likelihood: -30867.661988
+Improvement at iteration 31. New log likelihood: -22010.708108
+Improvement at iteration 38. New log likelihood: -16384.635250
+Improvement at iteration 52. New log likelihood: -8740.135898
+Improvement at iteration 57. New log likelihood: -7665.027040
+Improvement at iteration 65. New log likelihood: -7510.454821
+Improvement at iteration 73. New log likelihood: -6035.748811
+Improvement at iteration 123. New log likelihood: -4658.821749
+Improvement at iteration 168. New log likelihood: -3840.085179
+Improvement at iteration 197. New log likelihood: -3477.506918
+Improvement at iteration 206. New log likelihood: -3419.203032
+Improvement at iteration 255. New log likelihood: -3281.594657
+Improvement at iteration 264. New log likelihood: -3246.287399
+Improvement at iteration 277. New log likelihood: -2568.165339
+Improvement at iteration 282. New log likelihood: -2501.560133
+Improvement at iteration 390. New log likelihood: -2478.514043
+Improvement at iteration 391. New log likelihood: -2466.857716
+Improvement at iteration 392. New log likelihood: -2349.299707
+Improvement at iteration 405. New log likelihood: -2345.236343
+Improvement at iteration 423. New log likelihood: -2337.905186
+Improvement at iteration 503. New log likelihood: -2180.633626
+Improvement at iteration 605. New log likelihood: -2160.914651
+Improvement at iteration 606. New log likelihood: -2142.566287
+Improvement at iteration 715. New log likelihood: -2140.816128
+Improvement at iteration 720. New log likelihood: -2138.187488
+Improvement at iteration 750. New log likelihood: -2123.258004
+Improvement at iteration 770. New log likelihood: -2113.659267
+Improvement at iteration 935. New log likelihood: -2113.144527
+Improvement at iteration 940. New log likelihood: -2111.367913
+Improvement at iteration 952. New log likelihood: -2107.705129
+Improvement at iteration 1005. New log likelihood: -2106.975121
+Improvement at iteration 1008. New log likelihood: -2106.552295
+Improvement at iteration 1042. New log likelihood: -2105.863699
+Improvement at iteration 1069. New log likelihood: -2105.052664
+Improvement at iteration 1087. New log likelihood: -2103.262924
+Improvement at iteration 1139. New log likelihood: -2102.767886
+Improvement at iteration 1428. New log likelihood: -2102.762103
+Improvement at iteration 1451. New log likelihood: -2102.587745
+Improvement at iteration 1461. New log likelihood: -2102.120917
+Improvement at iteration 1626. New log likelihood: -2102.067089
+Improvement at iteration 1627. New log likelihood: -2101.208080
+Improvement at iteration 1657. New log likelihood: -2099.875548
+Improvement at iteration 2104. New log likelihood: -2099.812383
+Improvement at iteration 5493. New log likelihood: -2099.748349
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both2_inference\Trial1/mysweep1.tsv
+
+Wrote simulation data file: 150520_ASN_SSL_surf_both2_inference\Trial1/mysweep2.tsv
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Starting inference
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Loading file: 150520_ASN_SSL_surf_both2.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 6. New log likelihood: -1807579.498400
+Improvement at iteration 7. New log likelihood: -69456.042360
+Improvement at iteration 10. New log likelihood: -63966.861873
+Improvement at iteration 21. New log likelihood: -42840.000621
+Improvement at iteration 25. New log likelihood: -31086.518331
+Improvement at iteration 27. New log likelihood: -26725.548190
+Improvement at iteration 55. New log likelihood: -26725.529211
+Improvement at iteration 60. New log likelihood: -26504.968972
+Improvement at iteration 67. New log likelihood: -26442.107581
+Improvement at iteration 138. New log likelihood: -25664.979879
+Improvement at iteration 163. New log likelihood: -25381.367399
+Improvement at iteration 172. New log likelihood: -24813.552623
+Improvement at iteration 173. New log likelihood: -22963.388504
+Improvement at iteration 177. New log likelihood: -22616.491392
+Improvement at iteration 215. New log likelihood: -22415.776216
+Improvement at iteration 226. New log likelihood: -22320.474063
+Improvement at iteration 241. New log likelihood: -20988.892693
+Improvement at iteration 248. New log likelihood: -16530.151169
+Improvement at iteration 255. New log likelihood: -15378.379460
+Improvement at iteration 286. New log likelihood: -10293.470250
+Improvement at iteration 293. New log likelihood: -10181.447740
+Improvement at iteration 298. New log likelihood: -9283.430927
+Improvement at iteration 303. New log likelihood: -9045.888157
+Improvement at iteration 308. New log likelihood: -9045.731457
+Improvement at iteration 324. New log likelihood: -9045.650255
+Improvement at iteration 343. New log likelihood: -9044.408793
+Improvement at iteration 354. New log likelihood: -8990.102227
+Improvement at iteration 383. New log likelihood: -8987.421333
+Improvement at iteration 391. New log likelihood: -8954.124346
+Improvement at iteration 417. New log likelihood: -7493.478430
+Improvement at iteration 431. New log likelihood: -7446.923802
+Improvement at iteration 436. New log likelihood: -5631.520232
+Improvement at iteration 445. New log likelihood: -5362.414399
+Improvement at iteration 451. New log likelihood: -5302.459685
+Improvement at iteration 463. New log likelihood: -3569.431918
+Improvement at iteration 476. New log likelihood: -3513.906859
+Improvement at iteration 484. New log likelihood: -3431.777922
+Improvement at iteration 502. New log likelihood: -3380.845399
+Improvement at iteration 508. New log likelihood: -3336.104154
+Improvement at iteration 513. New log likelihood: -2896.758765
+Improvement at iteration 514. New log likelihood: -2682.176766
+Improvement at iteration 529. New log likelihood: -2566.947857
+Improvement at iteration 534. New log likelihood: -2447.332478
+Improvement at iteration 558. New log likelihood: -2292.180628
+Improvement at iteration 570. New log likelihood: -2261.352709
+Improvement at iteration 628. New log likelihood: -2255.511698
+Improvement at iteration 633. New log likelihood: -2251.104242
+Improvement at iteration 634. New log likelihood: -2250.443089
+Improvement at iteration 691. New log likelihood: -2247.764239
+Improvement at iteration 715. New log likelihood: -2245.942009
+Improvement at iteration 726. New log likelihood: -2233.828508
+Improvement at iteration 734. New log likelihood: -2225.244507
+Improvement at iteration 746. New log likelihood: -2145.618844
+Improvement at iteration 779. New log likelihood: -2137.827233
+Improvement at iteration 792. New log likelihood: -2137.659454
+Improvement at iteration 875. New log likelihood: -2137.481735
+Improvement at iteration 877. New log likelihood: -2137.262731
+Improvement at iteration 961. New log likelihood: -2137.221111
+Improvement at iteration 977. New log likelihood: -2137.018539
+Improvement at iteration 985. New log likelihood: -2136.091262
+Improvement at iteration 1005. New log likelihood: -2131.793965
+Improvement at iteration 1006. New log likelihood: -2118.744854
+Improvement at iteration 1028. New log likelihood: -2109.627480
+Improvement at iteration 1035. New log likelihood: -2108.959182
+Improvement at iteration 1039. New log likelihood: -2108.433760
+Improvement at iteration 1045. New log likelihood: -2107.332523
+Improvement at iteration 1047. New log likelihood: -2106.831191
+Improvement at iteration 1126. New log likelihood: -2106.451412
+Improvement at iteration 1155. New log likelihood: -2106.347603
+Improvement at iteration 1157. New log likelihood: -2105.831908
+Improvement at iteration 1234. New log likelihood: -2105.816709
+Improvement at iteration 1273. New log likelihood: -2105.669559
+Improvement at iteration 1279. New log likelihood: -2103.088451
+Improvement at iteration 1292. New log likelihood: -2102.948318
+Improvement at iteration 1311. New log likelihood: -2101.670951
+Improvement at iteration 1627. New log likelihood: -2101.319117
+Improvement at iteration 1629. New log likelihood: -2101.279163
+Improvement at iteration 1732. New log likelihood: -2101.186465
+Improvement at iteration 1735. New log likelihood: -2100.540588
+Improvement at iteration 1759. New log likelihood: -2100.433907
+Improvement at iteration 1791. New log likelihood: -2100.336862
+Improvement at iteration 1855. New log likelihood: -2099.961788
+Improvement at iteration 1856. New log likelihood: -2099.838175
+Improvement at iteration 2072. New log likelihood: -2099.716412
+Improvement at iteration 2174. New log likelihood: -2099.674008
+Improvement at iteration 2178. New log likelihood: -2099.597341
+Improvement at iteration 2317. New log likelihood: -2098.917497
+Improvement at iteration 2318. New log likelihood: -2098.751718
+Improvement at iteration 4523. New log likelihood: -2098.481311
+Improvement at iteration 4530. New log likelihood: -2098.444909
+Loading file: check10.lbs
+Starting inference
+Loading file: check10.lbs
+Loading file: check10.lbs
+Loading data file: .\SSL_surf_IFN1_data.txt
+Loading data file: .\SSL_surf_none_data.txt
+Improvement at iteration 6. New log likelihood: -15895007.298498
+Improvement at iteration 17. New log likelihood: -15832904.627998
+Improvement at iteration 20. New log likelihood: -1328933.828256
+Improvement at iteration 26. New log likelihood: -162387.321514
+Improvement at iteration 30. New log likelihood: -162155.928768
+Improvement at iteration 35. New log likelihood: -161348.519084
+Improvement at iteration 36. New log likelihood: -157408.226929
+Improvement at iteration 37. New log likelihood: -157052.041534
+Improvement at iteration 50. New log likelihood: -154219.145254
+Improvement at iteration 60. New log likelihood: -154147.385875
+Improvement at iteration 66. New log likelihood: -32777.952786
+Improvement at iteration 69. New log likelihood: -17920.045417
+Improvement at iteration 95. New log likelihood: -11453.596060
+Improvement at iteration 103. New log likelihood: -9059.199012
+Improvement at iteration 104. New log likelihood: -7576.571292
+Improvement at iteration 115. New log likelihood: -7549.150004
+Improvement at iteration 128. New log likelihood: -3667.877723
+Improvement at iteration 151. New log likelihood: -3659.048012
+Improvement at iteration 174. New log likelihood: -3595.306368
+Improvement at iteration 230. New log likelihood: -3584.266686
+Improvement at iteration 246. New log likelihood: -2975.789537
+Improvement at iteration 249. New log likelihood: -2777.425146
+Improvement at iteration 259. New log likelihood: -2583.263338
+Improvement at iteration 307. New log likelihood: -2530.975940
+Improvement at iteration 352. New log likelihood: -2530.253856
+Improvement at iteration 438. New log likelihood: -2491.721197
+Improvement at iteration 505. New log likelihood: -2470.762990
+Improvement at iteration 594. New log likelihood: -2461.026184
+Improvement at iteration 604. New log likelihood: -2436.613726
+Improvement at iteration 616. New log likelihood: -2425.235821
+Improvement at iteration 632. New log likelihood: -2396.166658
+Improvement at iteration 657. New log likelihood: -2372.292423
+Improvement at iteration 665. New log likelihood: -2353.396214
+Improvement at iteration 666. New log likelihood: -2331.449071
+Improvement at iteration 674. New log likelihood: -2321.675351
+Improvement at iteration 698. New log likelihood: -2315.853045
+Improvement at iteration 712. New log likelihood: -2315.839259
+Improvement at iteration 716. New log likelihood: -2291.068394
+Improvement at iteration 756. New log likelihood: -2290.371399
+Improvement at iteration 758. New log likelihood: -2288.349090
+Improvement at iteration 759. New log likelihood: -2273.522000
+Improvement at iteration 764. New log likelihood: -2272.167354
+Improvement at iteration 808. New log likelihood: -2231.485578
+Improvement at iteration 831. New log likelihood: -2223.388726
+Improvement at iteration 840. New log likelihood: -2221.954834
+Improvement at iteration 905. New log likelihood: -2221.621592
+Improvement at iteration 936. New log likelihood: -2213.273207
+Improvement at iteration 948. New log likelihood: -2213.252335
+Improvement at iteration 964. New log likelihood: -2203.428876
+Improvement at iteration 977. New log likelihood: -2142.637825
+Improvement at iteration 1000. New log likelihood: -2141.164646
+Improvement at iteration 1020. New log likelihood: -2133.956282
+Improvement at iteration 1040. New log likelihood: -2132.713728
+Improvement at iteration 1044. New log likelihood: -2131.844707
+Improvement at iteration 1060. New log likelihood: -2131.402803
+Improvement at iteration 1124. New log likelihood: -2130.991100
+Improvement at iteration 1139. New log likelihood: -2130.692692
+Improvement at iteration 1145. New log likelihood: -2130.147656
+Improvement at iteration 1164. New log likelihood: -2128.360263
+Improvement at iteration 1167. New log likelihood: -2127.515867
+Improvement at iteration 1175. New log likelihood: -2127.466716
+Improvement at iteration 1222. New log likelihood: -2127.110179
+Improvement at iteration 1240. New log likelihood: -2127.040363
+Improvement at iteration 1246. New log likelihood: -2126.698995
+Improvement at iteration 1253. New log likelihood: -2125.799734
+Improvement at iteration 1255. New log likelihood: -2125.710235
+Improvement at iteration 1267. New log likelihood: -2125.643387
+Improvement at iteration 1279. New log likelihood: -2125.279818
+Improvement at iteration 1283. New log likelihood: -2124.721693
+Improvement at iteration 1337. New log likelihood: -2118.355364
+Improvement at iteration 1347. New log likelihood: -2116.406125
+Improvement at iteration 1383. New log likelihood: -2112.016609
+Improvement at iteration 1384. New log likelihood: -2111.658134
+Improvement at iteration 1449. New log likelihood: -2110.636693
+Improvement at iteration 1474. New log likelihood: -2110.546253
+Improvement at iteration 2375. New log likelihood: -2110.368033
+Improvement at iteration 2409. New log likelihood: -2110.249455
+Improvement at iteration 2449. New log likelihood: -2110.127479
+Improvement at iteration 2450. New log likelihood: -2110.127463
+Improvement at iteration 2677. New log likelihood: -2110.010788
+
+Wrote simulation data file: check10_inference\Trial3/mysweep1.tsv
+
+Wrote simulation data file: check10_inference\Trial3/mysweep2.tsv

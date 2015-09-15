@@ -113,7 +113,7 @@ gtarget_ifn=SSL_cyt_ifn1;%
 gcomp_ifn=ASN_cyt_ifn1;
 % Set data to be the cell surface measure of the target peptide
 data_ifn = SSL_surf_ifn1;
-sf=[0.003,0.2,0.004,100];%[1,1,105.5,10000.5];
+sf=[0.1323,0.78,0.00039,1537];%[1,1,105.5,10000.5];
 
 [sf l_s]=fminsearch(@(sf)least_squares_both(sf,gtarget_none,gcomp_none,gtarget_ifn,gcomp_ifn,data_none,data_ifn),sf);
 

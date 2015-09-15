@@ -5,8 +5,8 @@ sf1=sf(1);
 sf2=sf(2);
 gM1=sf(3);
 upreg=sf(4);
-upreg2=sf(5);
-upreg3=sf(6);
+%upreg2=sf(5);
+%upreg3=sf(6);
 %sf4=sf(6);
 % Set u1 to be the measurement of the target peptide off-rate
 u1 = log(2)/(728.5746 * 60);
@@ -23,8 +23,8 @@ for i1=1:Ng1
         
         [MeP1_none_1(i1, i2), MeP2_none_1(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_none_1(i1, i2), sf2*gcomp_none_1(i1, i2), u1, u2, gM1);
         [MeP1_none_2(i1, i2), MeP2_none_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_none_2(i1, i2), sf2*gcomp_none_2(i1, i2), u1, u2, gM1);
-        [MeP1_ifn1_1(i1, i2), MeP2_ifn1_1(i1, i2)]=simulateMHC_asn_ssl(upreg2*sf1*gtarget_ifn1_1(i1, i2), upreg3*sf2*gcomp_ifn1_1(i1, i2), u1, u2, upreg*gM1);
-        [MeP1_ifn1_2(i1, i2), MeP2_ifn1_2(i1, i2)]=simulateMHC_asn_ssl(upreg2*sf1*gtarget_ifn1_2(i1, i2), upreg3*sf2*gcomp_ifn1_2(i1, i2), u1, u2, upreg*gM1);
+        [MeP1_ifn1_1(i1, i2), MeP2_ifn1_1(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_ifn1_1(i1, i2), sf2*gcomp_ifn1_1(i1, i2), u1, u2, upreg*gM1);
+        [MeP1_ifn1_2(i1, i2), MeP2_ifn1_2(i1, i2)]=simulateMHC_asn_ssl(sf1*gtarget_ifn1_2(i1, i2), sf2*gcomp_ifn1_2(i1, i2), u1, u2, upreg*gM1);
     end
 end
 
