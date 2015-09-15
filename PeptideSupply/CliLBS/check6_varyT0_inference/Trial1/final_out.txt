@@ -1,0 +1,40 @@
+
+params           8             Total number of model parameters.
+free_params      8             Number of free (non-fixed) parameters.
+total_iterations 30000         Number of itrations in burn-in and main sampling phases.
+sample_size      126           User-defined, usually equals to number of terms in likelihood.
+max_likelihood   -1010.4       Maximum log-likelihood reached.
+AIC              2036.8        Akaike Information Criterion.
+BIC              2059.5        Schwarz Information Criterion.
+DIC              2043.9        Deviance Information Criterion.
+
+        name      fixed?        type          lb          ub    priorl67   priormode    prioru67    rootRhat     postl95     postl67    postmean     postu67     postu95      LP_l95      LP_l67      LP_MLE      LP_u67      LP_u95
+noise_sigma_SSL_surf_IFN1_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0      33.005      36.641      40.836      44.891      52.232       1E-06       1E-06       39.93        1000        1000
+noise_sigma_SSL_surf_none_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0       10.09      11.101      12.463      13.779      15.347       1E-06       1E-06      11.535        1000        1000
+          T0  Randomized   RealSpace        -480          -1      -999.0      -999.0      -999.0           0     -88.524     -78.732     -36.923     -3.9146     -1.4597        -480        -480     -2.5664          -1          -1
+    upfactor  Randomized    LogSpace        0.01       10000      -999.0      -999.0      -999.0           0      2446.2        2812      3424.8      4066.2      4703.5        0.01        0.01      2909.5       10000       10000
+      offset  Randomized   RealSpace           0         500      -999.0      -999.0      -999.0           0      153.66      190.31      222.23      256.15      291.53           0           0      231.26         500         500
+          s1  Randomized    LogSpace       0.001          10      -999.0      -999.0      -999.0           0     0.21456     0.25796     0.35796      0.4779     0.59358       0.001       0.001     0.42932          10          10
+          s2  Randomized    LogSpace       0.001          10      -999.0      -999.0      -999.0           0      1.4086      1.8045      2.6972       3.657      4.7081       0.001       0.001      3.3808          10          10
+          sf  Randomized    LogSpace       1E-05           1      -999.0      -999.0      -999.0           0  0.00017053  0.00019238  0.00029385  0.00039726  0.00044602       1E-05       1E-05  0.00042288           1           1
+
+        name:  text identifier together with numeric index for vector parameters if applicable.
+      fixed?:  (0) - free parameter, (1) - fixed parameter, (-1) - free parameter, but do not randomize it at the start.
+        type:  (0) - real valued parameter, (1) - parameter that cannot be negative
+          lb:  user-defined lower bound for parameter values
+          ub:  user-difined upper bound for parameter values
+    priorl67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+   priormode:  most likely value (a.k.a. mode) of this parameter according to the prior; undefined if equals to -999
+    prioru67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+    rootRhat:  square root of R-criteria(?)
+     postl95:  lower bound of 95% confidence interval of posterior parameter distribution
+     postl67:  lower bound of 67% confidence interval of posterior parameter distribution
+    postmean:  mean value of posterior parameter distribution
+     postu67:  upper bound of 67% confidence interval of posterior parameter distribution
+     postu95:  upper bound of 95% confidence interval of posterior parameter distribution
+      LP_l95:  lower bound of 95% band from likelihood profile method
+      LP_l67:  lower bound of 67% band from likelihood profile method
+      LP_MLE:  maximum likelihood estimate
+      LP_u67:  upper bound of 67% band from likelihood profile method
+      LP_u95:  upper bound of 95% band from likelihood profile method
+
