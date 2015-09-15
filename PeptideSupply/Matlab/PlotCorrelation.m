@@ -21,7 +21,7 @@ left = dx/fwidth; width = 1-left-4*cwidth;
 bottom = dy/fheight; height = 0.95-bottom;
 
 fh = figure;
-fh.Position = [700 500 fwidth fheight];
+fh.Position = [700 100 fwidth fheight];
 scatter3(Xr(locs),-Yr(locs),Cr(locs),400,Cr(locs),'.')
 axis([0 Np+1 -Np-1 0 -1 1 -1 1])
 view([0 90])
