@@ -1,0 +1,43 @@
+
+params           11            Total number of model parameters.
+free_params      11            Number of free (non-fixed) parameters.
+total_iterations 15000         Number of itrations in burn-in and main sampling phases.
+sample_size      250           User-defined, usually equals to number of terms in likelihood.
+max_likelihood   -1766.3       Maximum log-likelihood reached.
+AIC              3554.6        Akaike Information Criterion.
+BIC              3593.3        Schwarz Information Criterion.
+DIC              3554.3        Deviance Information Criterion.
+
+        name      fixed?        type          lb          ub    priorl67   priormode    prioru67    rootRhat     postl95     postl67    postmean     postu67     postu95      LP_l95      LP_l67      LP_MLE      LP_u67      LP_u95
+noise_sigma_ASN_surf_IFN1_data10  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0      6.3286      6.9943      7.7351      8.4672      9.5439       1E-06       1E-06        7.35        1000        1000
+noise_sigma_ASN_surf_none_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0      2.9626      3.1889      3.5109      3.7865      4.1564       1E-06       1E-06      3.2108        1000        1000
+noise_sigma_SSL_surf_IFN1_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0      40.927      45.569      52.832      59.743      76.123       1E-06       1E-06      47.635        1000        1000
+noise_sigma_SSL_surf_none_data0  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0      16.219      18.935      21.841      25.482      30.857       1E-06       1E-06      21.876        1000        1000
+    upfactor  Randomized    LogSpace       0.001        1000      -999.0      -999.0      -999.0           0      939.21      967.55      982.45      997.19      999.51       0.001       0.001      999.51        1000        1000
+     offset1  Randomized   RealSpace           0         500      -999.0      -999.0      -999.0           0      25.049      55.058      91.423       127.5      153.83           0           0      73.973         500         500
+     offset2  Randomized   RealSpace           0         500      -999.0      -999.0      -999.0           0      132.97      139.21      144.52      149.69      154.85           0           0      146.56         500         500
+          s1  Randomized    LogSpace       0.001          10      -999.0      -999.0      -999.0           0     0.16386     0.18866     0.22147     0.25653     0.29214       0.001       0.001     0.24873          10          10
+          s2  Randomized    LogSpace       0.001          10      -999.0      -999.0      -999.0           0     0.43602     0.53876       0.635     0.72578     0.88747       0.001       0.001     0.70034          10          10
+         sf1  Randomized    LogSpace       1E-05           1      -999.0      -999.0      -999.0           0  0.00018232  0.00020374  0.00022856  0.00024761  0.00029057       1E-05       1E-05  0.00022782           1           1
+         sf2  Randomized    LogSpace       1E-05           1      -999.0      -999.0      -999.0           0  1.0132E-05  1.0513E-05  1.1222E-05   1.188E-05  1.2819E-05       1E-05       1E-05   1.049E-05           1           1
+
+        name:  text identifier together with numeric index for vector parameters if applicable.
+      fixed?:  (0) - free parameter, (1) - fixed parameter, (-1) - free parameter, but do not randomize it at the start.
+        type:  (0) - real valued parameter, (1) - parameter that cannot be negative
+          lb:  user-defined lower bound for parameter values
+          ub:  user-difined upper bound for parameter values
+    priorl67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+   priormode:  most likely value (a.k.a. mode) of this parameter according to the prior; undefined if equals to -999
+    prioru67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+    rootRhat:  square root of R-criteria(?)
+     postl95:  lower bound of 95% confidence interval of posterior parameter distribution
+     postl67:  lower bound of 67% confidence interval of posterior parameter distribution
+    postmean:  mean value of posterior parameter distribution
+     postu67:  upper bound of 67% confidence interval of posterior parameter distribution
+     postu95:  upper bound of 95% confidence interval of posterior parameter distribution
+      LP_l95:  lower bound of 95% band from likelihood profile method
+      LP_l67:  lower bound of 67% band from likelihood profile method
+      LP_MLE:  maximum likelihood estimate
+      LP_u67:  upper bound of 67% band from likelihood profile method
+      LP_u95:  upper bound of 95% band from likelihood profile method
+
