@@ -16,7 +16,7 @@ pi.upreg = upreg;
 pi.upfactor = upfactor;
 %pi.upreg2 = upreg2;
 x0i=zeros(n,1);
-[ti,xi]=ode15s(@odes_selfpeps, [0 1*3600],x0i,[],pi);
+[ti,xi]=ode15s(@odes_selfpeps, [0 10*24*3600],x0i,[],pi);
 % Write out the parameters
 p.g1 = g1;
 p.g2 = g2;
@@ -164,7 +164,7 @@ r_16 = (0.1141804 * M_P2);
 r_17 = (u2 * Me_P2);
 r_18 = gM+(upreg*upfactor); %150.5;
 r_19 = (7.9892E-05 * M);
-r_20 = 10*(gM+ (upreg*upfactor));%1505.0;%*10;%1505.0;
+r_20 = 1505;%10*(gM+ (upreg*upfactor));%1505.0;%*10;%1505.0;
 r_21 = (0.001725968 * T);
 r_22 = ((1.662768E-09 * M) * T);
 r_23 = (1.184643E-06 * M_T);
