@@ -1,0 +1,62 @@
+
+params           30            Total number of model parameters.
+free_params      30            Number of free (non-fixed) parameters.
+total_iterations 120000        Number of itrations in burn-in and main sampling phases.
+sample_size      1272          User-defined, usually equals to number of terms in likelihood.
+max_likelihood   -12207        Maximum log-likelihood reached.
+AIC              24474         Akaike Information Criterion.
+BIC              24628         Schwarz Information Criterion.
+DIC              25714         Deviance Information Criterion.
+
+        name      fixed?        type          lb          ub    priorl67   priormode    prioru67    rootRhat     postl95     postl67    postmean     postu67     postu95      LP_l95      LP_l67      LP_MLE      LP_u67      LP_u95
+noise_sigma_KSNSSLnone0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      19.005      20.948      55.547      82.159      287.84       1E-06       1E-06      21.106       1E+06       1E+06
+noise_sigma_KSNSSLIFN0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      33.773      37.893       293.6      540.09      1577.4       1E-06       1E-06      33.946       1E+06       1E+06
+noise_sigma_KSNASNnone0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      1560.1      2714.6        6193      9879.7       12223       1E-06       1E-06       10770       1E+06       1E+06
+noise_sigma_KSNASNIFN0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      8328.8       13982       25187       36508       43520       1E-06       1E-06       45566       1E+06       1E+06
+noise_sigma_METISSLASNnone0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0       19.07      626.84       40401  1.0305E+05  1.8039E+05       1E-06       1E-06      19.976       1E+06       1E+06
+noise_sigma_METISSLASNifn0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      42.486      81.203      3595.6      8305.1       16333       1E-06       1E-06      40.842       1E+06       1E+06
+noise_sigma_METIASNSSLnone0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      4345.1       22739       70156  1.2014E+05  1.5056E+05       1E-06       1E-06      4727.7       1E+06       1E+06
+noise_sigma_METIASNSSLifn0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0       16279       26910       41680       54278       85202       1E-06       1E-06       42091       1E+06       1E+06
+noise_sigma_ASNEA151202SSLnone0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      19.825      22.205        3063      8857.7       13506       1E-06       1E-06      22.255       1E+06       1E+06
+noise_sigma_ASNEA151202SSLIFN0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      58.177      65.664      3619.9      8792.3       16351       1E-06       1E-06      71.328       1E+06       1E+06
+noise_sigma_ASNEA151202ASNnone0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      997.14      1579.3      3513.3        5975      9789.2       1E-06       1E-06      3008.7       1E+06       1E+06
+noise_sigma_ASNEA151202ASNIFN0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      3903.4        6187       10130       13754       21457       1E-06       1E-06       12445       1E+06       1E+06
+noise_sigma_V_SSL_surf_none0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      24.134      27.399      609.24      1554.6      3315.9       1E-06       1E-06      28.633       1E+06       1E+06
+noise_sigma_V_SSL_surf_ifn10  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      32.941      36.402      1540.9      4477.9      6325.4       1E-06       1E-06       43.61       1E+06       1E+06
+noise_sigma_V_ASN_surf_none0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      760.78        1187      2505.3      3446.8      5798.2       1E-06       1E-06      3700.8       1E+06       1E+06
+noise_sigma_V_ASN_surf_ifn10  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      2504.9      3395.9      6452.8      9304.9       15359       1E-06       1E-06      7678.4       1E+06       1E+06
+noise_sigma_SSL_160217_none0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      1730.4      2512.6       33253       48484  2.7908E+05       1E-06       1E-06      2482.3       1E+06       1E+06
+noise_sigma_SSL_160217_ifn0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      33.258      37.394      2422.2      5669.5       10607       1E-06       1E-06      40.188       1E+06       1E+06
+noise_sigma_ASN_160217_none0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0       15425       32664       84195  1.3794E+05  1.8159E+05       1E-06       1E-06  1.0639E+05       1E+06       1E+06
+noise_sigma_ASN_160217_ifn0  Randomized    LogSpace       1E-06     1000000      -999.0      -999.0      -999.0           0      6327.6       10460       16635       21741       32674       1E-06       1E-06       18890       1E+06       1E+06
+         gM1  Randomized    LogSpace       0.001        5000      -999.0      -999.0      -999.0           0      5.5908      5.9551      544.19      1221.3      4136.8       0.001       0.001      5.8949        5000        5000
+         gM2  Randomized    LogSpace       0.001        5000      -999.0      -999.0      -999.0           0   0.0011684   0.0022162     0.59733     0.18266       7.232       0.001       0.001      7.5777        5000        5000
+         gM3  Randomized    LogSpace       0.001        5000      -999.0      -999.0      -999.0           0     0.44992     0.86466      4.8525      7.1469       8.702       0.001       0.001      6.5271        5000        5000
+         gM4  Randomized    LogSpace       0.001        5000      -999.0      -999.0      -999.0           0      5.4384      5.7873      9.1586      12.405      33.568       0.001       0.001      5.7657        5000        5000
+         gM5  Randomized    LogSpace       0.001        5000      -999.0      -999.0      -999.0           0   0.0011636   0.0016175   0.0068102    0.012941    0.023533       0.001       0.001    0.003835        5000        5000
+    upfactor  Randomized    LogSpace           1        5000      -999.0      -999.0      -999.0           0      1.0637      2.9683      26.193      23.784      162.28           1           1      21.133        5000        5000
+          s1  Randomized    LogSpace       1E-05        1000      -999.0      -999.0      -999.0           0   2.517E-05  0.00046605     0.72969      1.3038      1.5404       1E-05       1E-05       1.411        1000        1000
+          s2  Randomized    LogSpace       1E-05        1000      -999.0      -999.0      -999.0           0  0.00012155  0.00048291    0.066356     0.11219     0.15992       1E-05       1E-05      0.1135        1000        1000
+         sf2  Randomized    LogSpace       1E-06        1000      -999.0      -999.0      -999.0           0  1.8135E-05  2.5588E-05  0.00061819    0.001804   0.0042743       1E-06       1E-06  1.7983E-05        1000        1000
+          b2  Randomized    LogSpace       1E-12       1E-07      -999.0      -999.0      -999.0           0  1.3655E-08  2.8487E-08  5.6665E-08   8.478E-08  9.7219E-08       1E-12       1E-12  3.8488E-08       1E-07       1E-07
+
+        name:  text identifier together with numeric index for vector parameters if applicable.
+      fixed?:  (0) - free parameter, (1) - fixed parameter, (-1) - free parameter, but do not randomize it at the start.
+        type:  (0) - real valued parameter, (1) - parameter that cannot be negative
+          lb:  user-defined lower bound for parameter values
+          ub:  user-difined upper bound for parameter values
+    priorl67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+   priormode:  most likely value (a.k.a. mode) of this parameter according to the prior; undefined if equals to -999
+    prioru67:  user-defined lower bound of 67% confidence interval of prior parameter distribution; undefined if equals to -999
+    rootRhat:  square root of R-criteria(?)
+     postl95:  lower bound of 95% confidence interval of posterior parameter distribution
+     postl67:  lower bound of 67% confidence interval of posterior parameter distribution
+    postmean:  mean value of posterior parameter distribution
+     postu67:  upper bound of 67% confidence interval of posterior parameter distribution
+     postu95:  upper bound of 95% confidence interval of posterior parameter distribution
+      LP_l95:  lower bound of 95% band from likelihood profile method
+      LP_l67:  lower bound of 67% band from likelihood profile method
+      LP_MLE:  maximum likelihood estimate
+      LP_u67:  upper bound of 67% band from likelihood profile method
+      LP_u95:  upper bound of 95% band from likelihood profile method
+
