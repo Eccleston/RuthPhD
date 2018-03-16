@@ -4,3 +4,5 @@ PeptideSupply/CliLBS/log
 PeptideSupply/LBS/log
 PeptideSupply/CliLBS/log
 PeptideSupply/CliLBS/check13_inference/Trial2/check13.lbs
+Virion/*_simulation/
+PeptideSupply/Fitting/LongMulti/*_inference/

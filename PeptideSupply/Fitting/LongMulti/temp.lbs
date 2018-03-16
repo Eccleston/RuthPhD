@@ -1,0 +1,162 @@
+// Simulate for some time in the past, add inputs at time 0.0, then follow for additional time
+directive sample -2*24*3600, 1*24*3600.0 1000
+directive simulation deterministicstiff
+directive plot Me-P1; Me-P2
+directive reltolerance 1e-6
+// Declare all of the parameters that are to be used
+directive parameters [ in1 = 0.0
+                     ; in2 = 0.0; upreg = 0.0; upreg1 =0.0; upreg2 = 0.0; upreg3 = 0.0; upreg4 = 0.0; upreg5 = 0.0
+					 ; gM1,(1e-3,5000.0),1.0,log,random
+					 ; gM2,(1e-3,5000.0),1.0,log,random
+					 ; gM3,(1e-3,5000.0),1.0,log,random
+					 ; gM4,(1e-3,5000.0),1.0,log,random
+ 					 ; gM5,(1e-3,5000.0),1.0,log,random
+					 ; upfactor,(1.0,5000.0),1.0,log,random			  
+					 ; s1,(1e-5,1000.0),1.0,log,random
+					 ; s2,(1e-5,1000.0),1.0,log,random
+					 ; sf2,(1e-6,1000.0),1.0,log,random
+					 ; b1, (1e-12,1e-7),2.755e-10,log,random
+					 ; b2, (1e-12,1e-7),2.755e-10,log,random
+					  ]
+
+//Auto-generated sweep 151118
+directive sweep mysweep1 = {offset = [138.0], upreg1 = [1.0]}
+
+//Auto-generated sweep 151118
+directive sweep mysweep2 = {offset = [249.0], upreg = [1.0], upreg1 = [1.0]}
+
+//Auto-generated sweep 151118
+directive sweep mysweep3 = {offset = [2569.0], upreg1 = [1.0]}
+
+//Auto-generated sweep 151118
+directive sweep mysweep4 = {offset = [7561.0], upreg = [1.0], upreg1 = [1.0]}
+
+//Auto-generated sweep 151125
+directive sweep mysweep5 = {offset = [133.0], upreg2 = [1.0]}
+
+//Auto-generated sweep 151125
+directive sweep mysweep6 = {offset = [252.0], upreg = [1.0], upreg2 = [1.0]}
+
+//Auto-generated sweep 151125
+directive sweep mysweep7 = {offset = [323.0], upreg2 = [1.0]}
+
+//Auto-generated sweep 151125
+directive sweep mysweep8 = {offset =[6595.0], upreg = [1.0], upreg2 = [1.0]}
+
+//Auto-generated sweep 151202
+directive sweep mysweep9 = {offset = [258.0], upreg3 = [1.0]}
+
+//Auto-generated sweep 151202
+directive sweep mysweep10 = {offset = [2679.0], upreg = [1.0], upreg3 = [1.0]}
+
+//Auto-generated sweep 151202
+directive sweep mysweep11 = {offset = [238.0], upreg3 = [1.0]}
+
+//Auto-generated sweep 151202
+directive sweep mysweep12 = {offset = [2148.0], upreg = [1.0], upreg3 = [1.0]}
+
+//Auto-generated sweep 150819
+directive sweep mysweep13 = {offset = [241.0], upreg4 = [1.0]}
+
+//Auto-generated sweep 150819
+directive sweep mysweep14 = {offset = [316.0], upreg = [1.0], upreg4 = [1.0]}
+
+//Auto-generated sweep 150819
+directive sweep mysweep15 = {offset = [493.0], upreg4 = [1.0]}
+
+//Auto-generated sweep 150819
+directive sweep mysweep16 = {offset = [1764.0], upreg = [1.0], upreg4 = [1.0]}
+
+//Auto-generated sweep 160217
+directive sweep mysweep17 = {offset = [118.0], upreg5 = [1.0]}
+
+//Auto-generated sweep 160217
+directive sweep mysweep18 = {offset = [165.0], upreg = [1.0], upreg5 = [1.0]}
+
+//Auto-generated sweep 160217
+directive sweep mysweep19 = {offset = [176.0], upreg5 = [1.0]}
+
+//Auto-generated sweep 160217
+directive sweep mysweep20 = {offset = [2360.0], upreg = [1.0], upreg5 = [1.0]}
+
+
+
+// We add a scaled quantity of each input. The scale factors are s1 and s2 respectively
+// Eventually, we'll be optimizing for s1 and s2
+directive event I1 s1*in1 @ 0.0
+directive event I2 s2*in2 @ 0.0
+
+// Specify the relationship between model simulation and data, and MCMC settings
+directive fit { mysweep1; KSNSSLnone; [Me-P1*SF1+offset] }
+directive fit { mysweep2; KSNSSLIFN; [Me-P1*SF1+offset] }
+directive fit { mysweep3; KSNASNnone; [Me-P2*SF2+offset] }
+directive fit { mysweep4; KSNASNIFN; [Me-P2*SF2+offset] }
+directive fit { mysweep5; METISSLASNnone; [Me-P1*SF1+offset] }
+directive fit { mysweep6; METISSLASNifn; [Me-P1*SF1+offset] }
+directive fit { mysweep7; METIASNSSLnone; [Me-P2*SF2+offset] }
+directive fit { mysweep8; METIASNSSLifn; [Me-P2*SF2+offset] }
+directive fit { mysweep9; ASNEA151202SSLnone; [Me-P1*SF1+offset] }
+directive fit { mysweep10; ASNEA151202SSLIFN; [Me-P1*SF1+offset] }
+directive fit { mysweep11; ASNEA151202ASNnone; [Me-P2*SF2+offset] }
+directive fit { mysweep12; ASNEA151202ASNIFN; [Me-P2*SF2+offset] }
+directive fit { mysweep13; V_SSL_surf_none; [Me-P1*SF1+offset] }
+directive fit { mysweep14; V_SSL_surf_ifn1; [Me-P1*SF1+offset] }
+directive fit { mysweep15; V_ASN_surf_none; [Me-P2*SF2+offset] }
+directive fit { mysweep16; V_ASN_surf_ifn1; [Me-P2*SF2+offset] }
+directive fit { mysweep17; SSL_160217_none; [Me-P1*SF1+offset] }
+directive fit { mysweep18; SSL_160217_ifn; [Me-P1*SF1+offset] }
+directive fit { mysweep19; ASN_160217_none; [Me-P2*SF2+offset] }
+directive fit { mysweep20; ASN_160217_ifn; [Me-P2*SF2+offset] }
+directive fit_run { burnin = 20000; samples = 100000; thin = 10; noisemodel = 1 }
+
+// Standard parameter values
+rate dMe = 5.193e-5;//9.329349e-5;
+rate b0 = 2.755e-10;//3.177334e-11;
+//rate b1 = 2.755e-10;
+//rate b2 = 2.755e-10;
+rate c = 8.302928e-8;
+rate dP = 0.13;
+rate uT = 1.184643e-6;
+rate vT = 0.0011091974705091;
+rate bT = 1.662768e-9;
+rate gT = 1505;
+rate dT = 0.001725968;
+rate e = 7.071e-4;//0.1141804;
+//rate gM = 150.5;
+rate dM = 7.9892e-5;
+rate q = 21035;
+
+// Specialising peptide supply and offset-rates
+rate g0 = 45000.0;
+rate u1 = 2.9321e-05;
+rate u2 = 5.4493e-05;
+rate u0 = 1e-4;
+
+spec P1; spec I1;
+spec P2; spec I2;
+spec P0; spec I0; 
+
+// You have to use a species in the fit directive, so just initialise a constant species with a parameterized value
+init SF1 0.1224 |
+init SF2 sf2 |
+//init offset offsetset |
+
+// Standard modular definition of the MHC model
+module Pep(spec Pi,Ii; rate gi,ui,bi){
+  Ii  ~->{gi} Pi | Pi ->{dP} |
+  M + Pi <->{bi}{ui} M-Pi |
+  T-M + Pi <->{c}{ui*q} T-M-Pi |
+  T-M-Pi ->{vT} T + M-Pi |
+  M-Pi ->{e} Me-Pi |
+  Me-Pi ->{ui} Me
+};
+
+<->[upreg*upfactor + upreg1*gM1 + upreg2*gM2 + upreg3*gM3 + upreg4*gM4 + upreg5*gM5]{dM} M |
+<->[10*(upreg*upfactor + upreg1*gM1 + upreg2*gM2 + upreg3*gM3 + upreg4*gM4 + upreg5*gM5)]{dT} T |
+T + M <->{bT}{uT} T-M |
+Me ->{dMe} |
+
+// Instantiate the three peptides (target, competitor, background) with BG supplied at rate g0
+Pep(P1,I1,1.0,u1,b1) |
+Pep(P2,I2,1.0,u2,b2) |
+init I0 1 | Pep(P0,I0,g0,u0,b0)

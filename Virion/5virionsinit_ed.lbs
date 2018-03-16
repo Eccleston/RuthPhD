@@ -1,6 +1,6 @@
 directive sample 9*3600.0 9000
 directive simulation stochastic
-directive parameters [N=1.0]
+directive parameters [N=5.0]
 directive plot Me-P1;Me-P2;Me-P3;Me-P4;Me-P5;Me-P6;Me-P7;Me-P8;Me-P9
 directive time s
 
@@ -66,7 +66,7 @@ rate g7 = 0.09;
 rate g8 = 0.09;
 rate g9 = 0.09;
 
-rate G=35000;
+rate G=10000;//35000;
 rate Sg1=G*0.5/100;
 rate Sg2=G*98.5/100;
 rate Sg3=G*0.5/100;
@@ -86,6 +86,26 @@ spec P1; spec P2; spec P3; spec P4; spec P5; spec P6; spec P7; spec P8; spec P9;
 spec SP1; spec SP2; spec SP3; spec SP4;
 spec Pc1; spec Pc2; spec Pc3; spec Pc4; spec Pc5; spec Pc6; spec Pc7; spec Pc8; spec Pc9; 
 
+init M 6233 |
+init T 871301 |
+init T-M 130588 |
+init Me 1468841 |
+init SP1 40079 |
+init M-SP1 4 |
+init T-M-SP1 1 |
+init Me-SP1 64 |
+init SP2 7952538 |
+init M-SP2 1273 |
+init T-M-SP2 4198 |
+init Me-SP2 143737 |
+init SP3 40512 |
+init M-SP3 3 |
+init T-M-SP3 213 |
+init Me-SP3 8725 |
+init SP4 40042 |
+init M-SP4 30 |
+init T-M-SP4 2111 |
+init Me-SP4 60536 |
 init Gag N*4900 |
 init Pol N*245 |
 init Env N*81 |
